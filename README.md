@@ -6,3 +6,4 @@ Besides being designed as a tool for providing composers and performers in artis
 
 [[https://github.com/asa-nerd/IRMA/blob/master/documentation/AnalysisKilgore.pdf]]
 
+![Screenshot](documentation/AnalysisKilgore.pdf)
