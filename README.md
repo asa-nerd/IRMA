@@ -9,9 +9,9 @@ Results on the one hand demonstrate how particular artistic concepts have been p
 
 IRMA has so far been used and evaluated with 8 computer music performances in 3 concerts.
 
-#2. MEASURING APPARATUS
+# MEASURING APPARATUS
 
-#2.1 Device hardware and application
+# Device hardware and application
 
 An Android application for touch tablets4 was developed
 that lets individual audience members indicate the focus of
@@ -42,29 +42,29 @@ the ID of the sender (the device operated by
 the respective subject), the current coordinates of the index
 finger in the triangle and the name of the recording:
 
-''''
+´´´
 {
-"timestamp": 500,
-"senderId": 1,
-"x": -0.14687499403953552,
-"y": 0.2222018837928772,
-"Recording": "Kilgore"
+  "timestamp": 500,
+  "senderId": 1,
+  "x": -0.14687499403953552,
+  "y": 0.2222018837928772,
+  "Recording": "Kilgore"
 }
-''''
+´´´
 
 Real-time visualizations of the incoming data in the host
 app allow observations and monitoring by the researcher
 in live situations.
 4 Ten Samsung tablets of the type Samsung TAB A where used.
 
-#2.3 Analysis application / Knowledge extraction
+# Analysis application / Knowledge extraction
 A third piece of software developed in Java and Processing
 allows to load the JSON datasets collected in the preceding
 steps and perform calculations and visualizations. What
 follows is a concise explanation of the calculations and visualizations
 that this software performs.
 
-#2.3.1 Calculations
+# Calculations
 Activity: Activity is calculated by computing movement
 (distance) for each measuring point compared to the last
 point in time. This is done for every measuring point for
