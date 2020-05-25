@@ -42,7 +42,7 @@ the ID of the sender (the device operated by
 the respective subject), the current coordinates of the index
 finger in the triangle and the name of the recording:
 
-'''
+```
 {
   "timestamp": 500,
   "senderId": 1,
@@ -50,7 +50,7 @@ finger in the triangle and the name of the recording:
   "y": 0.2222018837928772,
   "Recording": "Kilgore"
 }
-'''
+```
 
 Real-time visualizations of the incoming data in the host
 app allow observations and monitoring by the researcher
