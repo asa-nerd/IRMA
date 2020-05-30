@@ -1,1 +1,1 @@
-The application for android tablet devices. Version 0.2.5.4.
+IRMA device module for android tablets. Version 0.2.5.4.
