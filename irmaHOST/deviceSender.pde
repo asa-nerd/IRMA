@@ -1,3 +1,7 @@
+//  ------------------------------------------------------------
+//  Class storing the connected IRMA clients
+//  ------------------------------------------------------------
+
 class DeviceSender {
   String ipAdress;
   int id;
