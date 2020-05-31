@@ -1,0 +1,114 @@
+[
+  {
+    "timeStamp": 1,
+    "senderId": 8,
+    "x": -0.20576417446136475,
+    "y": 0.1288815140724182,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 500,
+    "senderId": 8,
+    "x": 0.43202465772628784,
+    "y": -0.24650835990905762,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 1000,
+    "senderId": 8,
+    "x": -0.41575711965560913,
+    "y": -0.4469026029109955,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 1500,
+    "senderId": 8,
+    "x": 0.3152753710746765,
+    "y": -0.4271688163280487,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 2001,
+    "senderId": 8,
+    "x": -0.10143512487411499,
+    "y": 0.2303600311279297,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 2501,
+    "senderId": 8,
+    "x": 0.41230952739715576,
+    "y": 0.07359737157821655,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 3001,
+    "senderId": 8,
+    "x": 0.33146870136260986,
+    "y": -0.3550559878349304,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 3501,
+    "senderId": 8,
+    "x": 0.24134254455566406,
+    "y": 0.2609553933143616,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 4000,
+    "senderId": 8,
+    "x": -0.24470460414886475,
+    "y": -0.5094797015190125,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 4500,
+    "senderId": 8,
+    "x": 0.39168035984039307,
+    "y": -0.4401235580444336,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 5000,
+    "senderId": 8,
+    "x": -0.06296712160110474,
+    "y": 0.2778337001800537,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 5500,
+    "senderId": 8,
+    "x": -0.05769455432891846,
+    "y": 0.26212722063064575,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 6000,
+    "senderId": 8,
+    "x": 0.019371986389160156,
+    "y": -0.3238275349140167,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 6500,
+    "senderId": 8,
+    "x": -0.08654087781906128,
+    "y": -0.04953277111053467,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 7000,
+    "senderId": 8,
+    "x": 0.2985607385635376,
+    "y": -0.01825958490371704,
+    "Recording": "ttCub5"
+  },
+  {
+    "timeStamp": 7500,
+    "senderId": 8,
+    "x": 0.033197641372680664,
+    "y": -0.22971555590629578,
+    "Recording": "ttCub5"
+  }
+]

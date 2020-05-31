@@ -1,0 +1,7352 @@
+[
+  {
+    "timeStamp": 1,
+    "senderId": 4,
+    "x": 0.06756758689880371,
+    "y": -0.13750046491622925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 500,
+    "senderId": 4,
+    "x": 0.06756758689880371,
+    "y": -0.13750046491622925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 1000,
+    "senderId": 4,
+    "x": 0.06756758689880371,
+    "y": -0.13750046491622925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 1500,
+    "senderId": 4,
+    "x": 0.06756758689880371,
+    "y": -0.13750046491622925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 2000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.06114238500595093,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 2500,
+    "senderId": 4,
+    "x": 0.02297300100326538,
+    "y": 0.1233026385307312,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 3000,
+    "senderId": 4,
+    "x": 0.055405378341674805,
+    "y": 0.15573418140411377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 3501,
+    "senderId": 4,
+    "x": 0.062162160873413086,
+    "y": 0.19357091188430786,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 4001,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.22465109825134277,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 4501,
+    "senderId": 4,
+    "x": -0.08783784508705139,
+    "y": 0.23140764236450195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 5000,
+    "senderId": 4,
+    "x": -0.10810810327529907,
+    "y": 0.23275893926620483,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 5501,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.23005634546279907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 6000,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.23005634546279907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 6500,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.23005634546279907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 7000,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.23005634546279907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 7500,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.23005634546279907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 8000,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.23005634546279907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 8500,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.23005634546279907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 9000,
+    "senderId": 4,
+    "x": -0.204054057598114,
+    "y": 0.21384060382843018,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 9500,
+    "senderId": 4,
+    "x": -0.2554054260253906,
+    "y": 0.20167875289916992,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 10001,
+    "senderId": 4,
+    "x": -0.25810810923576355,
+    "y": 0.19086825847625732,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 10500,
+    "senderId": 4,
+    "x": -0.25,
+    "y": 0.12195134162902832,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 11000,
+    "senderId": 4,
+    "x": -0.25135135650634766,
+    "y": 0.1111409068107605,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 11500,
+    "senderId": 4,
+    "x": -0.25135135650634766,
+    "y": 0.1111409068107605,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 12001,
+    "senderId": 4,
+    "x": -0.25135135650634766,
+    "y": 0.1111409068107605,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 12501,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 13000,
+    "senderId": 4,
+    "x": -0.2337837815284729,
+    "y": 0.06789892911911011,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 13501,
+    "senderId": 4,
+    "x": -0.2337837815284729,
+    "y": 0.06789892911911011,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 14000,
+    "senderId": 4,
+    "x": -0.2337837815284729,
+    "y": 0.06789892911911011,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 14500,
+    "senderId": 4,
+    "x": -0.2337837815284729,
+    "y": 0.06789892911911011,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 15000,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": 0.028710901737213135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 15500,
+    "senderId": 4,
+    "x": -0.2432432472705841,
+    "y": 0.012495160102844238,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 16001,
+    "senderId": 4,
+    "x": -0.24459460377693176,
+    "y": 0.0070899128913879395,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 16501,
+    "senderId": 4,
+    "x": -0.24459460377693176,
+    "y": 0.0070899128913879395,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 17000,
+    "senderId": 4,
+    "x": -0.24459460377693176,
+    "y": 0.0070899128913879395,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 17500,
+    "senderId": 4,
+    "x": -0.24189189076423645,
+    "y": -0.023990273475646973,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 18001,
+    "senderId": 4,
+    "x": -0.24459460377693176,
+    "y": -0.022638976573944092,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 18500,
+    "senderId": 4,
+    "x": -0.18378376960754395,
+    "y": 0.0070899128913879395,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 19000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": 0.038170039653778076,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 19500,
+    "senderId": 4,
+    "x": -0.1459459364414215,
+    "y": 0.042223989963531494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 20001,
+    "senderId": 4,
+    "x": -0.1459459364414215,
+    "y": 0.042223989963531494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 20501,
+    "senderId": 4,
+    "x": -0.1459459364414215,
+    "y": 0.042223989963531494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 21000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": 0.048980534076690674,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 21500,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": 0.05168318748474121,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 22000,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": 0.05168318748474121,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 22500,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": 0.05168318748474121,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 23000,
+    "senderId": 4,
+    "x": -0.06756755709648132,
+    "y": 0.06249368190765381,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 23500,
+    "senderId": 4,
+    "x": 0.04459458589553833,
+    "y": 0.10168170928955078,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 24001,
+    "senderId": 4,
+    "x": 0.1324324607849121,
+    "y": 0.11654609441757202,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 24501,
+    "senderId": 4,
+    "x": 0.24864864349365234,
+    "y": 0.1638420820236206,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 25001,
+    "senderId": 4,
+    "x": 0.295945942401886,
+    "y": 0.1719498634338379,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 25500,
+    "senderId": 4,
+    "x": 0.3175675868988037,
+    "y": 0.18411171436309814,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 26001,
+    "senderId": 4,
+    "x": 0.32297295331954956,
+    "y": 0.1773551106452942,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 26500,
+    "senderId": 4,
+    "x": 0.31081080436706543,
+    "y": 0.1597881317138672,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 27000,
+    "senderId": 4,
+    "x": 0.28648650646209717,
+    "y": 0.12195134162902832,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 27500,
+    "senderId": 4,
+    "x": 0.25810807943344116,
+    "y": 0.09897911548614502,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 28000,
+    "senderId": 4,
+    "x": 0.22972971200942993,
+    "y": 0.0733041763305664,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 28500,
+    "senderId": 4,
+    "x": 0.10810810327529907,
+    "y": -0.05101650953292847,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 29000,
+    "senderId": 4,
+    "x": 0.07297295331954956,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 29500,
+    "senderId": 4,
+    "x": -0.04729729890823364,
+    "y": -0.28749608993530273,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 30000,
+    "senderId": 4,
+    "x": -0.07702702283859253,
+    "y": -0.3104683756828308,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 30500,
+    "senderId": 4,
+    "x": -0.07702702283859253,
+    "y": -0.3104683756828308,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 31000,
+    "senderId": 4,
+    "x": -0.07702702283859253,
+    "y": -0.3104683756828308,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 31500,
+    "senderId": 4,
+    "x": -0.07702702283859253,
+    "y": -0.3104683756828308,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 32000,
+    "senderId": 4,
+    "x": -0.14054054021835327,
+    "y": -0.28749608993530273,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 32500,
+    "senderId": 4,
+    "x": -0.15810811519622803,
+    "y": -0.2577672302722931,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 33000,
+    "senderId": 4,
+    "x": -0.15810811519622803,
+    "y": -0.2577672302722931,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 33501,
+    "senderId": 4,
+    "x": -0.15810811519622803,
+    "y": -0.2577672302722931,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 34000,
+    "senderId": 4,
+    "x": -0.15810811519622803,
+    "y": -0.2577672302722931,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 34500,
+    "senderId": 4,
+    "x": -0.11216217279434204,
+    "y": -0.13209521770477295,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 35001,
+    "senderId": 4,
+    "x": -0.10540542006492615,
+    "y": -0.2145252525806427,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 35500,
+    "senderId": 4,
+    "x": -0.06756755709648132,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 36000,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": -0.2618211805820465,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 36501,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": -0.2618211805820465,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 37001,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": -0.2618211805820465,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 37500,
+    "senderId": 4,
+    "x": -0.12162160873413086,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 38000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20236346125602722,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 38500,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 39000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 39501,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 40000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 40500,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 41000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 41500,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 42000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 42501,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 43001,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 43501,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 44000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 44500,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 45001,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 45501,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 46000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 46500,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 47001,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 47501,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 47501,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 48000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 48500,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 49000,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 49501,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 50001,
+    "senderId": 4,
+    "x": -0.15135136246681213,
+    "y": -0.20101213455200195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 50501,
+    "senderId": 4,
+    "x": -0.13918918371200562,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 51000,
+    "senderId": 4,
+    "x": -0.12027028203010559,
+    "y": -0.022638976573944092,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 51500,
+    "senderId": 4,
+    "x": -0.12567567825317383,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 52000,
+    "senderId": 4,
+    "x": -0.12567567825317383,
+    "y": 0.036818742752075195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 52500,
+    "senderId": 4,
+    "x": -0.09054052829742432,
+    "y": 0.07600682973861694,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 53000,
+    "senderId": 4,
+    "x": -0.07297298312187195,
+    "y": 0.13681578636169434,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 53501,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": 0.1489776372909546,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 53501,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": 0.1489776372909546,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 54001,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": 0.16113942861557007,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 54501,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 55000,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 55500,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 56000,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 56501,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 57001,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 57500,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 58001,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 58501,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 59000,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 59500,
+    "senderId": 4,
+    "x": -0.06081080436706543,
+    "y": 0.17870646715164185,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 60000,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": 0.2030300498008728,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 60500,
+    "senderId": 4,
+    "x": -0.19729730486869812,
+    "y": 0.19357091188430786,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 61000,
+    "senderId": 4,
+    "x": -0.2770270109176636,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 61501,
+    "senderId": 4,
+    "x": -0.32972973585128784,
+    "y": 0.18411171436309814,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 62000,
+    "senderId": 4,
+    "x": -0.32702702283859253,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 62500,
+    "senderId": 4,
+    "x": -0.32702702283859253,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 63000,
+    "senderId": 4,
+    "x": -0.32702702283859253,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 63501,
+    "senderId": 4,
+    "x": -0.32702702283859253,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 64001,
+    "senderId": 4,
+    "x": -0.32702702283859253,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 64501,
+    "senderId": 4,
+    "x": -0.32702702283859253,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 65001,
+    "senderId": 4,
+    "x": -0.3662162125110626,
+    "y": 0.1881656050682068,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 65501,
+    "senderId": 4,
+    "x": -0.3729729652404785,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 66001,
+    "senderId": 4,
+    "x": -0.3729729652404785,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 66500,
+    "senderId": 4,
+    "x": -0.3729729652404785,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 67000,
+    "senderId": 4,
+    "x": -0.3729729652404785,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 67500,
+    "senderId": 4,
+    "x": -0.3729729652404785,
+    "y": 0.18546301126480103,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 68001,
+    "senderId": 4,
+    "x": -0.38783782720565796,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 68500,
+    "senderId": 4,
+    "x": -0.39459460973739624,
+    "y": 0.15573418140411377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 69000,
+    "senderId": 4,
+    "x": -0.35945945978164673,
+    "y": 0.09897911548614502,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 69501,
+    "senderId": 4,
+    "x": -0.3283783793449402,
+    "y": 0.038170039653778076,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 70001,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 70500,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 71000,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 71500,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 72001,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 72500,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 73001,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 73501,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 74001,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 74500,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 75000,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 75500,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 76000,
+    "senderId": 4,
+    "x": -0.318918913602829,
+    "y": 0.026008307933807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 76500,
+    "senderId": 4,
+    "x": -0.25,
+    "y": -0.02669292688369751,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 77000,
+    "senderId": 4,
+    "x": -0.227027028799057,
+    "y": -0.10101506114006042,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 77500,
+    "senderId": 4,
+    "x": -0.21621620655059814,
+    "y": -0.1131768524646759,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 78000,
+    "senderId": 4,
+    "x": -0.204054057598114,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 78501,
+    "senderId": 4,
+    "x": -0.18783783912658691,
+    "y": -0.20776867866516113,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 79000,
+    "senderId": 4,
+    "x": -0.16081079840660095,
+    "y": -0.24830803275108337,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 79501,
+    "senderId": 4,
+    "x": -0.14324325323104858,
+    "y": -0.25506460666656494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 80000,
+    "senderId": 4,
+    "x": -0.14324325323104858,
+    "y": -0.25506460666656494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 80500,
+    "senderId": 4,
+    "x": -0.11351349949836731,
+    "y": -0.30236053466796875,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 81000,
+    "senderId": 4,
+    "x": -0.07972973585128784,
+    "y": -0.32938677072525024,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 81500,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 82000,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 82501,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 83000,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 83501,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 84000,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 84500,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 85000,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 85501,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.2847934663295746,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 86001,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.273982971906662,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 86501,
+    "senderId": 4,
+    "x": -0.06351351737976074,
+    "y": -0.24560540914535522,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 87000,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 87500,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 88000,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 88501,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 89001,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 89500,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 90000,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.20236346125602722,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 90501,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.19966083765029907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 91000,
+    "senderId": 4,
+    "x": -0.07567566633224487,
+    "y": -0.17398589849472046,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 91500,
+    "senderId": 4,
+    "x": -0.11756756901741028,
+    "y": -0.14966228604316711,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 92001,
+    "senderId": 4,
+    "x": -0.12297296524047852,
+    "y": -0.14695966243743896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 92500,
+    "senderId": 4,
+    "x": -0.10270270705223083,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 93001,
+    "senderId": 4,
+    "x": -0.06756755709648132,
+    "y": -0.060475707054138184,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 93500,
+    "senderId": 4,
+    "x": -0.058108121156692505,
+    "y": -0.04831385612487793,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 94001,
+    "senderId": 4,
+    "x": -0.058108121156692505,
+    "y": -0.04831385612487793,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 94500,
+    "senderId": 4,
+    "x": -0.058108121156692505,
+    "y": -0.04831385612487793,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 95000,
+    "senderId": 4,
+    "x": -0.058108121156692505,
+    "y": -0.04831385612487793,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 95500,
+    "senderId": 4,
+    "x": -0.027027040719985962,
+    "y": -0.01993638277053833,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 96000,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 96500,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 97000,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 97500,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 97500,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 98000,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 98501,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 99001,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 99500,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 100000,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 100500,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 101000,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 101500,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 102000,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 102500,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 103000,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 103501,
+    "senderId": 4,
+    "x": -0.009459465742111206,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 104000,
+    "senderId": 4,
+    "x": 0.043243229389190674,
+    "y": 0.038170039653778076,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 104500,
+    "senderId": 4,
+    "x": 0.14729732275009155,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 105000,
+    "senderId": 4,
+    "x": 0.1945946216583252,
+    "y": 0.0949251651763916,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 105500,
+    "senderId": 4,
+    "x": 0.21351349353790283,
+    "y": 0.012495160102844238,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 106000,
+    "senderId": 4,
+    "x": 0.2310810685157776,
+    "y": -0.10101506114006042,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 106501,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 107001,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 107500,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 108000,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 108501,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 109001,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 109500,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 110000,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 110500,
+    "senderId": 4,
+    "x": 0.23243242502212524,
+    "y": -0.1023663580417633,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 111001,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12668997049331665,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 111500,
+    "senderId": 4,
+    "x": 0.18108105659484863,
+    "y": -0.13209521770477295,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 112000,
+    "senderId": 4,
+    "x": 0.09054052829742432,
+    "y": -0.16993197798728943,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 112500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.1983095109462738,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 113001,
+    "senderId": 4,
+    "x": -0.07972973585128784,
+    "y": -0.24560540914535522,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 113501,
+    "senderId": 4,
+    "x": -0.09324324131011963,
+    "y": -0.2523619830608368,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 114000,
+    "senderId": 4,
+    "x": -0.09324324131011963,
+    "y": -0.2523619830608368,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 114500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 115000,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 115500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 116000,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 116500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 117000,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 117500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 118000,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 119001,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 119500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 120501,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 121000,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 121500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 122000,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 122500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 123001,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 123501,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 124000,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 124500,
+    "senderId": 4,
+    "x": -0.1297297179698944,
+    "y": -0.26046985387802124,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 125500,
+    "senderId": 4,
+    "x": -0.14054054021835327,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 126000,
+    "senderId": 4,
+    "x": -0.14864864945411682,
+    "y": -0.14155441522598267,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 126501,
+    "senderId": 4,
+    "x": -0.204054057598114,
+    "y": -0.0591244101524353,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 127000,
+    "senderId": 4,
+    "x": -0.08918920159339905,
+    "y": 0.01384645700454712,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 127500,
+    "senderId": 4,
+    "x": -0.08378377556800842,
+    "y": 0.01519775390625,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 128000,
+    "senderId": 4,
+    "x": -0.08378377556800842,
+    "y": 0.01519775390625,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 128500,
+    "senderId": 4,
+    "x": -0.08378377556800842,
+    "y": 0.01519775390625,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 129000,
+    "senderId": 4,
+    "x": -0.08378377556800842,
+    "y": 0.01519775390625,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 129501,
+    "senderId": 4,
+    "x": -0.08378377556800842,
+    "y": 0.01519775390625,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 130000,
+    "senderId": 4,
+    "x": 0.09864866733551025,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 130500,
+    "senderId": 4,
+    "x": 0.14864861965179443,
+    "y": 0.13141053915023804,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 131000,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.15573418140411377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 131500,
+    "senderId": 4,
+    "x": 0.23918920755386353,
+    "y": 0.16113942861557007,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 132000,
+    "senderId": 4,
+    "x": 0.27027028799057007,
+    "y": 0.16924726963043213,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 132500,
+    "senderId": 4,
+    "x": 0.17972970008850098,
+    "y": 0.1057356595993042,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 133001,
+    "senderId": 4,
+    "x": 0.1364864706993103,
+    "y": 0.0949251651763916,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 133501,
+    "senderId": 4,
+    "x": -0.0324324369430542,
+    "y": 0.036818742752075195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 134001,
+    "senderId": 4,
+    "x": -0.19594594836235046,
+    "y": 0.043575286865234375,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 134500,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.08141207695007324,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 135001,
+    "senderId": 4,
+    "x": -0.3635135293006897,
+    "y": 0.08141207695007324,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 135500,
+    "senderId": 4,
+    "x": -0.36891892552375793,
+    "y": 0.0787094235420227,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 136000,
+    "senderId": 4,
+    "x": -0.28108108043670654,
+    "y": 0.10708695650100708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 136500,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 137000,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 137500,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 138000,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 138500,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 139000,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 139500,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 140000,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": 0.10438430309295654,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 140502,
+    "senderId": 4,
+    "x": -0.2567567527294159,
+    "y": 0.03276485204696655,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 141001,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 141500,
+    "senderId": 4,
+    "x": -0.23783785104751587,
+    "y": -0.01993638277053833,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 142000,
+    "senderId": 4,
+    "x": -0.2337837815284729,
+    "y": -0.04425996541976929,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 142501,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.056421756744384766,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 143001,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.056421756744384766,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 143501,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.056421756744384766,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 144001,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.056421756744384766,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 144501,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.056421756744384766,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 145001,
+    "senderId": 4,
+    "x": -0.18378376960754395,
+    "y": -0.08209666609764099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 145500,
+    "senderId": 4,
+    "x": -0.17162162065505981,
+    "y": -0.09425851702690125,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 146000,
+    "senderId": 4,
+    "x": -0.15810811519622803,
+    "y": -0.09831240773200989,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 146500,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 147001,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 147500,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 148000,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 148501,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 149001,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 149500,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 150000,
+    "senderId": 4,
+    "x": -0.15675675868988037,
+    "y": -0.096961110830307,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 150501,
+    "senderId": 4,
+    "x": -0.15540540218353271,
+    "y": -0.12668997049331665,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 151000,
+    "senderId": 4,
+    "x": -0.06756755709648132,
+    "y": -0.24830803275108337,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 151500,
+    "senderId": 4,
+    "x": -0.04729729890823364,
+    "y": -0.3064144551753998,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 152000,
+    "senderId": 4,
+    "x": -0.03918918967247009,
+    "y": -0.36587217450141907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 152500,
+    "senderId": 4,
+    "x": -0.03648647665977478,
+    "y": -0.36722350120544434,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 153001,
+    "senderId": 4,
+    "x": -0.03648647665977478,
+    "y": -0.36722350120544434,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 153501,
+    "senderId": 4,
+    "x": -0.03648647665977478,
+    "y": -0.36722350120544434,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 154000,
+    "senderId": 4,
+    "x": -0.03648647665977478,
+    "y": -0.36722350120544434,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 154501,
+    "senderId": 4,
+    "x": -0.03648647665977478,
+    "y": -0.36722350120544434,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 155000,
+    "senderId": 4,
+    "x": -0.03648647665977478,
+    "y": -0.36722350120544434,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 156001,
+    "senderId": 4,
+    "x": -0.0162162184715271,
+    "y": -0.41992467641830444,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 156500,
+    "senderId": 4,
+    "x": -0.0162162184715271,
+    "y": -0.41992467641830444,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 157000,
+    "senderId": 4,
+    "x": -0.0162162184715271,
+    "y": -0.41992467641830444,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 157500,
+    "senderId": 4,
+    "x": -0.0162162184715271,
+    "y": -0.41992467641830444,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 158000,
+    "senderId": 4,
+    "x": 0.01216214895248413,
+    "y": -0.37668266892433167,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 158501,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.3645208477973938,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 159500,
+    "senderId": 4,
+    "x": 0.01216214895248413,
+    "y": -0.3212788999080658,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 160000,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.2793882191181183,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 160500,
+    "senderId": 4,
+    "x": -0.014864861965179443,
+    "y": -0.19966083765029907,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 161000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": -0.1293926239013672,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 161500,
+    "senderId": 4,
+    "x": 0.008108079433441162,
+    "y": -0.09966376423835754,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 162001,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 162501,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 163000,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 163501,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 164001,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 164500,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 165000,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 165500,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 166000,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 166500,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 167000,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 167500,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 168001,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 168500,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 169000,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": -0.08885326981544495,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 169501,
+    "senderId": 4,
+    "x": 0.009459435939788818,
+    "y": -0.17939114570617676,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 170000,
+    "senderId": 4,
+    "x": -0.043243229389190674,
+    "y": -0.21047130227088928,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 170501,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.22803837060928345,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 171001,
+    "senderId": 4,
+    "x": -0.07972973585128784,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 171500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 172000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 172500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 173001,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 173500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 174000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 174501,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 175001,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 175501,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 176000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 176500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 177000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 177501,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 178001,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 178500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 179000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 179501,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.24965935945510864,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 180001,
+    "senderId": 4,
+    "x": -0.1621621549129486,
+    "y": -0.10912293195724487,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 180500,
+    "senderId": 4,
+    "x": -0.23513513803482056,
+    "y": -0.02939552068710327,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 181000,
+    "senderId": 4,
+    "x": -0.3013513684272766,
+    "y": 0.01384645700454712,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 181500,
+    "senderId": 4,
+    "x": -0.3310810923576355,
+    "y": 0.03141355514526367,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 182000,
+    "senderId": 4,
+    "x": -0.36486488580703735,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 182500,
+    "senderId": 4,
+    "x": -0.3770270347595215,
+    "y": 0.11384350061416626,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 183000,
+    "senderId": 4,
+    "x": -0.36891892552375793,
+    "y": 0.14627498388290405,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 183500,
+    "senderId": 4,
+    "x": -0.36891892552375793,
+    "y": 0.14627498388290405,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 184000,
+    "senderId": 4,
+    "x": -0.36891892552375793,
+    "y": 0.14627498388290405,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 184501,
+    "senderId": 4,
+    "x": -0.36891892552375793,
+    "y": 0.14627498388290405,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 185001,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 185501,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 186000,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 186500,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 187001,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 187501,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 188500,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 189000,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 189500,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 190000,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 190500,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 191000,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 191500,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 192001,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 192500,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 193001,
+    "senderId": 4,
+    "x": -0.3581081032752991,
+    "y": 0.14762628078460693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 193501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.15303152799606323,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 194000,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": 0.1773551106452942,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 194500,
+    "senderId": 4,
+    "x": 0.10270267724990845,
+    "y": 0.20438140630722046,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 195000,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": 0.22194844484329224,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 195500,
+    "senderId": 4,
+    "x": 0.1527026891708374,
+    "y": 0.20438140630722046,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 196001,
+    "senderId": 4,
+    "x": 0.15135133266448975,
+    "y": 0.21248924732208252,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 196501,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": 0.21519190073013306,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 197000,
+    "senderId": 4,
+    "x": 0.10540539026260376,
+    "y": 0.22059714794158936,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 197500,
+    "senderId": 4,
+    "x": 0.1040540337562561,
+    "y": 0.22059714794158936,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 198000,
+    "senderId": 4,
+    "x": 0.1040540337562561,
+    "y": 0.22059714794158936,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 198501,
+    "senderId": 4,
+    "x": 0.1040540337562561,
+    "y": 0.22059714794158936,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 199000,
+    "senderId": 4,
+    "x": 0.0716215968132019,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 199500,
+    "senderId": 4,
+    "x": 0.0716215968132019,
+    "y": 0.19492220878601074,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 200000,
+    "senderId": 4,
+    "x": 0.0716215968132019,
+    "y": 0.19492220878601074,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 200500,
+    "senderId": 4,
+    "x": 0.0716215968132019,
+    "y": 0.19492220878601074,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 201000,
+    "senderId": 4,
+    "x": 0.0716215968132019,
+    "y": 0.19492220878601074,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 201501,
+    "senderId": 4,
+    "x": 0.0716215968132019,
+    "y": 0.19492220878601074,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 202000,
+    "senderId": 4,
+    "x": 0.0716215968132019,
+    "y": 0.19492220878601074,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 202500,
+    "senderId": 4,
+    "x": 0.06081080436706543,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 203000,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 203500,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 204000,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 204500,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 205000,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 205500,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 206000,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 206500,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 207000,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 207500,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 208000,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 208501,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 209000,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 209501,
+    "senderId": 4,
+    "x": 0.029729723930358887,
+    "y": 0.19627350568771362,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 210000,
+    "senderId": 4,
+    "x": 0.1040540337562561,
+    "y": 0.20167875289916992,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 210500,
+    "senderId": 4,
+    "x": 0.19999998807907104,
+    "y": 0.1827603578567505,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 211000,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 211500,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 212001,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 212501,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 213000,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 213500,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 214000,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 214500,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 215000,
+    "senderId": 4,
+    "x": 0.20270270109176636,
+    "y": 0.18005776405334473,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 215500,
+    "senderId": 4,
+    "x": 0.17027026414871216,
+    "y": 0.12060004472732544,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 216001,
+    "senderId": 4,
+    "x": 0.13783782720565796,
+    "y": 0.05438578128814697,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 216500,
+    "senderId": 4,
+    "x": 0.0972973108291626,
+    "y": 0.01384645700454712,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 217001,
+    "senderId": 4,
+    "x": 0.05675673484802246,
+    "y": -0.05371910333633423,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 217501,
+    "senderId": 4,
+    "x": 0.05270272493362427,
+    "y": -0.0591244101524353,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 218001,
+    "senderId": 4,
+    "x": 0.05270272493362427,
+    "y": -0.0591244101524353,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 218500,
+    "senderId": 4,
+    "x": 0.05270272493362427,
+    "y": -0.0591244101524353,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 219001,
+    "senderId": 4,
+    "x": 0.021621644496917725,
+    "y": -0.09831240773200989,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 219501,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11723077297210693,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 220001,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 220501,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 221000,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 221500,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 222001,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 222500,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 223000,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 223501,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 224001,
+    "senderId": 4,
+    "x": 0.0027027130126953125,
+    "y": -0.11993342638015747,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 224500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 225000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 225500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 226000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 226500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 227000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 227500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 228000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 228500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 229000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 229500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 230000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 230500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 231001,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 231500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 232000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 232501,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 233000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 233500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 234000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 234500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 235000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 235500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 236000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 236500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 237000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 237500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 238001,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 238500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 239000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 239500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 240000,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 240500,
+    "senderId": 4,
+    "x": 0.037837862968444824,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 241000,
+    "senderId": 4,
+    "x": 0.0648648738861084,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 241500,
+    "senderId": 4,
+    "x": 0.06621623039245605,
+    "y": -0.03750336170196533,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 242000,
+    "senderId": 4,
+    "x": 0.06621623039245605,
+    "y": -0.03750336170196533,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 242500,
+    "senderId": 4,
+    "x": -0.021621614694595337,
+    "y": -0.10371771454811096,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 243000,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.16317540407180786,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 243501,
+    "senderId": 4,
+    "x": -0.10405406355857849,
+    "y": -0.1712832748889923,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 244001,
+    "senderId": 4,
+    "x": -0.10405406355857849,
+    "y": -0.1712832748889923,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 244501,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.09831240773200989,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 245000,
+    "senderId": 4,
+    "x": -0.01216214895248413,
+    "y": -0.014531135559082031,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 245500,
+    "senderId": 4,
+    "x": 0.033783793449401855,
+    "y": 0.016549110412597656,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 246001,
+    "senderId": 4,
+    "x": 0.02297300100326538,
+    "y": -0.03750336170196533,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 246501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 247000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 247501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 248001,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 248501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 249001,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 249501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 250000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 250500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 251000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 251500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 252000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 252500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 253001,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 253500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 254000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 254500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": -0.03615206480026245,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 255001,
+    "senderId": 4,
+    "x": 0.018918931484222412,
+    "y": 3.333091735839844E-4,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 255500,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": 0.005738556385040283,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 256000,
+    "senderId": 4,
+    "x": 0.014864861965179443,
+    "y": 0.005738556385040283,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 256500,
+    "senderId": 4,
+    "x": 0.009459435939788818,
+    "y": 0.043575286865234375,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 257000,
+    "senderId": 4,
+    "x": 0.006756782531738281,
+    "y": 0.044926583766937256,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 257501,
+    "senderId": 4,
+    "x": 0.006756782531738281,
+    "y": 0.044926583766937256,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 258001,
+    "senderId": 4,
+    "x": 0.006756782531738281,
+    "y": 0.044926583766937256,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 258501,
+    "senderId": 4,
+    "x": 0.006756782531738281,
+    "y": 0.044926583766937256,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 259001,
+    "senderId": 4,
+    "x": 0.006756782531738281,
+    "y": 0.044926583766937256,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 259500,
+    "senderId": 4,
+    "x": -0.031081080436706543,
+    "y": -0.02804422378540039,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 260000,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": -0.07398885488510132,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 260500,
+    "senderId": 4,
+    "x": -0.09054052829742432,
+    "y": -0.15912145376205444,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 261000,
+    "senderId": 4,
+    "x": -0.10675674676895142,
+    "y": -0.21857917308807373,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 261500,
+    "senderId": 4,
+    "x": -0.13378378748893738,
+    "y": -0.23884886503219604,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 262000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": -0.24830803275108337,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 262500,
+    "senderId": 4,
+    "x": -0.14729729294776917,
+    "y": -0.3104683756828308,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 263500,
+    "senderId": 4,
+    "x": -0.08918920159339905,
+    "y": -0.28749608993530273,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 264001,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 264501,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 265000,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 265501,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 266000,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 266501,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 267001,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 267500,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 268000,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 268500,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 269000,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 269501,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 270001,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 270500,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 271000,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 271500,
+    "senderId": 4,
+    "x": -0.09459459781646729,
+    "y": -0.27128034830093384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 272001,
+    "senderId": 4,
+    "x": -0.10270270705223083,
+    "y": -0.2253357470035553,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 272500,
+    "senderId": 4,
+    "x": -0.10270270705223083,
+    "y": -0.2253357470035553,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 273000,
+    "senderId": 4,
+    "x": -0.10270270705223083,
+    "y": -0.2253357470035553,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 273500,
+    "senderId": 4,
+    "x": -0.10270270705223083,
+    "y": -0.2253357470035553,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 274000,
+    "senderId": 4,
+    "x": -0.04729729890823364,
+    "y": -0.17398589849472046,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 274501,
+    "senderId": 4,
+    "x": 0.004054069519042969,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 275001,
+    "senderId": 4,
+    "x": 0.02837836742401123,
+    "y": -0.07128620147705078,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 275501,
+    "senderId": 4,
+    "x": 0.0324324369430542,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 276001,
+    "senderId": 4,
+    "x": 0.087837815284729,
+    "y": -0.10371771454811096,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 276001,
+    "senderId": 4,
+    "x": 0.087837815284729,
+    "y": -0.10371771454811096,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 276500,
+    "senderId": 4,
+    "x": 0.11891889572143555,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 277000,
+    "senderId": 4,
+    "x": 0.13513511419296265,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 277500,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 278000,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 278500,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 279000,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 279501,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 280001,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 280500,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 281000,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 281500,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 282000,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 282500,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 283000,
+    "senderId": 4,
+    "x": 0.13918918371200562,
+    "y": -0.12804126739501953,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 283500,
+    "senderId": 4,
+    "x": 0.10000002384185791,
+    "y": -0.07398885488510132,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 284000,
+    "senderId": 4,
+    "x": -0.22162163257598877,
+    "y": 0.06114238500595093,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 284500,
+    "senderId": 4,
+    "x": -0.291891872882843,
+    "y": 0.08546602725982666,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 285000,
+    "senderId": 4,
+    "x": -0.33648648858070374,
+    "y": 0.12465399503707886,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 285501,
+    "senderId": 4,
+    "x": -0.33918917179107666,
+    "y": 0.12600529193878174,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 286001,
+    "senderId": 4,
+    "x": -0.33918917179107666,
+    "y": 0.12600529193878174,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 286500,
+    "senderId": 4,
+    "x": -0.3148648738861084,
+    "y": 0.13141053915023804,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 287000,
+    "senderId": 4,
+    "x": -0.21216216683387756,
+    "y": 0.13816708326339722,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 287500,
+    "senderId": 4,
+    "x": -0.1689189076423645,
+    "y": 0.1057356595993042,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 288000,
+    "senderId": 4,
+    "x": -0.15810811519622803,
+    "y": 0.11384350061416626,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 288501,
+    "senderId": 4,
+    "x": -0.15540540218353271,
+    "y": 0.12600529193878174,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 289001,
+    "senderId": 4,
+    "x": -0.15540540218353271,
+    "y": 0.12600529193878174,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 289500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.027359604835510254,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 290001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 290501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 291001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 291500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 292000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 292500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 293000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 293500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 294000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 294500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 295000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 295500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 296000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 296501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 297001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 297501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 298001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 298500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 299000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 299500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 300001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 300500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 301001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 301501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 302000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 302500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 303000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 303501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 304000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 304500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 305001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 305500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 306000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 306500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 307000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 307500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 308000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 308500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 309000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 309501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 310000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 310500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 311000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 311500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 312001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 312500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 313000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 313500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 314001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 315001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 315501,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 316000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 316500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 317001,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 317500,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 318000,
+    "senderId": 4,
+    "x": -0.15405404567718506,
+    "y": 0.009792506694793701,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 318500,
+    "senderId": 4,
+    "x": -0.20945945382118225,
+    "y": 0.07600682973861694,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 319000,
+    "senderId": 4,
+    "x": -0.27432432770729065,
+    "y": 0.09627652168273926,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 319500,
+    "senderId": 4,
+    "x": -0.2797297239303589,
+    "y": 0.09762781858444214,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 320001,
+    "senderId": 4,
+    "x": -0.32027027010917664,
+    "y": 0.09087127447128296,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 320500,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 321000,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 321500,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 322000,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 322501,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 323000,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 323500,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 324000,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 324500,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 325001,
+    "senderId": 4,
+    "x": -0.3256756663322449,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 325501,
+    "senderId": 4,
+    "x": -0.2824324369430542,
+    "y": 0.06114238500595093,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 326000,
+    "senderId": 4,
+    "x": -0.25405406951904297,
+    "y": 0.023305654525756836,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 326500,
+    "senderId": 4,
+    "x": -0.25,
+    "y": 0.019251704216003418,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 327000,
+    "senderId": 4,
+    "x": -0.25,
+    "y": 0.019251704216003418,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 327500,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.05236780643463135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 328001,
+    "senderId": 4,
+    "x": -0.23513513803482056,
+    "y": -0.05371910333633423,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 328501,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.09560981392860413,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 329001,
+    "senderId": 4,
+    "x": -0.23783785104751587,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 329501,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 330000,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 330500,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 331000,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 331500,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 332000,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 332501,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 333000,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 333500,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 334000,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 334500,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 335000,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 335500,
+    "senderId": 4,
+    "x": -0.2364864945411682,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 336000,
+    "senderId": 4,
+    "x": -0.22567567229270935,
+    "y": -0.1131768524646759,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 336500,
+    "senderId": 4,
+    "x": -0.1459459364414215,
+    "y": -0.049665212631225586,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 337000,
+    "senderId": 4,
+    "x": -0.07702702283859253,
+    "y": 0.024656951427459717,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 337500,
+    "senderId": 4,
+    "x": -0.062162160873413086,
+    "y": 0.03952133655548096,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 338001,
+    "senderId": 4,
+    "x": -0.051351338624954224,
+    "y": 0.07060158252716064,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 338500,
+    "senderId": 4,
+    "x": -0.041891902685165405,
+    "y": 0.0787094235420227,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 339000,
+    "senderId": 4,
+    "x": 0.07297295331954956,
+    "y": -0.023990273475646973,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 339500,
+    "senderId": 4,
+    "x": 0.11621624231338501,
+    "y": -0.04696255922317505,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 340001,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 340500,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 341001,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 341501,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 342001,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 342501,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 343001,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 343500,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 344000,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 344500,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 345000,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 345501,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 346001,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 346500,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 347000,
+    "senderId": 4,
+    "x": 0.12702703475952148,
+    "y": -0.04561126232147217,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 347500,
+    "senderId": 4,
+    "x": 0.12567567825317383,
+    "y": -0.02534162998199463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 348000,
+    "senderId": 4,
+    "x": 0.1040540337562561,
+    "y": 0.044926583766937256,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 348500,
+    "senderId": 4,
+    "x": 0.09594595432281494,
+    "y": 0.05843973159790039,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 349001,
+    "senderId": 4,
+    "x": 0.039189159870147705,
+    "y": 0.09222257137298584,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 349500,
+    "senderId": 4,
+    "x": 0.03648650646209717,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 350000,
+    "senderId": 4,
+    "x": 0.03648650646209717,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 350500,
+    "senderId": 4,
+    "x": 0.03648650646209717,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 351000,
+    "senderId": 4,
+    "x": 0.03648650646209717,
+    "y": 0.09357386827468872,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 351500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 352001,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 352500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 353000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 353501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 354001,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 354500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 355000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 355501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 356001,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 356500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 357000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 357501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 358000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 358500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 359000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 359501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 360001,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 360500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 361000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 361500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 362000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 362500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 363000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 363501,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 364000,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 364500,
+    "senderId": 4,
+    "x": 0.02432429790496826,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 365000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 365501,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 366000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 366500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 367000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 367500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 368000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 368501,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 369000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 369500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 370000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 370500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 371000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 371501,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 372000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 372500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 373000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 373501,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 374001,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 374500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 375000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 375501,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 376000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 376501,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 377001,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 377500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 378000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 378500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 379001,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 379501,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 380000,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 380500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": 0.017900407314300537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 381000,
+    "senderId": 4,
+    "x": -0.025675684213638306,
+    "y": -0.06858354806900024,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 381501,
+    "senderId": 4,
+    "x": -0.041891902685165405,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 382001,
+    "senderId": 4,
+    "x": -0.041891902685165405,
+    "y": -0.09155586361885071,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 382501,
+    "senderId": 4,
+    "x": -0.041891902685165405,
+    "y": -0.09155586361885071,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 383001,
+    "senderId": 4,
+    "x": -0.06756755709648132,
+    "y": -0.17668849229812622,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 383501,
+    "senderId": 4,
+    "x": -0.11216217279434204,
+    "y": -0.20776867866516113,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 384000,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 384500,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 385000,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 385500,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 386001,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 386500,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 387000,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 387500,
+    "senderId": 4,
+    "x": -0.12702703475952148,
+    "y": -0.219930499792099,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 388000,
+    "senderId": 4,
+    "x": -0.10810810327529907,
+    "y": -0.2996579110622406,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 388501,
+    "senderId": 4,
+    "x": -0.10675674676895142,
+    "y": -0.2996579110622406,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 389001,
+    "senderId": 4,
+    "x": -0.12567567825317383,
+    "y": -0.21722787618637085,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 389501,
+    "senderId": 4,
+    "x": -0.17702701687812805,
+    "y": -0.165878027677536,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 390001,
+    "senderId": 4,
+    "x": -0.23513513803482056,
+    "y": -0.13750046491622925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 390500,
+    "senderId": 4,
+    "x": -0.27837836742401123,
+    "y": -0.07263749837875366,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 391000,
+    "senderId": 4,
+    "x": -0.28648650646209717,
+    "y": -0.022638976573944092,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 391500,
+    "senderId": 4,
+    "x": -0.28783783316612244,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 392000,
+    "senderId": 4,
+    "x": -0.28783783316612244,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 392501,
+    "senderId": 4,
+    "x": -0.28783783316612244,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 393001,
+    "senderId": 4,
+    "x": -0.28783783316612244,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 393500,
+    "senderId": 4,
+    "x": -0.28783783316612244,
+    "y": -0.006423234939575195,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 394000,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 394500,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 395000,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 395500,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 396000,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 396500,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 397001,
+    "senderId": 4,
+    "x": -0.2405405342578888,
+    "y": -0.0699349045753479,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 397501,
+    "senderId": 4,
+    "x": -0.17162162065505981,
+    "y": -0.18614768981933594,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 398001,
+    "senderId": 4,
+    "x": -0.15000000596046448,
+    "y": -0.20506608486175537,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 398501,
+    "senderId": 4,
+    "x": -0.09864863753318787,
+    "y": -0.29830658435821533,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 399001,
+    "senderId": 4,
+    "x": -0.08783784508705139,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 399500,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 400000,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 400500,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 401001,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 401500,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 402000,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 402500,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 403001,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 403501,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 404001,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 404501,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.31317099928855896,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 405001,
+    "senderId": 4,
+    "x": -0.0972973108291626,
+    "y": -0.273982971906662,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 405501,
+    "senderId": 4,
+    "x": -0.18378376960754395,
+    "y": -0.18614768981933594,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 406001,
+    "senderId": 4,
+    "x": -0.21621620655059814,
+    "y": -0.14966228604316711,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 406500,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.13209521770477295,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 407000,
+    "senderId": 4,
+    "x": -0.24189189076423645,
+    "y": -0.10506901144981384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 407500,
+    "senderId": 4,
+    "x": -0.24189189076423645,
+    "y": -0.10506901144981384,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 408000,
+    "senderId": 4,
+    "x": -0.2310810685157776,
+    "y": -0.09560981392860413,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 408500,
+    "senderId": 4,
+    "x": -0.17972972989082336,
+    "y": -0.02669292688369751,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 409000,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": 0.05573713779449463,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 409500,
+    "senderId": 4,
+    "x": -0.07567566633224487,
+    "y": 0.06519627571105957,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 410001,
+    "senderId": 4,
+    "x": -0.07567566633224487,
+    "y": 0.06519627571105957,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 410500,
+    "senderId": 4,
+    "x": -0.10270270705223083,
+    "y": 0.06384497880935669,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 411001,
+    "senderId": 4,
+    "x": -0.1459459364414215,
+    "y": 0.06114238500595093,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 411500,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 412000,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 412501,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 413001,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 413501,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 414000,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 414000,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 414501,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 415000,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 415500,
+    "senderId": 4,
+    "x": -0.17567569017410278,
+    "y": 0.06925022602081299,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 416001,
+    "senderId": 4,
+    "x": -0.2202702760696411,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 416501,
+    "senderId": 4,
+    "x": -0.2202702760696411,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 417001,
+    "senderId": 4,
+    "x": -0.2202702760696411,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 417500,
+    "senderId": 4,
+    "x": -0.2202702760696411,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 418000,
+    "senderId": 4,
+    "x": -0.2202702760696411,
+    "y": 0.07735812664031982,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 418500,
+    "senderId": 4,
+    "x": -0.20945945382118225,
+    "y": 0.028710901737213135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 419000,
+    "senderId": 4,
+    "x": -0.13513514399528503,
+    "y": -0.015882432460784912,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 419500,
+    "senderId": 4,
+    "x": -0.08648648858070374,
+    "y": -0.03209811449050903,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 420000,
+    "senderId": 4,
+    "x": -0.07162162661552429,
+    "y": -0.055070459842681885,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 420501,
+    "senderId": 4,
+    "x": -0.06891891360282898,
+    "y": -0.08615061640739441,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 421000,
+    "senderId": 4,
+    "x": -0.07162162661552429,
+    "y": -0.15777015686035156,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 421500,
+    "senderId": 4,
+    "x": -0.09054052829742432,
+    "y": -0.1929042637348175,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 422001,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 422500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 423000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 423500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 424000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 424500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 425000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 425501,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 426000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 426501,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 427000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 427501,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 428001,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 428500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 429000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 429500,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 430000,
+    "senderId": 4,
+    "x": -0.09189188480377197,
+    "y": -0.19560688734054565,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 430501,
+    "senderId": 4,
+    "x": -0.10405406355857849,
+    "y": -0.23884886503219604,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 431001,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 431500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 432000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 432500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 433000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 433500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 434000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 434500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 435000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 435500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 436000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 436500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 437000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 437500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 438000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 438501,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 439000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 439501,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 440001,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 440500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 441001,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 441501,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 442000,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 442500,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 443001,
+    "senderId": 4,
+    "x": -0.11081081628799438,
+    "y": -0.24290278553962708,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 443500,
+    "senderId": 4,
+    "x": -0.11621621251106262,
+    "y": -0.30100923776626587,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 444000,
+    "senderId": 4,
+    "x": -0.11756756901741028,
+    "y": -0.3118197023868561,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 444501,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 445000,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 445500,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 446000,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 446501,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 447000,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 447501,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 448001,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 448500,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 449000,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 449500,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 450000,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 450500,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 451000,
+    "senderId": 4,
+    "x": -0.10945945978164673,
+    "y": -0.3253328204154968,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 451500,
+    "senderId": 4,
+    "x": -0.0648648738861084,
+    "y": -0.21182262897491455,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 452000,
+    "senderId": 4,
+    "x": -0.021621614694595337,
+    "y": -0.11858212947845459,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 452501,
+    "senderId": 4,
+    "x": -0.017567574977874756,
+    "y": -0.08615061640739441,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 453000,
+    "senderId": 4,
+    "x": -0.0162162184715271,
+    "y": -0.08479931950569153,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 453500,
+    "senderId": 4,
+    "x": -0.0162162184715271,
+    "y": -0.08479931950569153,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 454000,
+    "senderId": 4,
+    "x": -0.0162162184715271,
+    "y": -0.08479931950569153,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 454500,
+    "senderId": 4,
+    "x": -0.017567574977874756,
+    "y": -0.06588095426559448,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 455000,
+    "senderId": 4,
+    "x": -0.037837833166122437,
+    "y": -0.0010179877281188965,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 455501,
+    "senderId": 4,
+    "x": -0.03918918967247009,
+    "y": 3.333091735839844E-4,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 456000,
+    "senderId": 4,
+    "x": -0.03918918967247009,
+    "y": 3.333091735839844E-4,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 456500,
+    "senderId": 4,
+    "x": -0.014864861965179443,
+    "y": 0.042223989963531494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 457000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 457500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 458000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 458500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 459001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 459500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 460001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 460501,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 461000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 461500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 462001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 462500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 463001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 463501,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 464001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 464501,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 465000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 465500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 466000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 466501,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 467001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 467500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 468000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 468501,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 469001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 469500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 470000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 470500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 471000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 471501,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 472001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 472501,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 473001,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 473500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 473500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 474000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 474500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 475000,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 475500,
+    "senderId": 4,
+    "x": -0.010810822248458862,
+    "y": 0.04627794027328491,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 476001,
+    "senderId": 4,
+    "x": -0.04729729890823364,
+    "y": 0.06384497880935669,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 476501,
+    "senderId": 4,
+    "x": 0.11756753921508789,
+    "y": 0.13816708326339722,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 477000,
+    "senderId": 4,
+    "x": 0.2310810685157776,
+    "y": 0.16924726963043213,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 477500,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 478000,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 478500,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 479000,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 479501,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 480001,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 480501,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 481000,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 481500,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 482001,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 482501,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 483001,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 483500,
+    "senderId": 4,
+    "x": 0.22702699899673462,
+    "y": 0.16789597272872925,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 484000,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": 0.05708843469619751,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 484500,
+    "senderId": 4,
+    "x": 0.27432429790496826,
+    "y": -0.03480076789855957,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 485000,
+    "senderId": 4,
+    "x": 0.2770270109176636,
+    "y": -0.033449411392211914,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 485500,
+    "senderId": 4,
+    "x": 0.2770270109176636,
+    "y": -0.033449411392211914,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 486001,
+    "senderId": 4,
+    "x": 0.2770270109176636,
+    "y": -0.033449411392211914,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 486501,
+    "senderId": 4,
+    "x": 0.2770270109176636,
+    "y": -0.033449411392211914,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 487000,
+    "senderId": 4,
+    "x": 0.2770270109176636,
+    "y": -0.033449411392211914,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 487500,
+    "senderId": 4,
+    "x": 0.2770270109176636,
+    "y": -0.033449411392211914,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 488000,
+    "senderId": 4,
+    "x": 0.2770270109176636,
+    "y": -0.033449411392211914,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 488501,
+    "senderId": 4,
+    "x": 0.23783785104751587,
+    "y": -0.09966376423835754,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 489000,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 489500,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 490000,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 490500,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 491000,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 491501,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 492001,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 492500,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 493000,
+    "senderId": 4,
+    "x": 0.2364864945411682,
+    "y": -0.1077716052532196,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 493500,
+    "senderId": 4,
+    "x": 0.19189190864562988,
+    "y": -0.061827003955841064,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 494000,
+    "senderId": 4,
+    "x": 0.15810811519622803,
+    "y": -0.01993638277053833,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 494501,
+    "senderId": 4,
+    "x": 0.14324325323104858,
+    "y": -0.013179779052734375,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 495001,
+    "senderId": 4,
+    "x": 0.11891889572143555,
+    "y": 0.0016846656799316406,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 495500,
+    "senderId": 4,
+    "x": 0.04459458589553833,
+    "y": -0.007774531841278076,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 496000,
+    "senderId": 4,
+    "x": -0.0486486554145813,
+    "y": -0.03750336170196533,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 496500,
+    "senderId": 4,
+    "x": -0.0972973108291626,
+    "y": -0.05236780643463135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 497001,
+    "senderId": 4,
+    "x": -0.0972973108291626,
+    "y": -0.05236780643463135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 497501,
+    "senderId": 4,
+    "x": -0.0972973108291626,
+    "y": -0.05236780643463135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 498001,
+    "senderId": 4,
+    "x": -0.0972973108291626,
+    "y": -0.05236780643463135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 498501,
+    "senderId": 4,
+    "x": -0.0972973108291626,
+    "y": -0.05236780643463135,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 499001,
+    "senderId": 4,
+    "x": -0.13918918371200562,
+    "y": -0.08074536919593811,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 499501,
+    "senderId": 4,
+    "x": -0.14324325323104858,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 500001,
+    "senderId": 4,
+    "x": -0.14324325323104858,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 500501,
+    "senderId": 4,
+    "x": -0.14324325323104858,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 501001,
+    "senderId": 4,
+    "x": -0.14324325323104858,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 501500,
+    "senderId": 4,
+    "x": -0.14324325323104858,
+    "y": -0.08750191330909729,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 502000,
+    "senderId": 4,
+    "x": -0.07837837934494019,
+    "y": -0.03750336170196533,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 502500,
+    "senderId": 4,
+    "x": -0.058108121156692505,
+    "y": -0.014531135559082031,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 503001,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.011828482151031494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 503501,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.011828482151031494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 504001,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.011828482151031494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 504500,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.011828482151031494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 505000,
+    "senderId": 4,
+    "x": -0.05540540814399719,
+    "y": -0.011828482151031494,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 505501,
+    "senderId": 4,
+    "x": -0.06351351737976074,
+    "y": 0.027359604835510254,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 506000,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 506501,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 507000,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 507500,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 508001,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 508500,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 509001,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 509500,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 510000,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 510500,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 511001,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 511501,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 512000,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 512500,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 513001,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 513501,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 514000,
+    "senderId": 4,
+    "x": -0.06621623039245605,
+    "y": 0.030062198638916016,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 514500,
+    "senderId": 4,
+    "x": -0.054054051637649536,
+    "y": -0.02128767967224121,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 515000,
+    "senderId": 4,
+    "x": -0.050000011920928955,
+    "y": -0.023990273475646973,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 515500,
+    "senderId": 4,
+    "x": 0.025675654411315918,
+    "y": -0.04155731201171875,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 516001,
+    "senderId": 4,
+    "x": 0.062162160873413086,
+    "y": -0.05101650953292847,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 516500,
+    "senderId": 4,
+    "x": 0.11486488580703735,
+    "y": -0.08074536919593811,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 517000,
+    "senderId": 4,
+    "x": 0.16081082820892334,
+    "y": -0.11587947607040405,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 517500,
+    "senderId": 4,
+    "x": 0.18648648262023926,
+    "y": -0.12398737668991089,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 518000,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 518500,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 519000,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 519500,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 520000,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 520501,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 521001,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 521501,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 522001,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 522500,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 523001,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 523500,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 524000,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 524500,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 525000,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  },
+  {
+    "timeStamp": 525501,
+    "senderId": 4,
+    "x": 0.18918919563293457,
+    "y": -0.12533867359161377,
+    "Recording": "Ciciliani1"
+  }
+]

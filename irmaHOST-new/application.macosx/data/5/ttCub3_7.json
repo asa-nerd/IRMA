@@ -1,0 +1,674 @@
+[
+  {
+    "timeStamp": 1,
+    "senderId": 7,
+    "x": 0.08909666538238525,
+    "y": -0.26447606086730957,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 500,
+    "senderId": 7,
+    "x": -0.2620713710784912,
+    "y": 0.2773051857948303,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 1001,
+    "senderId": 7,
+    "x": 0.3256564140319824,
+    "y": -0.5090339183807373,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 1501,
+    "senderId": 7,
+    "x": 0.31793487071990967,
+    "y": 0.08414709568023682,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 2001,
+    "senderId": 7,
+    "x": -0.04085618257522583,
+    "y": 0.17210662364959717,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 2501,
+    "senderId": 7,
+    "x": -0.07121312618255615,
+    "y": 0.203801691532135,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 3001,
+    "senderId": 7,
+    "x": -0.05450087785720825,
+    "y": -0.4153275787830353,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 3500,
+    "senderId": 7,
+    "x": 0.36285078525543213,
+    "y": -0.3005123734474182,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 4000,
+    "senderId": 7,
+    "x": 0.38086986541748047,
+    "y": -0.15465649962425232,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 4501,
+    "senderId": 7,
+    "x": -0.05052661895751953,
+    "y": -0.5215061902999878,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 5001,
+    "senderId": 7,
+    "x": -0.08602464199066162,
+    "y": 0.25722551345825195,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 5501,
+    "senderId": 7,
+    "x": -0.43595701456069946,
+    "y": 0.11553525924682617,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 6000,
+    "senderId": 7,
+    "x": -0.21666395664215088,
+    "y": -0.0716559886932373,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 6500,
+    "senderId": 7,
+    "x": 0.3568219542503357,
+    "y": -0.5569582581520081,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 7001,
+    "senderId": 7,
+    "x": -0.2811931371688843,
+    "y": 0.04316055774688721,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 7501,
+    "senderId": 7,
+    "x": -0.4931315779685974,
+    "y": -0.3957204818725586,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 8000,
+    "senderId": 7,
+    "x": 0.22393590211868286,
+    "y": 0.02419227361679077,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 8500,
+    "senderId": 7,
+    "x": -0.21366554498672485,
+    "y": 0.025439441204071045,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 9000,
+    "senderId": 7,
+    "x": -0.48909109830856323,
+    "y": -0.4779094457626343,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 9500,
+    "senderId": 7,
+    "x": 0.49212855100631714,
+    "y": -0.4231265187263489,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 10000,
+    "senderId": 7,
+    "x": -0.4932149052619934,
+    "y": -0.5045044422149658,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 10500,
+    "senderId": 7,
+    "x": 0.12397652864456177,
+    "y": -0.16263338923454285,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 11000,
+    "senderId": 7,
+    "x": -0.12774664163589478,
+    "y": -0.2568548023700714,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 11501,
+    "senderId": 7,
+    "x": 0.07030594348907471,
+    "y": -0.4479473829269409,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 12000,
+    "senderId": 7,
+    "x": 0.4711862802505493,
+    "y": -0.43729788064956665,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 12500,
+    "senderId": 7,
+    "x": 0.4746605157852173,
+    "y": 0.23580747842788696,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 13000,
+    "senderId": 7,
+    "x": -0.31279516220092773,
+    "y": -0.004281938076019287,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 13500,
+    "senderId": 7,
+    "x": 0.45782506465911865,
+    "y": -0.04809993505477905,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 14000,
+    "senderId": 7,
+    "x": -0.40574389696121216,
+    "y": 0.19808048009872437,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 14500,
+    "senderId": 7,
+    "x": -0.2259238362312317,
+    "y": 0.02162271738052368,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 15000,
+    "senderId": 7,
+    "x": -0.17233043909072876,
+    "y": -0.47450217604637146,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 15500,
+    "senderId": 7,
+    "x": 0.11911451816558838,
+    "y": -0.012830913066864014,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 16000,
+    "senderId": 7,
+    "x": -0.17732572555541992,
+    "y": 0.013687968254089355,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 16500,
+    "senderId": 7,
+    "x": -0.3726833462715149,
+    "y": 0.2661883234977722,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 17000,
+    "senderId": 7,
+    "x": 0.4017631411552429,
+    "y": 0.2222890853881836,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 17500,
+    "senderId": 7,
+    "x": -0.055124640464782715,
+    "y": -0.20090237259864807,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 18001,
+    "senderId": 7,
+    "x": 0.0711369514465332,
+    "y": -0.5020142793655396,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 18500,
+    "senderId": 7,
+    "x": -0.11433476209640503,
+    "y": 0.13269126415252686,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 19000,
+    "senderId": 7,
+    "x": 0.10911363363265991,
+    "y": 0.18424779176712036,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 19500,
+    "senderId": 7,
+    "x": -0.07266730070114136,
+    "y": 0.2113041877746582,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 20000,
+    "senderId": 7,
+    "x": 0.4337688684463501,
+    "y": 0.14032268524169922,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 20500,
+    "senderId": 7,
+    "x": 0.13513398170471191,
+    "y": 0.2262939214706421,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 21000,
+    "senderId": 7,
+    "x": -0.41412919759750366,
+    "y": -0.5213291049003601,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 21500,
+    "senderId": 7,
+    "x": 0.4334825277328491,
+    "y": -0.025084316730499268,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 22000,
+    "senderId": 7,
+    "x": -0.24100923538208008,
+    "y": 0.12194162607192993,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 22500,
+    "senderId": 7,
+    "x": -0.1572284698486328,
+    "y": 0.24273204803466797,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 23000,
+    "senderId": 7,
+    "x": -0.2875335216522217,
+    "y": 0.04799449443817139,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 23500,
+    "senderId": 7,
+    "x": 0.24229079484939575,
+    "y": -0.1513625681400299,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 24001,
+    "senderId": 7,
+    "x": 0.41302335262298584,
+    "y": -0.24886393547058105,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 24500,
+    "senderId": 7,
+    "x": -0.2698650360107422,
+    "y": -0.130545973777771,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 25000,
+    "senderId": 7,
+    "x": -0.10475689172744751,
+    "y": -0.48864322900772095,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 25500,
+    "senderId": 7,
+    "x": -0.3009899854660034,
+    "y": 0.10109776258468628,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 26000,
+    "senderId": 7,
+    "x": -0.4206535816192627,
+    "y": -0.052544474601745605,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 26500,
+    "senderId": 7,
+    "x": 0.4083557724952698,
+    "y": -0.5170336961746216,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 27001,
+    "senderId": 7,
+    "x": -0.48986268043518066,
+    "y": 0.11034464836120605,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 27501,
+    "senderId": 7,
+    "x": 0.48674583435058594,
+    "y": -0.5038595199584961,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 28001,
+    "senderId": 7,
+    "x": -0.23153895139694214,
+    "y": 0.001558840274810791,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 28500,
+    "senderId": 7,
+    "x": 0.3630053997039795,
+    "y": -0.5528888702392578,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 29000,
+    "senderId": 7,
+    "x": 0.34093552827835083,
+    "y": 0.05903369188308716,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 29501,
+    "senderId": 7,
+    "x": -0.14337211847305298,
+    "y": -0.48583492636680603,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 30000,
+    "senderId": 7,
+    "x": 0.25291478633880615,
+    "y": -0.046060383319854736,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 30500,
+    "senderId": 7,
+    "x": 0.17518103122711182,
+    "y": -0.5358285903930664,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 31000,
+    "senderId": 7,
+    "x": 0.15574634075164795,
+    "y": 0.13825666904449463,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 31500,
+    "senderId": 7,
+    "x": 0.4628874659538269,
+    "y": -0.5004124045372009,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 32000,
+    "senderId": 7,
+    "x": -0.03923976421356201,
+    "y": 0.11591655015945435,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 32500,
+    "senderId": 7,
+    "x": 0.11274516582489014,
+    "y": 0.08503913879394531,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 33000,
+    "senderId": 7,
+    "x": -0.03407120704650879,
+    "y": 0.06280553340911865,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 33501,
+    "senderId": 7,
+    "x": 0.2683895230293274,
+    "y": -0.11468800902366638,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 34000,
+    "senderId": 7,
+    "x": -0.2596029043197632,
+    "y": -0.3904201090335846,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 34501,
+    "senderId": 7,
+    "x": -0.3840515613555908,
+    "y": -0.06504350900650024,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 35000,
+    "senderId": 7,
+    "x": 0.22087770700454712,
+    "y": -0.5118932723999023,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 35500,
+    "senderId": 7,
+    "x": -0.40927445888519287,
+    "y": -0.03774648904800415,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 36000,
+    "senderId": 7,
+    "x": -0.1827055811882019,
+    "y": 0.06143289804458618,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 36501,
+    "senderId": 7,
+    "x": 0.10536879301071167,
+    "y": -0.049662232398986816,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 37000,
+    "senderId": 7,
+    "x": -0.11647498607635498,
+    "y": -0.4986269772052765,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 37501,
+    "senderId": 7,
+    "x": -0.2677050232887268,
+    "y": -0.041309237480163574,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 38000,
+    "senderId": 7,
+    "x": -0.4875205159187317,
+    "y": -0.1566568911075592,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 38500,
+    "senderId": 7,
+    "x": -0.05183684825897217,
+    "y": 0.026032567024230957,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 39000,
+    "senderId": 7,
+    "x": -0.18587243556976318,
+    "y": 0.08516329526901245,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 39501,
+    "senderId": 7,
+    "x": 0.3047412633895874,
+    "y": 0.2520766854286194,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 40001,
+    "senderId": 7,
+    "x": -0.3516255021095276,
+    "y": -0.17941227555274963,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 40501,
+    "senderId": 7,
+    "x": -0.30894505977630615,
+    "y": 0.2528049945831299,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 41000,
+    "senderId": 7,
+    "x": -0.3268424868583679,
+    "y": -0.15490585565567017,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 41500,
+    "senderId": 7,
+    "x": -0.1979355812072754,
+    "y": -0.3146696388721466,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 42000,
+    "senderId": 7,
+    "x": 0.05948156118392944,
+    "y": 0.2285100817680359,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 42500,
+    "senderId": 7,
+    "x": 0.27810806035995483,
+    "y": -0.07666534185409546,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 43000,
+    "senderId": 7,
+    "x": -0.15280359983444214,
+    "y": -0.1617017388343811,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 43500,
+    "senderId": 7,
+    "x": 0.43600791692733765,
+    "y": 0.1828479766845703,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 44000,
+    "senderId": 7,
+    "x": -0.1116034984588623,
+    "y": -0.49112457036972046,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 44500,
+    "senderId": 7,
+    "x": 0.40891653299331665,
+    "y": 0.021359920501708984,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 45000,
+    "senderId": 7,
+    "x": 0.41695547103881836,
+    "y": -0.20826146006584167,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 45501,
+    "senderId": 7,
+    "x": 0.36351287364959717,
+    "y": -0.2850029468536377,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 46001,
+    "senderId": 7,
+    "x": 0.2513611316680908,
+    "y": -0.3733663260936737,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 46500,
+    "senderId": 7,
+    "x": -0.32237786054611206,
+    "y": 0.06377875804901123,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 47000,
+    "senderId": 7,
+    "x": 0.3113294839859009,
+    "y": 0.2806604504585266,
+    "Recording": "ttCub3"
+  },
+  {
+    "timeStamp": 47501,
+    "senderId": 7,
+    "x": 0.05945497751235962,
+    "y": -0.2982674837112427,
+    "Recording": "ttCub3"
+  }
+]
