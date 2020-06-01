@@ -1,3 +1,8 @@
+//  ------------------------------------------------------------
+//  irmaANALYSIS V 0.1.9
+//  Andreas Pirchner, 2018-2020
+//  ------------------------------------------------------------
+
 import controlP5.*;
 import processing.pdf.*;
 import processing.video.*;
