@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "30-rc4"
     defaultConfig {
         applicationId "processing.test.devicesender3_1"
         minSdkVersion 17
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
@@ -26,16 +26,20 @@ android {
 
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.android.support:design:25.2.0'
-    provided 'com.google.android.wearable:wearable:2.0.0'
-    compile 'com.google.android.support:wearable:2.0.0'
-    testCompile 'junit:junit:4.12'
-    compile files('libs/processing-core.jar')
-    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+    implementation 'com.android.support:appcompat-v7:25.2.0'
+    implementation 'com.android.support:design:25.2.0'
+   /* provided 'com.google.android.wearable:wearable:2.0.4'
+    compile 'com.google.android.support:wearable:2.0.4'
+    implementation 'com.google.android.wearable:wearable:2.0.2'*/
+    /*implementation 'androidx.wear:wear:1.0.0'
+        implementation 'com.google.android.support:wearable:2.7.0'
+        compileOnly 'com.google.android.wearable:wearable:2.7.0'*/
+    testImplementation 'junit:junit:4.12'
+    implementation files('libs/processing-core.jar')
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
 
 }

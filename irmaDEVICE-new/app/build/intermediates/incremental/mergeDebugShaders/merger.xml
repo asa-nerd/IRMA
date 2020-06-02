@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/andreas/Documents/GitHub/IRMA/irmaDEVICE-new/app/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/andreas/Documents/GitHub/IRMA/irmaDEVICE-new/app/src/debug/shaders"/></dataSet></merger>
