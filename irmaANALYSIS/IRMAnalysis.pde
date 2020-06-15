@@ -12,7 +12,7 @@ import java.util.TimerTask;
 PGraphicsPDF pdf;
 PImage colorTriangle;
 
-String movieFileName = "KilgoreOC.mp4";
+String movieFileName = "KilgoreOC.mp4";                                         // Name of the Video 
 
 ControlP5 GUI;
 JSONArray values;
@@ -20,7 +20,8 @@ color finnCardboard;
 boolean analyze;
 int triangleSize = 400;
 
-float triHeight = triangleSize/2*sqrt(3);
+// Variables for triangle
+float triHeight = triangleSize/2*sqrt(3);                                       // h of triangle
 PVector center;
 PVector triOne, triTwo, triThree;
 PVector middleOneTwo, middleTwoThree, middleThreeOne;
@@ -28,6 +29,8 @@ PVector middleOneTwo, middleTwoThree, middleThreeOne;
 ArrayList<Subject> subjects = new ArrayList<Subject>();
 //ArrayList<Color()> centroidsColor= new ArrayList<Color()>();
 ArrayList<Integer> centroidsColor = new ArrayList<Integer>();
+
+// Variables for interface 
 Textarea textfield;
 String displayText = "";
 boolean fileLoaded = false;
@@ -44,6 +47,7 @@ boolean videoFullscreen = true;
 boolean timerRun = false;
 boolean timerSet = false;
 
+// configuration of PDF-export
 int pdfPageHeight = 840;
 int pdfPageWidth = 600;
 int pdfYglobal = 50;
@@ -68,24 +72,18 @@ void setup(){
    //ow = new OutputWin(1200,800);
    //PApplet.runSketch(args, ow);
    //pieceMovie = new Movie(this, "../../videos/Coretet.mp4");
-   pieceMovie = new Movie(this, movieFileName);
+   pieceMovie = new Movie(this, movieFileName);                                     // setup Video
    pieceMovie.frameRate(30);
    pieceMovie.play();
    pieceMovieLength = pieceMovie.duration();
    pieceMovie.stop();
    //pieceMovie.resize(1400,800);
-   colorTriangle = loadImage("colorTriangle.png");
+
+   colorTriangle = loadImage("colorTriangle.png");                                  // setup GUI
    colorMode(HSB, 360,100,100);
    ellipseMode(CENTER);
    finnCardboard = color(50,0,100);
-   background(finnCardboard);  
-   center = new PVector(0,0);
-   triOne = new PVector(-triangleSize/2, triHeight/3);  
-   triTwo = new PVector(triangleSize/2, triHeight/3); 
-   triThree = new PVector(0, -(triHeight/3*2)); 
-   middleOneTwo = new PVector(lerp(triOne.x, triTwo.x, 0.5), triOne.y);
-   middleTwoThree = new PVector(lerp(triTwo.x, triThree.x, 0.5), lerp(triTwo.y, triThree.y, 0.5));
-   middleThreeOne = new PVector(lerp(triThree.x, triOne.x, 0.5), lerp(triThree.y, triOne.y, 0.5));
+   background(finnCardboard);
    GUI = new ControlP5(this);
    uiFont = createFont("UniversLTStd-Light", 10);
    pdfFont = createFont("UniversLTStd-Light", 8);
@@ -93,9 +91,18 @@ void setup(){
    pdfFontDeviation = createFont("UniversLTStd-Light", 2);
    triangleFont = createFont("UniversLTStd-Light", 9);
    textFont(uiFont);
-   makeGUI();
+   makeGUI();  
+
+   center = new PVector(0,0);                                                      // basic vertices for the trianlge
+   triOne = new PVector(-triangleSize/2, triHeight/3);  
+   triTwo = new PVector(triangleSize/2, triHeight/3); 
+   triThree = new PVector(0, -(triHeight/3*2)); 
+   middleOneTwo = new PVector(lerp(triOne.x, triTwo.x, 0.5), triOne.y);
+   middleTwoThree = new PVector(lerp(triTwo.x, triThree.x, 0.5), lerp(triTwo.y, triThree.y, 0.5));
+   middleThreeOne = new PVector(lerp(triThree.x, triOne.x, 0.5), lerp(triThree.y, triOne.y, 0.5));
    
-   drawTriangle();
+   
+   drawTriangle();                                                                // Init the GUI
    drawDimensions();
    drawSections();
 }

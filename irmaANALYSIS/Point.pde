@@ -1,3 +1,9 @@
+//  ------------------------------------------------------------
+//  irmaANALYSIS V 0.1.9
+//  Class to store data of measuring points
+//  Andreas Pirchner, 2018-2020
+//  ------------------------------------------------------------
+
 class Point{
   PVector thisPoint;
   int id;

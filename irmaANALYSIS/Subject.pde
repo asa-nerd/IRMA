@@ -1,3 +1,9 @@
+//  ------------------------------------------------------------
+//  irmaANALYSIS V 0.1.9
+//  Class to store subject data
+//  Andreas Pirchner, 2018-2020
+//  ------------------------------------------------------------
+
 class Subject{
    ArrayList<PVector> points = new ArrayList<PVector>();
    ArrayList<Point> PointsList = new ArrayList<Point>();
