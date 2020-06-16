@@ -198,8 +198,8 @@ public String calcTime(int _pos){
   return currentTime;
 }
 
-public void drawPosLine(float _x){
-   stroke(0,360,360);
+public void drawPosLine(float _x){                                          // Mark the current position of playback 
+   stroke(0,360,360);                                                       // in the timeline
    line(_x, 580, _x, height-20);
 }
 
