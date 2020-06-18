@@ -57,9 +57,6 @@ class Subject{
       senderID = firstPoint.getInt("senderId");
       //senderID = 1;
       recIntervall = 500;//firstPoint.getInt("senderId");
-      
-      
-
    }
    
    public ArrayList getPointsByIndex(int beginIndex, int endIndex){
@@ -195,8 +192,6 @@ class Subject{
      }
      popMatrix();
    }
-   
-   
    
    public int getLength(){
       return recLength;
