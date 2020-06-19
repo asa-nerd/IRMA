@@ -5,10 +5,13 @@
 //  ------------------------------------------------------------
 
 class Subject{
-   ArrayList<PVector> points = new ArrayList<PVector>();
-   ArrayList<Point> PointsList = new ArrayList<Point>();
    JSONArray subjectPoints;
    String filename;
+   PApplet sketch;
+
+   ArrayList<PVector> points = new ArrayList<PVector>(); // delete, probably not used
+   ArrayList<Point> PointsList = new ArrayList<Point>(); // this is used
+   
    int interval;
    int recLength;
    String recName; 
@@ -20,43 +23,42 @@ class Subject{
    float distanceAverage;
    float xJSON, yJSON, x, y;
    int ts; 
-   PApplet sketch;
+   
   
    Subject(JSONArray _subjectPoints, String _filename, PApplet _sketch){
       subjectPoints = _subjectPoints;
       filename = _filename; 
       sketch = _sketch;
       
-      for (int i = 0; i < subjectPoints.size(); i++) {
-        JSONObject pointJOSN = subjectPoints.getJSONObject(i); 
-        xJSON = pointJOSN.getFloat("x");
-        yJSON = pointJOSN.getFloat("y");
-        ts = pointJOSN.getInt("timeStamp");
-        x = map(xJSON, -0.5, 0.5, triOne.x, triTwo.x);
+      for (int i = 0; i < subjectPoints.size(); i++) {               // Iterate subject`s measuring points
+        JSONObject pointJSON = subjectPoints.getJSONObject(i);       // get current point
+        xJSON = pointJSON.getFloat("x");                             // load x,y and timeStamp
+        yJSON = pointJSON.getFloat("y");
+        ts = pointJSON.getInt("timeStamp");
+        x = map(xJSON, -0.5, 0.5, triOne.x, triTwo.x);               // normalize coordinates for output triangle
         y = map(yJSON, -0.577, 0.287, triThree.y, triOne.y);
-        points.add(new PVector(x,y));
-        PointsList.add(new Point(i, ts, x,y)); 
+        //points.add(new PVector(x,y));                                
+        PointsList.add(new Point(i, ts, x,y));                       // store coordinates in Point array 
       }
       
-      for (int i = 1; i < PointsList.size(); i++) {          // calculate activity for Points and save them in the Point-Objects
+      for (int i = 1; i < PointsList.size(); i++) {                  // calculate activity for Points and save them in the Point-Objects
           Point lastPoint = PointsList.get(i-1);
           Point currentPoint = PointsList.get(i);
           float activity = PVector.dist(lastPoint.getPointVector(), currentPoint.getPointVector());
           currentPoint.activity = activity;
       }
       
-      recLength = subjectPoints.size();
-      lastTimecode = PointsList.get(PointsList.size()-1).timestamp;
-      distanceAll = getPointsDistance(0, recLength-1);
-      movementSum = getMovementSum(0, recLength-1);
-      distanceAverage = distanceAll / movementSum;
+      // set variables for whole dataset
+      recLength = subjectPoints.size();                               // length
+      lastTimecode = PointsList.get(PointsList.size()-1).timestamp;   // lastTimecode
+      distanceAll = getPointsDistance(0, recLength-1);                // sum of movement distance of subject
+      movementSum = getMovementSum(0, recLength-1);                  
+      distanceAverage = distanceAll / movementSum;                    // average distance per time interval of subject
       
-      
-      JSONObject firstPoint = subjectPoints.getJSONObject(1);
-      recName = firstPoint.getString("Recording");
-      senderID = firstPoint.getInt("senderId");
-      //senderID = 1;
-      recIntervall = 500;//firstPoint.getInt("senderId");
+      JSONObject firstPoint = subjectPoints.getJSONObject(1);         // extract recording meta data from first data point
+      recName = firstPoint.getString("Recording");                    // recording name
+      senderID = firstPoint.getInt("senderId");                       // sender ID
+      recIntervall = 500;//firstPoint.getInt("senderId");             // time interval
    }
    
    public ArrayList getPointsByIndex(int beginIndex, int endIndex){
