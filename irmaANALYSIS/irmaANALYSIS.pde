@@ -38,7 +38,7 @@ boolean fileLoaded = false;
 PFont uiFont, pdfFont, pdfFontSmall, pdfFontDeviation, triangleFont;
 
 String[] args = {"--location=0,0", "OutputWin"};
-OutputWin ow;
+//OutputWin ow;
 
 boolean redo = false;
 boolean clearOutput = false;
@@ -64,11 +64,14 @@ Movie pieceMovie;
 float pieceMovieLength;
 Timer timer = new Timer();
 
+/*
 public void settings() {
   size(1400,900, P3D);
 }
+*/
 
 void setup(){
+  size(1400,900);
    //ow = new OutputWin(1200,800);
    //PApplet.runSketch(args, ow);
    //pieceMovie = new Movie(this, "../../videos/Coretet.mp4");
@@ -303,7 +306,8 @@ void fileSelected(File selection) {
     println("Window was closed or the user hit cancel.");
   } else {
     values = loadJSONArray(selection.getAbsolutePath());
-    subjects.add(new Subject(values, selection.getName(), ow));
+    //subjects.add(new Subject(values, selection.getName(), ow));
+    subjects.add(new Subject(values, selection.getName(), this));
     //subjects.get(subjects.size()).getPointbyIndex(1)
     fileLoaded = true;
   }
