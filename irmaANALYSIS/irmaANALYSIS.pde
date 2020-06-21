@@ -12,7 +12,7 @@ import java.util.TimerTask;
 PGraphicsPDF pdf;
 PImage colorTriangle;
 
-String movieFileName = "KilgoreOC.mp4";                                         // Name of the Video 
+String movieFileName = "../test.mp4";                                         // Name of the Video 
 
 ControlP5 GUI;
 JSONArray values;
@@ -38,7 +38,7 @@ boolean fileLoaded = false;
 PFont uiFont, pdfFont, pdfFontSmall, pdfFontDeviation, triangleFont;
 
 String[] args = {"--location=0,0", "OutputWin"};
-//OutputWin ow;
+OutputWin ow;
 
 boolean redo = false;
 boolean clearOutput = false;
@@ -64,14 +64,14 @@ Movie pieceMovie;
 float pieceMovieLength;
 Timer timer = new Timer();
 
-/*
+
 public void settings() {
   size(1400,900, P3D);
 }
-*/
+
 
 void setup(){
-  size(1400,900);
+  size(1400,900, P3D);
    //ow = new OutputWin(1200,800);
    //PApplet.runSketch(args, ow);
    //pieceMovie = new Movie(this, "../../videos/Coretet.mp4");
