@@ -27,6 +27,8 @@ PVector triOne, triTwo, triThree;
 PVector middleOneTwo, middleTwoThree, middleThreeOne;
 
 ArrayList<Subject> subjects = new ArrayList<Subject>();
+Sample s = new Sample();
+
 //ArrayList<Color()> centroidsColor= new ArrayList<Color()>();
 ArrayList<Integer> centroidsColor = new ArrayList<Integer>();
 
@@ -64,6 +66,7 @@ Movie pieceMovie;
 float pieceMovieLength;
 Timer timer = new Timer();
 
+//Menu_bar mp;                                                                          // MenuBar
 
 public void settings() {
   size(1400,900, P3D);
@@ -75,11 +78,13 @@ void setup(){
    //ow = new OutputWin(1200,800);
    //PApplet.runSketch(args, ow);
    //pieceMovie = new Movie(this, "../../videos/Coretet.mp4");
-   pieceMovie = new Movie(this, movieFileName);                                     // setup Video
+   
+   /*pieceMovie = new Movie(this, movieFileName);                                     // setup Video
    pieceMovie.frameRate(30);
    pieceMovie.play();
    pieceMovieLength = pieceMovie.duration();
    pieceMovie.stop();
+   */
    //pieceMovie.resize(1400,800);
 
    colorTriangle = loadImage("colorTriangle.png");                                  // setup GUI
@@ -108,6 +113,9 @@ void setup(){
    drawTriangle();                                                                // Init the GUI
    drawDimensions();
    drawSections();
+   
+   //mp = new Menu_bar(this, "Media");
+   
 }
 
 void draw(){
