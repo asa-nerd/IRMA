@@ -4,6 +4,24 @@
 //  Andreas Pirchner, 2018-2020
 //  ------------------------------------------------------------
 
+//  Functions
+//  getLength()
+//  getRecName()
+
+//  getPointsByIndex
+//  getPointbyIndex
+//  getPointsDistance
+//  getMovementSum
+//  getCurrentActivity
+
+//  drawActivity
+//  drawDistanceOne
+//  drawDistanceTwo
+//  drawDistanceThree
+//  drawSubject
+//  ------------------------------------------------------------
+
+
 class Subject{
    JSONArray subjectPoints;
    String filename;
@@ -59,6 +77,14 @@ class Subject{
       recName = firstPoint.getString("Recording");                    // recording name
       senderID = firstPoint.getInt("senderId");                       // sender ID
       recIntervall = 500;//firstPoint.getInt("senderId");             // time interval
+   }
+   
+   public int getLength(){
+      return recLength;
+   }
+   
+   public String getRecName(){
+      return recName;
    }
    
    public ArrayList getPointsByIndex(int beginIndex, int endIndex){
@@ -121,6 +147,7 @@ class Subject{
         }
       }
    }
+   
    
    public void drawDistanceOne(int _x, int _y, int _width, String _target){
       stroke(0, 30);
@@ -195,11 +222,5 @@ class Subject{
      popMatrix();
    }
    
-   public int getLength(){
-      return recLength;
-   }
    
-   public String getRecName(){
-      return recName;
-   }
 }

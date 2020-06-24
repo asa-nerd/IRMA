@@ -5,13 +5,22 @@
 //  Andreas Pirchner, 2018-2020
 //  ------------------------------------------------------------
 
+//  Functions
+//  getAFA()
+//  getDOA()
+//  entireAFA --> probably covered by sectionAverage
+//  sectionAverage()
+//  getColor()
+//  ------------------------------------------------------------
 
 class Sample{
-    //PApplet sketch;
-    int datasetLength;
-     Sample(){
+   //PApplet sketch;
+   ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
+   int datasetLength;
+    
+   Sample(){
        //sketch = _sketch;
-       datasetLength = 100;                              // amount of measuring points (temporal) of the sample
+       datasetLength = 100;                              // amount of measuring points (temporal) of the sample  
    }
    
    public void addSubject(Subject _s){
@@ -22,7 +31,7 @@ class Sample{
       return(SubjectsList.get(i)); 
    }
    
-   public PVector getAFA(_t){                            // return Average Focus of Attention of Sample at time t
+   public PVector getAFA(int _t){                            // return Average Focus of Attention of Sample at time t
        PVector centroid = new PVector();
         for (int i = 0; i < SubjectsList.size(); i++) {
                     Subject s = SubjectsList.get(i);
@@ -36,9 +45,20 @@ class Sample{
         return centroid; 
    }
    
-  public synchronized PVector entireAFA(int _datasetLength){ // calculates the average focus of attention (AFA) for the whole performace
+   public float getDOA(PVector _centroid, int _t){                  // return Deviation of Attention of Sample at time t
+     float dist = 0;
+     for (int i = 0; i < SubjectsList.size(); i++) {
+        //PVector currentPoint = SubjectsList.get(i).getPointbyIndex(_t);
+        float d = PVector.dist(_centroid, SubjectsList.get(i).getPointbyIndex(_t));
+        dist += d; 
+     }
+     float distAvg = dist/SubjectsList.size();
+     return distAvg;
+  }
+
+  public PVector entireAFA(int _datasetLength){               // calculates the average focus of attention (AFA) for the whole performace
     PVector entireAverage = new PVector();
-    for(int t = 0; t < datasetLength; t ++){
+    for(int t = 0; t < _datasetLength; t ++){
       PVector currentAverage = this.getAFA(t);
       entireAverage.x += currentAverage.x;
       entireAverage.y += currentAverage.y;
@@ -47,10 +67,21 @@ class Sample{
     entireAverage.y = entireAverage.y/datasetLength;
     return entireAverage;
   }
+  
+  public PVector sectionAverage(int _datasetStart, int _datasetEnd){  // sectionAverage() calculates the average focus of attention (AFA) for a section of the performance
+    int _datasetLength = _datasetEnd - _datasetStart;
+    PVector sectionAverage = new PVector();
+    for(int t = _datasetStart; t < _datasetEnd; t ++){
+      PVector currentAverage = getCentroid(t);
+      sectionAverage.x += currentAverage.x;
+      sectionAverage.y += currentAverage.y;
+    }
+    sectionAverage.x = sectionAverage.x/_datasetLength;
+    sectionAverage.y = sectionAverage.y/_datasetLength;
+    return sectionAverage;
+  }
    
-   public float getDOA(_t){                            // return Deviation of Attention of Sample at time t
-       
-   }
+   
    
    public static color getColor(PVector _p){          // calculate color for Vector
        
