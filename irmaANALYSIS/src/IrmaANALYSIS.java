@@ -24,7 +24,9 @@ public class IrmaANALYSIS extends PApplet implements PConstants{
 	
 	public void settings(){
 		size(1000, 600);
-		this.background(40);
+		
+		MenuBar menuBar = new MenuBar();
+		
 		s = new Sample();
 		
 		for (int i = 1; i <=10; i++) {
@@ -37,6 +39,7 @@ public class IrmaANALYSIS extends PApplet implements PConstants{
 	}
 	
 	public void draw(){
+		background(64);
 		//ellipse(mouseX, mouseY, 50, 50);
 	}
 	
