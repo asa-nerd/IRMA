@@ -13,9 +13,9 @@
 //  Calculate:
 //  getPointsByIndex
 //  getPointbyIndex
-//  getPointsDistance
-//  getMovementSum
 //  getCurrentActivity
+//  getMovementSum
+
 
 /// Visualize:
 //  drawActivity
@@ -101,21 +101,6 @@ class Subject{
       return p;
    }
    
-   public float getPointsDistance(int beginIndex, int endIndex){
-     float distanceSum = 0;
-     if (beginIndex >= 0 && endIndex <= PointsList.size()){
-       for (int i = beginIndex; i <= endIndex-1; i++) {      
-          //PointsList.get(i).
-          PVector testOne = PointsList.get(i).getPointVector();
-          PVector testTwo = PointsList.get(i+1).getPointVector();
-          float dist = testOne.dist(testTwo);
-          distanceSum += dist;
-       }
-       return distanceSum;
-     }else{
-       return -1; 
-     }
-   }
    
    public int getMovementSum(int beginIndex, int endIndex){
      int movementSum = 0;
