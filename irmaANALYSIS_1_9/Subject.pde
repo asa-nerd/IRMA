@@ -73,7 +73,7 @@ class Subject{
       // set variables for whole dataset
       recLength = subjectPoints.size();                               // length
       lastTimecode = PointsList.get(PointsList.size()-1).timestamp;   // lastTimecode
-      distanceAll = getPointsDistance(0, recLength-1);                // sum of movement distance of subject
+      //distanceAll = getPointsDistance(0, recLength-1);                // sum of movement distance of subject
       movementSum = getMovementSum(0, recLength-1);                  
       distanceAverage = distanceAll / movementSum;                    // average distance per time interval of subject
       

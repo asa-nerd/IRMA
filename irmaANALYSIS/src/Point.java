@@ -22,6 +22,7 @@ public class Point implements PConstants{
 	float angle;
 	float activity;
 	
+	
 	int triangleSize = 400;
 	float triHeight = triangleSize/2 * (float) Math.sqrt(3);   
 	  

@@ -19,32 +19,30 @@ import java.util.ArrayList;
 
 public class IrmaANALYSIS extends PApplet implements PConstants{
 	
-	ArrayList<Subject> subjects = new ArrayList<Subject>();
-	
-	JSONArray values;
+	Sample s;
+	Visualizer v;
 	
 	public void settings(){
-		size(500, 500);
-		values = loadJSONArray("");
-	    //subjects.add(new Subject(values, selection.getName(), ow));
-	    subjects.add(new Subject(values, "filename", this));
+		size(1000, 600);
+		this.background(40);
+		s = new Sample();
+		
+		for (int i = 1; i <=10; i++) {
+			JSONArray values = loadJSONArray("./data/ConcertTympanic_"+i+".json");
+			s.addSubject(new Subject(values, "filename", this));
+		}
+		println(s.SubjectsList.size());
+	    println(s.getSubject(0).totalActivity);
+	    v = new Visualizer(s, this);
 	}
-	
-
 	
 	public void draw(){
-		ellipse(mouseX, mouseY, 50, 50);
-		
-	}
-	
-	public void mousePressed(){
-		background(64);
+		//ellipse(mouseX, mouseY, 50, 50);
 	}
 	
 	public static void main(String[] args){
 		String[] processingArgs = {"irmaANALYSIS"};
 		IrmaANALYSIS p = new IrmaANALYSIS();
-		PApplet.runSketch(processingArgs, p);
-		
+		PApplet.runSketch(processingArgs, p);	
 	}
 }

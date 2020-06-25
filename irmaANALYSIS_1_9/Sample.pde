@@ -7,6 +7,10 @@
 
 //  Functions
 
+//  General:
+//  addSubject
+//  getSubject
+
 //  Calculate:
 //  getAFA()
 //  getDOA()
@@ -92,9 +96,9 @@ class Sample{
    
    
    
-   public static color getColor(PVector _p){          // calculate color for Vector
+   /*public static color getColor(PVector _p){          // calculate color for Vector
        
      
-   }
+   }*/
 }
   
