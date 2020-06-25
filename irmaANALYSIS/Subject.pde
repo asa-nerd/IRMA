@@ -5,15 +5,19 @@
 //  ------------------------------------------------------------
 
 //  Functions
+
+//  General 
 //  getLength()
 //  getRecName()
 
+//  Calculate:
 //  getPointsByIndex
 //  getPointbyIndex
 //  getPointsDistance
 //  getMovementSum
 //  getCurrentActivity
 
+/// Visualize:
 //  drawActivity
 //  drawDistanceOne
 //  drawDistanceTwo

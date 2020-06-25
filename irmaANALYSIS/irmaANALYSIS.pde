@@ -152,7 +152,7 @@ void draw(){
         }else{
           image(pieceMovie, 960, 100, 400, 220);   
         }
-       //println("yes");
+
         // Triangle
         drawCentroid(pieceTime);          
         float pieceMoviePos = pieceMovie.time();

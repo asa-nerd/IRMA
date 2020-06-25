@@ -20,10 +20,10 @@ class Point{
     x = _x;
     y = _y;
     distanceCenter = thisPoint.dist(center);
-    distanceOne = thisPoint.dist(triOne);
-    distanceTwo = thisPoint.dist(triTwo);
-    distanceThree = thisPoint.dist(triThree);
-    angle = thisPoint.heading()+HALF_PI;
+    distanceOne = thisPoint.dist(triOne);                // Distance of Point to Dimension 1
+    distanceTwo = thisPoint.dist(triTwo);                // Distance of Point to Dimension 2
+    distanceThree = thisPoint.dist(triThree);            // Distance of Point to Dimension 3
+    angle = thisPoint.heading()+HALF_PI;                 // Angle of Point related to Center
   }
   
   public PVector getPointVector(){

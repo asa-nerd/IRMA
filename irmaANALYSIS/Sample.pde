@@ -6,11 +6,20 @@
 //  ------------------------------------------------------------
 
 //  Functions
+
+//  Calculate:
 //  getAFA()
 //  getDOA()
 //  entireAFA --> probably covered by sectionAverage
 //  sectionAverage()
 //  getColor()
+
+
+//  Visualize:
+//  drawTimeAFA
+//  drawTimeDOA
+//  drawTimeActivity
+//  
 //  ------------------------------------------------------------
 
 class Sample{
