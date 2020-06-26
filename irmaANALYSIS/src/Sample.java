@@ -29,6 +29,7 @@ public class Sample {
 	PApplet p;
 	ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
 	int datasetLength;
+	int sampleSize = 0;
 	
 	Sample(){
 	       //sketch = _sketch;
@@ -37,18 +38,36 @@ public class Sample {
 
 	public void addSubject(Subject _s){
        SubjectsList.add(_s);
+       sampleSize ++;
     }
    
     public Subject getSubject(int i){
        return(SubjectsList.get(i)); 
     }
+   
+    public PVector getAFA(int _t) {
+    	PVector AverageFocusOfAttention = new PVector();
+    	for (int i = 0; i < SubjectsList.size(); i ++) {
+    		PVector p = SubjectsList.get(i).getPointByIndex(_t);
+    		AverageFocusOfAttention.x += p.x;
+    		AverageFocusOfAttention.y += p.y;
+    	}
+    	AverageFocusOfAttention.x = AverageFocusOfAttention.x / SubjectsList.size();
+    	AverageFocusOfAttention.y = AverageFocusOfAttention.y / SubjectsList.size();
+    	return AverageFocusOfAttention;
+    }
     
     public float getDOA(int _t) {
-    	float DOA = 0;
+    	
+    	float distance = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		Subject currentS = SubjectsList.get(i);
+    		PVector currentFocus = SubjectsList.get(i).getPointByIndex(_t);
+    		PVector AFA = this.getAFA(_t);
+    		float d = PVector.dist(AFA, SubjectsList.get(i).getPointByIndex(_t));
+    		distance += d;
     	}
-    	return DOA;
+    	float deviationOfAttention = distance/SubjectsList.size();
+    	return deviationOfAttention;
     	
     }
 }

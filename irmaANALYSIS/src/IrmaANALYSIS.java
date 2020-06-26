@@ -21,35 +21,29 @@ public class IrmaANALYSIS extends PApplet implements PConstants{
 	
 	Sample s;
 	Visualizer v;
-	//Menu_bar menuBar;
 	
 	public void settings(){
 		size(1000, 600);
-		
-		//buildMenuBar();
-		//menuBar = new Menu_bar(this, "Media", 300,300);
-		
+				
 		s = new Sample();
 		
 		for (int i = 1; i <=10; i++) {
 			JSONArray values = loadJSONArray("./data/ConcertTympanic_"+i+".json");
 			s.addSubject(new Subject(values, "filename", this));
 		}
-		println(s.SubjectsList.size());
-	    println(s.getSubject(0).totalActivity);
+		//println(s.SubjectsList.size());
+	    //println(s.getSubject(0).totalActivity);
 	    v = new Visualizer(s, this);
+	  
 	}
 	
 	public void draw(){
-		background(164);
-		color(255,0,0);
-		v.drawTimeline(0, 100);
-		//ellipse(mouseX, mouseY, 50, 50);
+		//background(164);
+		//color(255,0,0);
+		v.drawTimeline(0, 300);
+		noLoop();
 	}
 	
-	void buildMenuBar() {
-		//menuBar = new Menu_bar(this, "Media", 100, 100);
-		}
 	
 	public static void main(String[] args){
 		String[] processingArgs = {"irmaANALYSIS"};

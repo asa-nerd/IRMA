@@ -83,7 +83,9 @@ public class Subject {
 	
 	
 	// 2. Calculations
-	
+	public PVector getPointByIndex(int _t) {		
+		return PointsList.get(_t).getPointVector();
+	}
 	
 	// 3. Visualize
 }

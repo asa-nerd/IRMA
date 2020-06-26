@@ -24,10 +24,12 @@ public class Visualizer {
 		int rangeStart = _begin;
 		int rangeEnd = _end;
 		
-		for (int i = rangeStart; i < rangeEnd; i = i + 3) {
+		for (int i = rangeStart; i < rangeEnd; i = i + 1) {
 			p.color(255,0,0);
-			float lHeight = s.getDOA(i) * 10;
-			p.line(i, 200, i, 200-lHeight);
+			float lHeight = s.getDOA(i);
+			p.line(i*3, 200, i*3, 200-lHeight);
+			p.line(i*3, 200, i*3, 200+lHeight);
+			p.println(lHeight);
 		}
 		
 	}
