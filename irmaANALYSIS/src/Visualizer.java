@@ -16,5 +16,19 @@ public class Visualizer {
 		s = _s;
 		p = _p;
 	}
+	
+	public void drawTimeline() {
+		float currentDOA;
+		float currentAFA;
+		float currentColor;
+		int rangeStart = 0;
+		int rangeEnd = 100;
+		
+		for (int i = rangeStart; i < rangeEnd; i = i + 3) {
+					
+			
+		}
+		
+	}
 
 }

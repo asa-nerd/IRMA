@@ -21,11 +21,13 @@ public class IrmaANALYSIS extends PApplet implements PConstants{
 	
 	Sample s;
 	Visualizer v;
+	//Menu_bar menuBar;
 	
 	public void settings(){
 		size(1000, 600);
 		
-		MenuBar menuBar = new MenuBar();
+		//buildMenuBar();
+		//menuBar = new Menu_bar(this, "Media", 300,300);
 		
 		s = new Sample();
 		
@@ -42,6 +44,10 @@ public class IrmaANALYSIS extends PApplet implements PConstants{
 		background(64);
 		//ellipse(mouseX, mouseY, 50, 50);
 	}
+	
+	void buildMenuBar() {
+		menuBar = new Menu_bar(this, "Media", 100, 100);
+		}
 	
 	public static void main(String[] args){
 		String[] processingArgs = {"irmaANALYSIS"};
