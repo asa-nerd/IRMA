@@ -38,8 +38,8 @@ public class IrmaANALYSIS extends PApplet implements PConstants{
 	}
 	
 	public void draw(){
-		//background(164);
-		//color(255,0,0);
+		background(64);
+		
 		v.drawTimeline(0, 300);
 		noLoop();
 	}
