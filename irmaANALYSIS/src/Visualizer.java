@@ -17,16 +17,17 @@ public class Visualizer {
 		p = _p;
 	}
 	
-	public void drawTimeline() {
+	public void drawTimeline(int _begin, int _end) {
 		float currentDOA;
 		float currentAFA;
 		float currentColor;
-		int rangeStart = 0;
-		int rangeEnd = 100;
+		int rangeStart = _begin;
+		int rangeEnd = _end;
 		
 		for (int i = rangeStart; i < rangeEnd; i = i + 3) {
-					
-			
+			p.color(255,0,0);
+			float lHeight = s.getDOA(i) * 10;
+			p.line(i, 200, i, 200-lHeight);
 		}
 		
 	}

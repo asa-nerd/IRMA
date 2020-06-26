@@ -42,4 +42,13 @@ public class Sample {
     public Subject getSubject(int i){
        return(SubjectsList.get(i)); 
     }
+    
+    public float getDOA(int _t) {
+    	float DOA = 0;
+    	for (int i = 0; i < SubjectsList.size(); i ++) {
+    		Subject currentS = SubjectsList.get(i);
+    	}
+    	return DOA;
+    	
+    }
 }

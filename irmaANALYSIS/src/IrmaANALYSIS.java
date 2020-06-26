@@ -41,12 +41,14 @@ public class IrmaANALYSIS extends PApplet implements PConstants{
 	}
 	
 	public void draw(){
-		background(64);
+		background(164);
+		color(255,0,0);
+		v.drawTimeline(0, 100);
 		//ellipse(mouseX, mouseY, 50, 50);
 	}
 	
 	void buildMenuBar() {
-		menuBar = new Menu_bar(this, "Media", 100, 100);
+		//menuBar = new Menu_bar(this, "Media", 100, 100);
 		}
 	
 	public static void main(String[] args){

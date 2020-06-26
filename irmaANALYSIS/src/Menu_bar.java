@@ -18,7 +18,7 @@ public class Menu_bar {
   public Menu_bar(PApplet app, String name, int width, int height) {
    // System.setProperty("apple.laf.useScreenMenuBar", "true");
     //frame = (JFrame) ((processing.awt.PSurfaceAWT.SmoothCanvas)app.getSurface().getNative()).getFrame();
-    frame = (JFrame) app.getSurface().getNative()).getFrame();
+   // frame = (JFrame) app.getSurface().getNative()).getFrame();
     //frame = (JFrame) ((processing.awt.PSurfaceAWT.SmoothCanvas)app.getSurface().getNative()).getFrame();
   //**  java.awt.Frame frame = ( (processing.awt.PSurfaceAWT.SmoothCanvas)app.getSurface().getNative()).getFrame();
    // frame = (JFrame) ( ((PSurfaceAWT)surface).getNative()).getFrame();
