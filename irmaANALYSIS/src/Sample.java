@@ -48,12 +48,13 @@ public class Sample {
     public PVector getAFA(int _t) {
     	PVector AverageFocusOfAttention = new PVector();
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		PVector p = SubjectsList.get(i).getPointByIndex(_t);
-    		AverageFocusOfAttention.x += p.x;
-    		AverageFocusOfAttention.y += p.y;
+    		PVector cp = SubjectsList.get(i).getPointByIndex(_t);
+    		AverageFocusOfAttention.x += cp.x;
+    		AverageFocusOfAttention.y += cp.y;
     	}
     	AverageFocusOfAttention.x = AverageFocusOfAttention.x / SubjectsList.size();
     	AverageFocusOfAttention.y = AverageFocusOfAttention.y / SubjectsList.size();
+    	
     	return AverageFocusOfAttention;
     }
     

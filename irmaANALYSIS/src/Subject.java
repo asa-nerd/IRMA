@@ -62,9 +62,9 @@ public class Subject {
 	        float xJSON = pointJSON.getFloat("x");                       		// load x,y and timeStamp
 	        float yJSON = pointJSON.getFloat("y");
 	        int ts = pointJSON.getInt("timeStamp");
-	        float x = p.map(xJSON, -0.5f, 0.5f, triOne.x, triTwo.x);         		// normalize coordinates for output triangle
-	        float y = p.map(yJSON, -0.577f, 0.287f, triThree.y, triOne.y);                            
-	        PointsList.add(new Point(i, ts, x,y));                       		// store coordinates in Point array 
+	        //float x = p.map(xJSON, -0.5f, 0.5f, triOne.x, triTwo.x);         		// normalize coordinates for output triangle
+	        //float y = p.map(yJSON, -0.577f, 0.287f, triThree.y, triOne.y);                            
+	        PointsList.add(new Point(i, ts, xJSON,yJSON));                       		// store coordinates in Point array 
 	    }
 	    
 	    for (int i = 1; i < PointsList.size(); i++) {                  			// calculate activity for Points and save them in the Point-Objects
