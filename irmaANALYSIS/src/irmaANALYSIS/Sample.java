@@ -1,3 +1,4 @@
+package irmaANALYSIS;
 //  ------------------------------------------------------------
 //  irmaANALYSIS V 0.1.9
 //  Class to store data of the whole sample of a measurement (comprising of subjects)
@@ -44,11 +45,11 @@ public class Sample {
     public Subject getSubject(int i){
        return(SubjectsList.get(i)); 
     }
-   
+   /*
     public PVector getAFA(int _t) {
     	PVector AverageFocusOfAttention = new PVector();
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		PVector cp = SubjectsList.get(i).getPointByIndex(_t);
+    		//PVector cp = SubjectsList.get(i).getPointByIndex(_t);
     		AverageFocusOfAttention.x += cp.x;
     		AverageFocusOfAttention.y += cp.y;
     	}
@@ -70,5 +71,5 @@ public class Sample {
     	float deviationOfAttention = distance/SubjectsList.size();
     	return deviationOfAttention;
     	
-    }
+    }*/
 }

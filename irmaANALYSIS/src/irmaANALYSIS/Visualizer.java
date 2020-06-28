@@ -1,3 +1,4 @@
+package irmaANALYSIS;
 //  ------------------------------------------------------------
 //  irmaANALYSIS V 0.1.9
 //  Class to Visualize sample data
@@ -16,7 +17,7 @@ public class Visualizer {
 		s = _s;
 		p = _p;
 	}
-	
+	/*
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
 		
 		for (int i = _begin; i < _end; i = i + 1) {
@@ -63,5 +64,6 @@ public class Visualizer {
 		
 		return dist;
 	}
+	*/
 
 }

@@ -5,5 +5,9 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/OpenJDK1.8"/>
 	<classpathentry kind="lib" path="/Users/andreas/Documents/Processing/libraries/video/library/video.jar"/>
 	<classpathentry kind="lib" path="/Users/andreas/Documents/Processing/libraries/controlP5/library/controlP5.jar"/>
+	<classpathentry kind="lib" path="/Users/andreas/Desktop/04 Coding aktuell/JavaLibraries/json-20200518.jar"/>
+	<classpathentry kind="lib" path="/Users/andreas/Desktop/04 Coding aktuell/JavaLibraries/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/andreas/Desktop/04 Coding aktuell/JavaLibraries/vecmath.jar"/>
+	<classpathentry kind="lib" path="/Users/andreas/Desktop/04 Coding aktuell/JavaLibraries/javaGeom-0.11.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
