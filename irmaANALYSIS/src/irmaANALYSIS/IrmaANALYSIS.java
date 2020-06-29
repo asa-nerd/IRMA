@@ -67,10 +67,13 @@ public class IrmaANALYSIS {
 	
 	
 	public static void main(String[] args){
-		JFrame frame = new JFrame("Demo program for JFrame");
-		frame.setSize(600, 400);
-		frame.setLocationRelativeTo(null);
-		frame.setVisible(true);
+		System.setProperty("apple.laf.useScreenMenuBar", "true");				// on OSX use Menu on top menu bar
+		JFrame MainFrame = new JFrame("irmaANALYSIS V1.0");
+		MenuBar b = new MenuBar(MainFrame);
+		
+		MainFrame.setSize(1200, 800);
+		MainFrame.setLocationRelativeTo(null);
+		MainFrame.setVisible(true);
 		
 		JSONParser parser = new JSONParser();
 		Sample s = new Sample();
