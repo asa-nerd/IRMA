@@ -6,15 +6,11 @@
 
 package irmaANALYSIS;
 
-/*import processing.core.*;
-import processing.data.*;
-import processing.core.PConstants;
-import processing.core.PVector;*/
 import java.util.ArrayList;
 import javax.vecmath.Vector2d;
 import math.geom2d.Point2D;
 
-public class Point implements PConstants{
+public class Point{
 	Point2D thisPoint;
 	Point2D center;
 	Point2D triOne, triTwo, triThree;
@@ -22,12 +18,12 @@ public class Point implements PConstants{
 	long timestamp;
 	double x,y;
 	double distanceCenter, distanceOne, distanceTwo, distanceThree;
-	float angle;
-	float activity;
+	double angle;
+	double activity;
 	
 	
 	int triangleSize = 400;
-	float triHeight = triangleSize/2 * (float) Math.sqrt(3);   
+	double triHeight = triangleSize/2 * Math.sqrt(3);   
 	  
   Point(int _id, long _timestamp, double _x, double _y){
     id = _id;
@@ -43,10 +39,10 @@ public class Point implements PConstants{
     distanceOne = thisPoint.distance(triOne);                // Distance of Point to Dimension 1
     distanceTwo = thisPoint.distance(triTwo);                // Distance of Point to Dimension 2
     distanceThree = thisPoint.distance(triThree);            // Distance of Point to Dimension 3
-    angle = thisPoint.heading()+HALF_PI;                 // Angle of Point related to Center
+    //angle = thisPoint.heading()+HALF_PI;                 // Angle of Point related to Center
   }
   
-  public Point2D getPointVector(){
+  public Point2D getPoint(){
      return thisPoint;
   }
 }

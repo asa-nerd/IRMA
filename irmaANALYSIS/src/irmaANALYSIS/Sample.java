@@ -1,4 +1,4 @@
-package irmaANALYSIS;
+
 //  ------------------------------------------------------------
 //  irmaANALYSIS V 0.1.9
 //  Class to store data of the whole sample of a measurement (comprising of subjects)
@@ -22,12 +22,12 @@ package irmaANALYSIS;
 //  
 //  ------------------------------------------------------------
 
-import processing.core.*;
-import processing.data.*;
+package irmaANALYSIS;
+
 import java.util.ArrayList;
+import math.geom2d.Point2D;
 
 public class Sample {
-	PApplet p;
 	ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
 	int datasetLength;
 	int sampleSize = 0;
@@ -45,11 +45,11 @@ public class Sample {
     public Subject getSubject(int i){
        return(SubjectsList.get(i)); 
     }
-   /*
-    public PVector getAFA(int _t) {
-    	PVector AverageFocusOfAttention = new PVector();
+   
+    public Point2D getAFA(int _t) {
+    	Point2D AverageFocusOfAttention = new Point2D(0,0);
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		//PVector cp = SubjectsList.get(i).getPointByIndex(_t);
+    		Point2D cp = SubjectsList.get(i).getPointByIndex(_t);
     		AverageFocusOfAttention.x += cp.x;
     		AverageFocusOfAttention.y += cp.y;
     	}
@@ -58,7 +58,7 @@ public class Sample {
     	
     	return AverageFocusOfAttention;
     }
-    
+    /*
     public float getDOA(int _t) {
     	
     	float distance = 0;

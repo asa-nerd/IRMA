@@ -1,4 +1,3 @@
-package irmaANALYSIS;
 //  ------------------------------------------------------------
 //  irmaANALYSIS V 0.2
 //  Class to store subject data
@@ -30,11 +29,12 @@ package irmaANALYSIS;
 //  drawSubject
 //  ------------------------------------------------------------
 
-//import processing.core.*;
-//import processing.data.*;
+package irmaANALYSIS;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import org.json.simple.*;
+import math.geom2d.Point2D;
 
 public class Subject {
 	
@@ -45,8 +45,8 @@ public class Subject {
 	//int triangleSize = 400;
 //	float triHeight = triangleSize/2 * (float) Math.sqrt(3);   
 	
-	float totalActivity = 0;
-	float averageActivity;
+	double totalActivity = 0;
+	double averageActivitySample;
 	
 	Subject(JSONArray _subjectPoints){
 		subjectPoints = _subjectPoints;
@@ -67,15 +67,15 @@ public class Subject {
 		        System.out.println(xJSON+","+ts);
 	    	}
 	    
-	   /* for (int i = 1; i < PointsList.size(); i++) {                  			// calculate activity for Points and save them in the Point-Objects
+	   for (int i = 1; i < PointsList.size(); i++) {                  			// calculate activity for Points and save them in the Point-Objects
 	          Point lastPoint = PointsList.get(i-1);
 	          Point currentPoint = PointsList.get(i);
-	          float activity = PVector.dist(lastPoint.getPointVector(), currentPoint.getPointVector());
+	          double activity = Point2D.distance(lastPoint.getPoint(), currentPoint.getPoint());
 	          currentPoint.activity = activity;
 	          totalActivity += activity;
-	    }*/
+	    }
 	    
-	    averageActivity = totalActivity/PointsList.size();
+	    averageActivitySample = totalActivity/PointsList.size();
 		
 	}
 	
@@ -83,9 +83,9 @@ public class Subject {
 	
 	
 	// 2. Calculations
-	/*public PVector getPointByIndex(int _t) {		
-		return PointsList.get(_t).getPointVector();
-	}*/
+	public Point2D getPointByIndex(int _t) {		
+		return PointsList.get(_t).getPoint();
+	}
 	
 	// 3. Visualize
 }
