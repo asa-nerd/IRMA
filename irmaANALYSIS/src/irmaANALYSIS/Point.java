@@ -6,8 +6,6 @@
 
 package irmaANALYSIS;
 
-import java.util.ArrayList;
-import javax.vecmath.Vector2d;
 import math.geom2d.Point2D;
 
 public class Point{

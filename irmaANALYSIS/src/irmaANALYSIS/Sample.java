@@ -46,30 +46,32 @@ public class Sample {
        return(SubjectsList.get(i)); 
     }
    
-    public Point2D getAFA(int _t) {
-    	Point2D AverageFocusOfAttention = new Point2D(0,0);
+    public Point2D getAFA(int _t) {												// Average Focus of Attention at _t
+    	double AFAx = 0;
+    	double AFAy = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {
     		Point2D cp = SubjectsList.get(i).getPointByIndex(_t);
-    		AverageFocusOfAttention.x += cp.x;
-    		AverageFocusOfAttention.y += cp.y;
+    		AFAx += cp.x();
+    		AFAy += cp.y();
     	}
-    	AverageFocusOfAttention.x = AverageFocusOfAttention.x / SubjectsList.size();
-    	AverageFocusOfAttention.y = AverageFocusOfAttention.y / SubjectsList.size();
+    	AFAx = AFAx / SubjectsList.size();
+    	AFAy = AFAy / SubjectsList.size();
     	
+    	Point2D AverageFocusOfAttention = new Point2D(AFAx, AFAy);
     	return AverageFocusOfAttention;
     }
-    /*
-    public float getDOA(int _t) {
+    
+    public double getDOA(int _t) {												// Deviation of Attention at _t
     	
-    	float distance = 0;
+    	double distance = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		PVector currentFocus = SubjectsList.get(i).getPointByIndex(_t);
-    		PVector AFA = this.getAFA(_t);
-    		float d = PVector.dist(AFA, SubjectsList.get(i).getPointByIndex(_t));
+    		Point2D currentFocus = SubjectsList.get(i).getPointByIndex(_t);
+    		Point2D AFA = this.getAFA(_t);
+    		double d = AFA.distance(currentFocus);
     		distance += d;
     	}
-    	float deviationOfAttention = distance/SubjectsList.size();
+    	double deviationOfAttention = distance/SubjectsList.size();
     	return deviationOfAttention;
     	
-    }*/
+    }
 }

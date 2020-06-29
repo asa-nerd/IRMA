@@ -64,7 +64,6 @@ public class Subject {
 		        double yJSON = (double) pointJSON.get("y");
 		        long ts = (long) pointJSON.get("timeStamp");                          
 		        PointsList.add(new Point(1, ts, xJSON, yJSON));                       		// store coordinates in Point array 
-		        System.out.println(xJSON+","+ts);
 	    	}
 	    
 	   for (int i = 1; i < PointsList.size(); i++) {                  			// calculate activity for Points and save them in the Point-Objects

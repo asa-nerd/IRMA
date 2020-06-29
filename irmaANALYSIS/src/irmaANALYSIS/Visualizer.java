@@ -5,33 +5,31 @@ package irmaANALYSIS;
 //  Andreas Pirchner, 2018-2020
 //  ------------------------------------------------------------
 
-import processing.core.*;
-import processing.data.*;
 import java.util.ArrayList;
+import math.geom2d.Point2D;
 
 public class Visualizer {
 	Sample s;
-	PApplet p;
 	
-	Visualizer (Sample _s, PApplet _p){
+	Visualizer (Sample _s){
 		s = _s;
-		p = _p;
 	}
-	/*
+	
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
 		
 		for (int i = _begin; i < _end; i = i + 1) {
-			float lHeight = s.getDOA(i)*400;						// get line height as current Deviation of Attention
-			PVector currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
+			double lHeight = s.getDOA(i)*400;					// get line height as current Deviation of Attention
+			Point2D currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
+			System.out.println(lHeight);
 			
-			float[] c = this.getColor(currentAFA);				// get color of current AFA
+			//float[] c = this.getColor(currentAFA);				// get color of current AFA
 			//p.println(c[0]+","+ c[1]+","+ c[2]);
-			p.stroke(c[0], c[1], c[2]);							// set color for line
-			p.line(i, 200, i, 200-lHeight);					// draw lines
-			p.line(i, 200, i, 200+lHeight);
+			//p.stroke(c[0], c[1], c[2]);							// set color for line
+			//p.line(i, 200, i, 200-lHeight);						// draw lines
+			//p.line(i, 200, i, 200+lHeight);
 		}		
 	}
-	
+	/*
 	public float[] getColor(PVector _p) {
 		float[] rgb = {0,0,0};
 		PVector topCorner = new PVector(0.0f, -0.577350269189626f);
