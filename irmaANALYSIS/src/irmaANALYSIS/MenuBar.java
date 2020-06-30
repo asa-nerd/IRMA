@@ -3,12 +3,17 @@ package irmaANALYSIS;
 import javax.swing.*;
 import java.awt.event.*;  
 import java.awt.Dimension;
+import java.io.*; 
+
+// Making Menus: https://www.javatpoint.com/java-jmenuitem-and-jmenu
 
 public class MenuBar implements ActionListener {
 	JMenu fileMenu, analyzeMenu, controlMenu;  
     JMenuItem f1, f2, c1, c2, c3, a1, a2, a3, a4;  
+    JFrame f;
      
-	MenuBar(JFrame f){
+	MenuBar(JFrame _f){
+	 f = _f;
 	 JMenuBar mb=new JMenuBar();  
      
 	 fileMenu=new JMenu("File");
@@ -45,6 +50,16 @@ public class MenuBar implements ActionListener {
 	public void actionPerformed(ActionEvent e) {    
 		if(e.getSource()==f1)   
 			System.out.println("Load Sample");
+			JFileChooser
+			
+			
+			fc=new JFileChooser();    
+		    int i=fc.showOpenDialog(f);    
+		    if(i==JFileChooser.APPROVE_OPTION){    
+		        File f=fc.getSelectedFile();    
+		        String filepath=f.getPath();
+		    }
+		    
 		if(e.getSource()==f2)   
 			System.out.println("Quit");
 		if(e.getSource()==c1)   

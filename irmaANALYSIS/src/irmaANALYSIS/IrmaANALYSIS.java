@@ -22,60 +22,34 @@ import java.util.*;
 import org.json.simple.*;
 import org.json.simple.parser.*;
 
-import javax.swing.JFrame;
-import java.awt.Graphics;
-import java.awt.Color;
+//import javax.swing.JFrame;
+//import java.awt.Graphics;
+//import java.awt.Color;
 
-public class IrmaANALYSIS {
-	
-	
-	//Visualizer v;
-	
-	//IrmaANALYSIS(){
-		//JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("./data/ConcertTympanic_1.json"));
-		//Object obj;
-		//obj = parser.parse(new FileReader("ConcertTympanic_1.json"));
-		
-		//JSONArray jsonObject = (JSONArray)obj;
-	//	System.out.print(new File(".").getAbsolutePath());
-		
-	//}
-	
-	/*
-	public void settings(){
-		//size(1000, 600);
-				
-		//s = new Sample();
-	
-		
-		for (int i = 1; i <=10; i++) {
-			//JSONArray values = loadJSONArray("./data/ConcertTympanic_"+i+".json");
-			//s.addSubject(new Subject(values, "filename", this));
-		}
-		
-	    //v = new Visualizer(s, this);
-	  
-	}*/
-	
-	/*
-	public void draw(){
-		background(255);
-		
-		//v.drawTimeline(0, 1200);
-		noLoop();
-	}*/
-	
+import javafx.stage.Stage;
+import javafx.scene.*;
+import javafx.event.*;
+import javafx.application.*;
+
+public class IrmaANALYSIS extends Application{
+
 	
 	public static void main(String[] args){
-		System.setProperty("apple.laf.useScreenMenuBar", "true");				// on OSX use Menu on top menu bar
-		JFrame MainFrame = new JFrame("irmaANALYSIS V1.0");
-		MenuBar b = new MenuBar(MainFrame);
+		launch(args);
+	}
 		
-		MainFrame.setSize(1200, 800);
-		MainFrame.setLocationRelativeTo(null);
-		MainFrame.setVisible(true);
+	@Override
+	public void start(Stage primaryStage) throws Exception{
+		//System.setProperty("apple.laf.useScreenMenuBar", "true");				// on OSX use Menu on top menu bar
 		
-		JSONParser parser = new JSONParser();
+		//JFrame MainFrame = new JFrame("irmaANALYSIS V1.0");						// Main window
+		//MenuBar b = new MenuBar(MainFrame);										// make the top menu bar					
+		
+		//MainFrame.setSize(1200, 800);
+		//MainFrame.setLocationRelativeTo(null);
+		//MainFrame.setVisible(true);
+		
+		/*JSONParser parser = new JSONParser();									// pre-load sample data
 		Sample s = new Sample();
 		for (int i = 2; i < 4; i++) {
 			try (Reader reader = new FileReader("data/ConcertTympanic_"+i+".json")) {
@@ -87,8 +61,10 @@ public class IrmaANALYSIS {
 				e.printStackTrace();
 			}
 		}
-		Visualizer v = new Visualizer (s);
-		v.drawTimeline(0, 400);
 		
+		Visualizer v = new Visualizer (s);										// initialize visualizer 
+		v.drawTimeline(0, 400);													// draw first timeline
+		*/
+		System.out.println("HI");
 	}
 }

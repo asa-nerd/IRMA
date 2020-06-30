@@ -41,9 +41,9 @@ public class Subject {
 	JSONArray subjectPoints;
 
 	ArrayList<Point> PointsList = new ArrayList<Point>(); 						// Store measuring points of subject
-//	PVector triOne, triTwo, triThree;
-	//int triangleSize = 400;
-//	float triHeight = triangleSize/2 * (float) Math.sqrt(3);   
+	Point2D triOne, triTwo, triThree;
+	long triangleSize = 400;
+	double triHeight = triangleSize/2 * Math.sqrt(3);   
 	
 	double totalActivity = 0;
 	double averageActivitySample;
@@ -51,22 +51,21 @@ public class Subject {
 	Subject(JSONArray _subjectPoints){
 		subjectPoints = _subjectPoints;
 	    
-//	    triOne = new PVector(-triangleSize/2, triHeight/3);  
-//	    triTwo = new PVector(triangleSize/2, triHeight/3); 
-//	    triThree = new PVector(0, -(triHeight/3*2)); 
-	    
-	   // for (int i = 0; i < subjectPoints.size(); i++) {               			// Iterate subject`s measuring points
-	    Iterator<JSONObject> iterator = subjectPoints.iterator();
+	    triOne = new Point2D(-triangleSize/2, triHeight/3);  
+	    triTwo = new Point2D(triangleSize/2, triHeight/3); 
+	    triThree = new Point2D(0, -(triHeight/3*2)); 
+	                  			
+	    Iterator<JSONObject> iterator = subjectPoints.iterator();					// Iterate subject`s measuring points
             while (iterator.hasNext()) {
                
                 JSONObject pointJSON = iterator.next();								// get current point     		
-		        double xJSON = (double) pointJSON.get("x");                       		// load x,y and timeStamp
+		        double xJSON = (double) pointJSON.get("x");                       	// load x,y and timeStamp
 		        double yJSON = (double) pointJSON.get("y");
 		        long ts = (long) pointJSON.get("timeStamp");                          
-		        PointsList.add(new Point(1, ts, xJSON, yJSON));                       		// store coordinates in Point array 
+		        PointsList.add(new Point(1, ts, xJSON, yJSON));                     // store coordinates in Point array 
 	    	}
 	    
-	   for (int i = 1; i < PointsList.size(); i++) {                  			// calculate activity for Points and save them in the Point-Objects
+	   for (int i = 1; i < PointsList.size(); i++) {                  				// calculate activity for Points and save them in the Point-Objects
 	          Point lastPoint = PointsList.get(i-1);
 	          Point currentPoint = PointsList.get(i);
 	          double activity = Point2D.distance(lastPoint.getPoint(), currentPoint.getPoint());

@@ -33,7 +33,6 @@ public class Sample {
 	int sampleSize = 0;
 	
 	Sample(){
-	       //sketch = _sketch;
 	       datasetLength = 100;                              // amount of measuring points (temporal) of the sample  
 	}
 
