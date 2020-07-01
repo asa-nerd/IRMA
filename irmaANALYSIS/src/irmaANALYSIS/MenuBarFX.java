@@ -25,9 +25,6 @@ public class MenuBarFX {
 		controlMenu = new Menu("Control");
 	    analyzeMenu = new Menu("Analyze");
 		
-		//m1 = new MenuItem("menu item 1"); 
-	    //m2 = new MenuItem("menu item 2"); 
-	    //m3 = new MenuItem("menu item 3"); 
 	    
 	     f1=new MenuItem("Load Sample Data");  
 	     f2=new MenuItem("Load Project");
