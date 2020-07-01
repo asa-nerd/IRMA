@@ -84,7 +84,7 @@ public class IrmaANALYSIS extends Application{
         //mb.useSystemMenuBarProperty().set(true);
         
         // add menu to menubar 
-        MenuBarFX mbfx = new MenuBarFX();
+        MenuBarFX mbfx = new MenuBarFX(primaryStage);
         //MenuBar mb = new MenuBar();
        // mb = mbfx.getMainMenu(); 
         		

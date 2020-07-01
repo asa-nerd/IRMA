@@ -11,6 +11,8 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.SeparatorMenuItem;
 import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.VBox;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 
 public class MenuBarFX {
 	
@@ -19,7 +21,7 @@ public class MenuBarFX {
 	MenuItem f1, f2, f3, f4, c1, c2, c3, a1, a2, a3, a4; 
 	VBox vb;
     
-	MenuBarFX(){
+	MenuBarFX(Stage stage){
 		MenuBar mb = new MenuBar();
 		fileMenu = new Menu("Project"); 
 		controlMenu = new Menu("Control");
@@ -43,7 +45,9 @@ public class MenuBarFX {
 	     f1.setOnAction(new EventHandler<ActionEvent>() {
 	         public void handle(ActionEvent event) {
 	           System.out.println("Load Sample Data");
-	           
+	           FileChooser fileChooser = new FileChooser();
+	           fileChooser.setTitle("Load Sample Data");
+	           fileChooser.showOpenDialog(stage);
 	         }
 	       });
 	     
