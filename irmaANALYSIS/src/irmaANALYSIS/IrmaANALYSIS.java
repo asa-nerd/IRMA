@@ -13,26 +13,25 @@ Point2D: http://geom-java.sourceforge.net/api/index.html
 
 package irmaANALYSIS;
 
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.ArrayList;
-
-import java.io.*;
-import java.util.*;
-import org.json.simple.*;
-import org.json.simple.parser.*;
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.MenuBar;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 
 //import javax.swing.JFrame;
 //import java.awt.Graphics;
 //import java.awt.Color;
 
 import javafx.stage.Stage;
-import javafx.scene.*;
-import javafx.event.*;
-import javafx.application.*;
+
 
 public class IrmaANALYSIS extends Application{
 
+	Button button;
 	
 	public static void main(String[] args){
 		launch(args);
@@ -65,6 +64,33 @@ public class IrmaANALYSIS extends Application{
 		Visualizer v = new Visualizer (s);										// initialize visualizer 
 		v.drawTimeline(0, 400);													// draw first timeline
 		*/
-		System.out.println("HI");
+		primaryStage.setTitle("irmaAnalysis");
+		button = new Button();
+		button.setText("Load");
+		StackPane layout = new StackPane();
+		layout.getChildren().add(button);
+		
+		// create a menu 
+        //Menu m = new Menu("Menu"); 
+  
+        // create menuitems 
+        
+  
+        // add menu items to menu 
+       
+  
+        // create a menubar 
+        //MenuBar mb = new MenuBar(); 
+        //mb.useSystemMenuBarProperty().set(true);
+        
+        // add menu to menubar 
+        MenuBarFX mbfx = new MenuBarFX();
+        //MenuBar mb = new MenuBar();
+       // mb = mbfx.getMainMenu(); 
+        		
+        //VBox vb = new VBox(mb);
+		Scene scene = new Scene(mbfx.getMainMenu(), 1200, 800);
+		primaryStage.setScene(scene);
+		primaryStage.show();
 	}
 }
