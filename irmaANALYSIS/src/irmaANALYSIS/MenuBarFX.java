@@ -66,7 +66,7 @@ public class MenuBarFX {
 	    vb = new VBox(mb);
 	}
 	
-	public VBox getMainMenu() {
-		return vb;
+	public MenuBar getMainMenu() {
+		return mb;
 	}
 }

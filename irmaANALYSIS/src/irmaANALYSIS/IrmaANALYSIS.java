@@ -19,6 +19,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.MenuBar;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 
@@ -88,8 +89,11 @@ public class IrmaANALYSIS extends Application{
         //MenuBar mb = new MenuBar();
        // mb = mbfx.getMainMenu(); 
         		
-        //VBox vb = new VBox(mb);
-		Scene scene = new Scene(mbfx.getMainMenu(), 1200, 800);
+        BorderPane root = new BorderPane();
+        root.setTop(mbfx.getMainMenu());
+        //root.setTop(mbfx);
+        VBox vb = new VBox();
+		Scene scene = new Scene(root, 1200, 800);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
