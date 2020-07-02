@@ -17,13 +17,14 @@ import javafx.stage.Stage;
 public class MenuBarFX {
 	
 	MenuBar mb;
-	Menu fileMenu, controlMenu, analyzeMenu;
+	Menu fileMenu, editMenu, controlMenu, analyzeMenu;
 	MenuItem f1, f2, f3, f4, c1, c2, c3, a1, a2, a3, a4; 
 	VBox vb;
     
 	MenuBarFX(Stage stage){
 		MenuBar mb = new MenuBar();
-		fileMenu = new Menu("Project"); 
+		fileMenu = new Menu("File"); 
+		editMenu = new Menu("Edit"); 
 		controlMenu = new Menu("Control");
 	    analyzeMenu = new Menu("Analyze");
 		
@@ -62,11 +63,11 @@ public class MenuBarFX {
 	     controlMenu.getItems().addAll(c1, c2, c3);
 	     analyzeMenu.getItems().addAll(a1, a2, new SeparatorMenuItem(), a3, a4);
 
-	    mb.getMenus().addAll(fileMenu, controlMenu, analyzeMenu);
+	    mb.getMenus().addAll(fileMenu, editMenu, controlMenu, analyzeMenu);
 	    vb = new VBox(mb);
 	}
 	
-	public MenuBar getMainMenu() {
-		return mb;
+	public VBox getMainMenu() {
+		return vb;
 	}
 }
