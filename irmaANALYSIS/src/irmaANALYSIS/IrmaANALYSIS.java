@@ -42,12 +42,6 @@ public class IrmaANALYSIS extends Application{
 	public void start(Stage primaryStage) throws Exception{
 		//System.setProperty("apple.laf.useScreenMenuBar", "true");				// on OSX use Menu on top menu bar
 		
-		//JFrame MainFrame = new JFrame("irmaANALYSIS V1.0");						// Main window
-		//MenuBar b = new MenuBar(MainFrame);										// make the top menu bar					
-		
-		//MainFrame.setSize(1200, 800);
-		//MainFrame.setLocationRelativeTo(null);
-		//MainFrame.setVisible(true);
 		
 		/*JSONParser parser = new JSONParser();									// pre-load sample data
 		Sample s = new Sample();
@@ -66,34 +60,13 @@ public class IrmaANALYSIS extends Application{
 		v.drawTimeline(0, 400);													// draw first timeline
 		*/
 		primaryStage.setTitle("irmaAnalysis");
-		button = new Button();
-		button.setText("Load");
-		StackPane layout = new StackPane();
-		layout.getChildren().add(button);
-		
-		// create a menu 
-        //Menu m = new Menu("Menu"); 
-  
-        // create menuitems 
-        
-  
-        // add menu items to menu 
-       
-  
-        // create a menubar 
-        //MenuBar mb = new MenuBar(); 
-        //mb.useSystemMenuBarProperty().set(true);
-        
-        // add menu to menubar 
+
+		GUI gui = new GUI();
         MenuBarFX mbfx = new MenuBarFX(primaryStage);
-        //MenuBar mb = new MenuBar();
-       // mb = mbfx.getMainMenu(); 
-        		
-        BorderPane root = new BorderPane();
-        root.setTop(mbfx.getMainMenu());
-        //root.setTop(mbfx);
-        VBox vb = new VBox();
-		Scene scene = new Scene(root, 1200, 800);
+        
+        gui.rootLayout.setTop(mbfx.getMainMenu());
+
+		Scene scene = new Scene(gui.rootLayout, 1200, 800);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
