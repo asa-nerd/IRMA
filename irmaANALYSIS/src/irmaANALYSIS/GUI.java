@@ -32,6 +32,7 @@ public class GUI {
 		rootLayout.setRight(right);
 		rootLayout.setCenter(center);
 		rootLayout.setBottom(bottom);
+		//rootLayout.getLef
 	}
 	
 	public void setSize(long w, long h) {
