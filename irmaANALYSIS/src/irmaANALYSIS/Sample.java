@@ -28,15 +28,15 @@ import java.util.ArrayList;
 import math.geom2d.Point2D;
 
 public class Sample {
-	ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
+	static ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
 	int datasetLength;
-	int sampleSize = 0;
+	static int sampleSize = 0;
 	
 	Sample(){
 	       datasetLength = 100;                              // amount of measuring points (temporal) of the sample  
 	}
 
-	public void addSubject(Subject _s){
+	public static void addSubject(Subject _s){
        SubjectsList.add(_s);
        sampleSize ++;
     }

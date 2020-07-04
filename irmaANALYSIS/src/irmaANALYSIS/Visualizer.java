@@ -6,28 +6,69 @@ package irmaANALYSIS;
 //  ------------------------------------------------------------
 
 import java.util.ArrayList;
+
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.ScrollPane.ScrollBarPolicy;
+import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
 import math.geom2d.Point2D;
+
+import irmaANALYSIS.GUI;
 
 public class Visualizer {
 	Sample s;
+	ScrollPane sc;
+	Canvas layer1, layer2;
+	GraphicsContext gc1, gc2;
+	double canvasHeight;
+	Pane canvasContainer; 
 	
 	Visualizer (Sample _s){
 		s = _s;
+		sc = new ScrollPane();
+		canvasContainer = new Pane();
+		sc.setMinSize(1200, 300);
+		sc.setMaxSize(1200, 300);
+		sc.setVbarPolicy(ScrollBarPolicy.ALWAYS);
+		layer1 = new Canvas(1000, 400);
+		layer2 = new Canvas(1000, 400);
+        gc1 = layer1.getGraphicsContext2D();
+        gc2 = layer2.getGraphicsContext2D();
+        canvasHeight = 400;
+        canvasContainer.getChildren().addAll(layer1,layer2);
+        sc.setContent(canvasContainer);
+        GUI.rootLayout.setBottom(sc);
+	}
+	
+	
+	public void clearCanvas() {
+		gc2.clearRect(0, 0, layer2.getWidth(), layer2.getHeight());
+	}
+	
+	public void drawPlaybackPosition(double _t) {
+		gc2.setStroke(Color.RED);
+		gc2.strokeLine(_t, 0, _t, 400);
 	}
 	
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
 		
+		double originX = canvasHeight - 200;
+
 		for (int i = _begin; i < _end; i = i + 1) {
 			double lHeight = s.getDOA(i)*400;					// get line height as current Deviation of Attention
 			Point2D currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
-			System.out.println(lHeight);
-			
+			gc1.setStroke(Color.BLUE);
+			gc1.setLineWidth(1);
 			//float[] c = this.getColor(currentAFA);				// get color of current AFA
 			//p.println(c[0]+","+ c[1]+","+ c[2]);
 			//p.stroke(c[0], c[1], c[2]);							// set color for line
-			//p.line(i, 200, i, 200-lHeight);						// draw lines
-			//p.line(i, 200, i, 200+lHeight);
+			gc1.strokeLine(i*2+0.5, originX, i*2+0.5, originX-lHeight);						// draw lines
+			gc1.strokeLine(i*2+0.5, originX, i*2+0.5, originX+lHeight);
 		}		
+		//canvasHeight +=400;
+		//canvas.setHeight(canvasHeight);
 	}
 	/*
 	public float[] getColor(PVector _p) {
