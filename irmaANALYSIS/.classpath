@@ -11,5 +11,7 @@
 	<classpathentry kind="lib" path="/Users/andreas/eclipse/javafx-sdk-11.0.2/lib/javafx.graphics.jar"/>
 	<classpathentry kind="lib" path="/Users/andreas/Desktop/04 Coding aktuell/JavaLibraries/javaGeom-0.11.1.jar"/>
 	<classpathentry kind="lib" path="/Users/andreas/eclipse/javafx-sdk-11.0.2/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="/Users/andreas/Desktop/04 Coding aktuell/JavaLibraries/jmetro-11.6.11-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/andreas/Desktop/04 Coding aktuell/JavaLibraries/jmetro-11.6.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

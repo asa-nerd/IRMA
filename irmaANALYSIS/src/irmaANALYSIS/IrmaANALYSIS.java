@@ -18,6 +18,8 @@ import java.io.File;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import jfxtras.styles.jmetro.JMetro;
+import jfxtras.styles.jmetro.Style;
 
 
 public class IrmaANALYSIS extends Application{
@@ -36,8 +38,11 @@ public class IrmaANALYSIS extends Application{
 		Sample sample = new Sample();
 		GUI gui = new GUI(primaryStage, sample);
         
-
+		
 		Scene scene = new Scene(gui.getLayout(), 1200, 800);
+		
+		//JMetro jMetro = new JMetro(Style.LIGHT);
+		//jMetro.setScene(scene);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
