@@ -51,7 +51,6 @@ public class Sample {
 				minimalLength = testLength;
 			}
 		}
-		
 		return minimalLength;
 	}
    

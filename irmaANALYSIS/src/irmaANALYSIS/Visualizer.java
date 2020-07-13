@@ -25,6 +25,7 @@ import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 import math.geom2d.Point2D;
 
+
 import irmaANALYSIS.GUI;
 
 public class Visualizer {
