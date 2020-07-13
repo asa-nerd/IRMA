@@ -79,7 +79,7 @@ public class MenuBarFX extends MenuBar{
 							 Subject s = new Subject(jsonData);							// Make new Subject	
 							 Sample.addSubject(s);										// add Subject to Sample							 
 							 GUI.updateSampleTable();									// update the Sample Table in GUI
-							 triangleWidget.drawSample(100);
+							// triangleWidget.drawSample(100);
 		        		   } catch (ParseException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();

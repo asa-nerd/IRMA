@@ -29,7 +29,7 @@ import math.geom2d.Point2D;
 
 public class Sample {
 	static ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
-	int datasetLength;
+	static int datasetLength;
 	static int sampleSize = 0;
 	
 	Sample(){
@@ -38,8 +38,22 @@ public class Sample {
 
 	public static void addSubject(Subject _s){
        SubjectsList.add(_s);
+       //datasetLength = _s.subjectPoints.size();
+       datasetLength = getShortestDataset();
        sampleSize ++;
     }
+	
+	static public int getShortestDataset() {						// find the shortes Dataset in the Sample to avoid breaking the iterator while looping through non-existent data
+		int minimalLength = 1000000000;
+		for (int i = 0; i < SubjectsList.size(); i ++) {
+			int testLength = SubjectsList.get(i).getDatasetLength();
+			if (testLength < minimalLength) {
+				minimalLength = testLength;
+			}
+		}
+		
+		return minimalLength;
+	}
    
     public Subject getSubject(int i){
        return(SubjectsList.get(i)); 

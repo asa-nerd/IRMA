@@ -38,7 +38,6 @@ public class Visualizer {
 	Pane timelineCanvas;
 	Pane playbackCanvas;
 	
-	
 	double stepSize = zoomFactor*2;
 	
 	Line playbackLine;
@@ -67,11 +66,7 @@ public class Visualizer {
         zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 
   
 	            public void changed(ObservableValue <? extends Number >  
-	                      observable, Number oldValue, Number newValue) 
-	            { 
-	  
-	                //l.setText("value: " + newValue); 
-	            	System.out.println(newValue);
+	                      observable, Number oldValue, Number newValue){ 
 	            	zoomFactor = (Double) newValue;
 	            	stepSize = zoomFactor*2;
 	            	updateTimeline();

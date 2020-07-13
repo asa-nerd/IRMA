@@ -1,0 +1,8961 @@
+[
+  {
+    "recording": "Two Birds One Stone",
+    "id": 5,
+    "timeInterval": 500,
+    "datamodel": "triangle",
+    "personalBackground": {
+      "QuestionnaireID": 5,
+      "Gender": 0,
+      "Age": 47.0,
+      "Education": "Interaction Design",
+      "Reason-1": 0,
+      "Reason-2": 1,
+      "Reason-3": 1,
+      "Reason-4": 1,
+      "Reason-5": 0,
+      "Reason-6": 0,
+      "ElectoacousticMusic-Professional": 1,
+      "ElectoacousticMusic-Private": 1,
+      "ElectoacousticMusic-Amount": 5,
+      "Performances-Professional": 1,
+      "Performances-Private": 0,
+      "Performances-Amount": 0,
+      "ComputerGames-Professional": 1,
+      "ComputerGames-Private": 0,
+      "ComputerGames-Amount": -99,
+      "BoardGames-Private": 0,
+      "BoardGames-Amount": -99
+    },
+    "evaluationPerformance": {}
+  },
+  {
+    "timesequence": [
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0010416508
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.013541639
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.036458313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03020835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.020833313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.069791675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.057291687
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.037500024
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.051041663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.16770834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.22604167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.23645836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.234375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.118749976
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.029166639
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.014583319
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.014583319
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.010416657
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.029166669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.029166669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03229168
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03333333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.035416663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.037499994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.043749988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.052083343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.04583332
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.026041657
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0052083433
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.021875024
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.024999976
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.027083337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.035416663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.055208325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0020833611
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0020833611
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.021875024
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.021875024
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.021875024
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.069791675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.11041668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.11458334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.06770834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.059374988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.059374988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.059374988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.059374988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.059374988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.059374988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.09479165
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.103124976
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.12395835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.12395835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.18229169
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.18229169
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20729166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.04791665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.037499994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.037499994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.29791665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.33020833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.3385417
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.34583333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.34583333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.34583333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.34583333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.34583333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.296875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.28229165
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2864583
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2864583
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2864583
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2864583
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2864583
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2864583
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.340625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.334375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.334375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.334375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.334375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.3229167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.253125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24479166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41666666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41458333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2760417
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24166667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24166667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.309375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.346875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.240625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19791666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.15416667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03020832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.14583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.068749994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19583333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.18854168
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.14166668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.09270832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.068749994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.068749994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.068749994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.068749994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.003125012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.003125012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.003125012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.003125012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.024999976
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.026041687
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.029166639
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.06562501
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.06562501
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.27916667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.234375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.275
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24687499
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24687499
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.12708333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.13645834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.12395832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.15729168
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.15520832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.18437499
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.20416668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.21458334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.23124999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.23124999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24166667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24166667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.25416666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2604167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.27708334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.27916667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.29270834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.29270834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.29270834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2916667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2916667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19895834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32395834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.23020834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.21875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.19479167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.15937501
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.11145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.11145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.051041663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.017708331
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.017708331
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.017708331
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.017708331
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.017708331
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.013541639
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.013541669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.017708331
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.013541669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.013541669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.013541669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.013541669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.013541669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.013541669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.28020835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.321875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36666667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.39791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.40104166
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.39583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.39583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.39583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.39583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.39583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.39583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.38020834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.365625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36145833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.36041665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.359375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.35833335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.35833335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.35833335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.35833335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.35833335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.38854167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.340625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.33020833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.33020833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.33020833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.33020833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.33020833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.33020833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32916665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.328125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.32604167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24166667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.09479168
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.025000006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.020833313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.019791663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.014583349
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0041666627
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03020832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.009375006
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.003125012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0020833611
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.008333325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.010416687
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.013541639
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.15208334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19895834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19895834
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.19999999
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20520836
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20416665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.203125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.20208335
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.13020831
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.06458333
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.052083343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.034375012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03020832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03020832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03020832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.03020832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.029166669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.029166669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.029166669
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.027083337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.023958325
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.020833343
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.01666668
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.015625
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.012499988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0052083433
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.0020833313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0010416508
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0041666627
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.0072916746
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.009374976
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.010416687
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.011458337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.013541639
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.01666665
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.017708361
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.018750012
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.020833313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.020833313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.020833313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.022916675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.027083337
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.028124988
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03020835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03020835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03020835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03020835
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.03333336
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.035416663
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.036458313
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.037500024
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": 0.038541675
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.31354165
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.3125
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.31354165
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.37083334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.4
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.409375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.41041666
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.409375
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.38854167
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.296875
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.2552083
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.25104165
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.25
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.25
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24895832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24895832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24895832
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24687499
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24583334
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24687499
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.24791667
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.20520833
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      },
+      {
+        "Recording": "contertToBirds",
+        "senderID": 5,
+        "x": -0.021874994
+      }
+    ]
+  }
+]

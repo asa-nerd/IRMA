@@ -37,6 +37,8 @@ public class GUI {
 	//static TableColumn tableColumnId, tableColumnRecording, tableColumnLength;
 	static TableColumn <Long, Subject> tableColumnId;
 	static TableColumn <String, Subject> tableColumnRecordName;
+	static TableColumn <Double, Subject> tableColumnAge;
+	static TableColumn <String, Subject> tableColumnEducation;
 	
 	Timer globalTimer;
 	long timerCounter;
@@ -120,10 +122,10 @@ public class GUI {
 	    Button stopButton = new Button("Stop");
 	    Button drawButton = new Button("Draw");
 	    Button printButton = new Button("Print");
+	    
 	    drawButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-                //label.setText("Accepted");
-            	v.drawTimeline(0, 1500);
+            	v.drawTimeline(0, sample.getShortestDataset());
             }
         });
 	   
@@ -141,7 +143,6 @@ public class GUI {
 	
 		   	   	        public void run(){ 
 		   	   	              tri.clearCanvas();
-		   	   	              //v.drawTimeline(0, 1500);
 		   	   	              v.drawPlaybackPosition(timerCounter);
 		   	   	              tri.drawSample((int) timerCounter);
 		   	   	              timerCounter ++;
@@ -248,11 +249,15 @@ public class GUI {
 		tableColumnId.setCellValueFactory(new PropertyValueFactory<>("id"));
 		tableColumnRecordName = new TableColumn<>("Record Name");
 		tableColumnRecordName.setCellValueFactory(new PropertyValueFactory<>("recordName"));
+		tableColumnAge = new TableColumn<>("Age");
+		tableColumnAge.setCellValueFactory(new PropertyValueFactory<>("age"));
+		tableColumnEducation =  new TableColumn<>("Education");
+		tableColumnEducation.setCellValueFactory(new PropertyValueFactory<>("education"));
 		// tableColumnLength = new TableColumn<>("Length");
 		tableColumnId.setSortable(false);
 		tableColumnRecordName.setSortable(false);
 		//tableColumnLength.setSortable(false);
-		thisTable.getColumns().addAll(tableColumnId, tableColumnRecordName);
+		thisTable.getColumns().addAll(tableColumnId, tableColumnRecordName, tableColumnAge, tableColumnEducation);
 		return thisTable;
 	}
 }

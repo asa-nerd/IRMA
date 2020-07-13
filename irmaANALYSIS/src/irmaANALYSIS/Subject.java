@@ -38,6 +38,7 @@ import math.geom2d.Point2D;
 
 public class Subject {
 	
+	JSONArray JSONData;
 	JSONArray subjectPoints;
 
 	ArrayList<Point> PointsList = new ArrayList<Point>(); 						// Store measuring points of subject
@@ -46,14 +47,29 @@ public class Subject {
 	double triHeight = triangleSize/2 * Math.sqrt(3);   
 	long id;
 	String recordName;
+	double age; 
+	String education;
 	double totalActivity = 0;
 	double averageActivitySample;
+	int dataSetLength;
 	
-	Subject(JSONArray _subjectPoints){
-		subjectPoints = _subjectPoints;
-		JSONObject firstDataset = (JSONObject) subjectPoints.get(0);
-		id = (long) firstDataset.get("senderId");
-		recordName = (String) firstDataset.get("Recording");
+	
+	Subject(JSONArray _JSONData){
+		JSONData = _JSONData;
+
+		JSONObject u = (JSONObject) JSONData.get(0);
+		id = (long) u.get("id");
+		
+		recordName = (String) u.get("recording");
+		JSONObject persBackground = (JSONObject) u.get("personalBackground");
+		//System.out.println(persBackground);
+		age = (double) persBackground.get("Age");
+		education = (String) persBackground.get("Education");
+		
+		JSONObject j = (JSONObject) JSONData.get(1);
+		JSONArray subjectPoints = (JSONArray) j.get("timesequence");
+		dataSetLength = subjectPoints.size();
+		//JSONObject firstDataset = (JSONObject) subjectPoints.get(0);
 		
 	    triOne = new Point2D(-triangleSize/2, triHeight/3);  
 	    triTwo = new Point2D(triangleSize/2, triHeight/3); 
@@ -84,12 +100,24 @@ public class Subject {
 	}
 	
 	// 1. General functions
+	public int getDatasetLength() {
+		return dataSetLength;
+	}
+	
 	public long getId() {
 		return id;
 	}
 	
 	public String getRecordName() {
 		return recordName;
+	}
+	
+	public double getAge() {
+		return age;
+	}
+	
+	public String getEducation() {
+		return education;
 	}
 	
 	// 2. Calculations
