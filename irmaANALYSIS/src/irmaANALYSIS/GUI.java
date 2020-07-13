@@ -3,6 +3,7 @@ package irmaANALYSIS;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
+import javafx.print.PrinterJob;
 import javafx.scene.control.*;
 import javafx.scene.control.MenuBar;
 import javafx.scene.layout.*;
@@ -40,7 +41,7 @@ public class GUI {
 	Timer globalTimer;
 	long timerCounter;
 	boolean timerPaused = false;
-	
+	boolean globalIsPlaying = false;
 	static Media media;
 	static MediaPlayer mediaPlayer;
 	static MediaView mediaView;
@@ -109,13 +110,7 @@ public class GUI {
 	    // Center: Video
 	 	// --------------------------------------
 	    
-	    
-	   // Media media = new Media("file:/Users/andreas/Documents/GitHub/IRMA/irmaANALYSIS/data/test.mp4");
-	    //MediaPlayer mediaPlayer = new MediaPlayer(media);  
-	    //MediaView mediaView = new MediaView (mediaPlayer);
-	    //mediaView.setFitWidth(500);
-	    
-	    //rootLayout.setCenter(mediaView);
+	   
 	    
 	    // Top: Buttons 
 	    // --------------------------------------
@@ -123,7 +118,8 @@ public class GUI {
 	    Button playButton = new Button("Play");
 	    Button pauseButton = new Button("Pause");
 	    Button stopButton = new Button("Stop");
-	    Button drawButton = new Button("draw");
+	    Button drawButton = new Button("Draw");
+	    Button printButton = new Button("Print");
 	    drawButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
                 //label.setText("Accepted");
@@ -133,52 +129,76 @@ public class GUI {
 	   
 	    playButton.setOnAction(new EventHandler<ActionEvent>() {
 	   	    @Override public void handle(ActionEvent e) {   
-	   	    	globalTimer = new Timer();
-	   	    	if (timerPaused == true) {
-	   	    		timerPaused = false;
+	   	    	if (globalIsPlaying != true) {
+		   	    	globalTimer = new Timer();
+		   	    	if (timerPaused == true) {
+		   	    		timerPaused = false;
+		   	    	}else {
+		   	    		timerCounter = 0;
+		   	    	}
+		   	    	
+		   		    TimerTask task = new TimerTask(){
+	
+		   	   	        public void run(){ 
+		   	   	              tri.clearCanvas();
+		   	   	              //v.drawTimeline(0, 1500);
+		   	   	              v.drawPlaybackPosition(timerCounter);
+		   	   	              tri.drawSample((int) timerCounter);
+		   	   	              timerCounter ++;
+		   	   	        }
+		   	   	        
+		   	   	    };
+			   	    globalTimer.scheduleAtFixedRate(task, 0, 100l);
+			   	    globalIsPlaying = true;
+			   	    mediaPlayer.play();
+			   	 
 	   	    	}else {
-	   	    		timerCounter = 0;
+	   	    		
 	   	    	}
-	   	    	
-	   		    TimerTask task = new TimerTask(){
-
-	   	   	        public void run(){ 
-	   	   	              v.clearCanvas();
-	   	   	              tri.clearCanvas();
-	   	   	              //v.drawTimeline(0, 1500);
-	   	   	              v.drawPlaybackPosition(timerCounter);
-	   	   	              tri.drawSample((int) timerCounter);
-	   	   	              timerCounter ++;
-	   	   	        }
-	   	   	        
-	   	   	    };
-		   	    globalTimer.scheduleAtFixedRate(task, 0, 100l);
-		   	    mediaPlayer.play();
 	   	    }
 	   	});
 	    pauseButton.setOnAction(new EventHandler<ActionEvent>() {
 	   	    @Override public void handle(ActionEvent e) {   	    
 		   	    //task.pause();
-	   	    	timerPaused = true;
-	   	    	globalTimer.cancel();
-	   	    	globalTimer.purge();
-	   	    	mediaPlayer.pause();
+	   	    	if (globalIsPlaying == true) {
+		   	    	timerPaused = true;
+		   	    	globalIsPlaying= false;
+		   	    	globalTimer.cancel();
+		   	    	globalTimer.purge();
+		   	    	mediaPlayer.pause();
+		   	    	
+	   	    	}
 	   	    }
 	   	});
 	    stopButton.setOnAction(new EventHandler<ActionEvent>() {
 	   	    @Override public void handle(ActionEvent e) {   
-	   	    	timerCounter = 0;
-	   	    	timerPaused = false;
-	   	    	v.clearCanvas();
-	   	    	tri.clearCanvas();
-	   	    	globalTimer.cancel();
-	   	    	globalTimer.purge();
-	   	    	mediaPlayer.stop();
+	   	    	if (globalIsPlaying == true) {
+		   	    	timerCounter = 0;
+		   	    	timerPaused = false;
+		   	    	tri.clearCanvas();
+		   	    	globalTimer.cancel();
+		   	    	globalTimer.purge();
+		   	    	globalIsPlaying= false;
+		   	    	mediaPlayer.stop();
+	   	    	}
 	   	    }
 	   	});
 	    
+	    printButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override public void handle(ActionEvent e) {
+            	System.out.println("print.");
+            	Pane p = v.getTimelinePane();
+            	PrinterJob job = PrinterJob.createPrinterJob();
+                if(job != null){
+	                job.showPrintDialog(primaryStage); 
+	                job.printPage(p);
+	                job.endJob();
+                }
+            }
+        });
+	    
 	    HBox playButtonBox = new HBox();
-	    playButtonBox.getChildren().addAll(playButton, pauseButton, stopButton, drawButton);
+	    playButtonBox.getChildren().addAll(playButton, pauseButton, stopButton, drawButton, printButton);
 	    top.getChildren().add(playButtonBox);
 	    rootLayout.setTop(top);
 	    

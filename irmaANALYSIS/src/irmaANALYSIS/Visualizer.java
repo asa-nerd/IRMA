@@ -7,12 +7,22 @@ package irmaANALYSIS;
 
 import java.util.ArrayList;
 
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.scene.Node;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.ScrollPane.ScrollBarPolicy;
+import javafx.scene.control.Slider;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Line;
+import javafx.scene.shape.Rectangle;
 import math.geom2d.Point2D;
 
 import irmaANALYSIS.GUI;
@@ -20,55 +30,115 @@ import irmaANALYSIS.GUI;
 public class Visualizer {
 	Sample s;
 	ScrollPane sc;
-	Canvas layer1, layer2;
 	GraphicsContext gc1, gc2;
-	double canvasHeight;
-	Pane canvasContainer; 
+	double  zoomFactor = 4;
+	VBox moduleContainer; 
+	HBox guiContainer;
+	StackPane timelineContainer;
+	Pane timelineCanvas;
+	Pane playbackCanvas;
+	
+	
+	double stepSize = zoomFactor*2;
+	
+	Line playbackLine;
+	Slider zoomXSlider;
+	
+	ArrayList<Line> lines;
+	
 	
 	Visualizer (Sample _s){
 		s = _s;
 		sc = new ScrollPane();
-		canvasContainer = new Pane();
-		sc.setMinSize(1200, 300);
-		sc.setMaxSize(1200, 300);
+			moduleContainer = new VBox();
+				guiContainer = new HBox();
+				timelineContainer = new StackPane();
+					timelineCanvas = new Pane();
+					playbackCanvas = new Pane();
+		sc.setMinSize(1200, 400);
+		sc.setMaxSize(1200, 400);
 		sc.setVbarPolicy(ScrollBarPolicy.ALWAYS);
-		layer1 = new Canvas(1000, 400);
-		layer2 = new Canvas(1000, 400);
-        gc1 = layer1.getGraphicsContext2D();
-        gc2 = layer2.getGraphicsContext2D();
-        canvasHeight = 400;
-        canvasContainer.getChildren().addAll(layer1,layer2);
-        sc.setContent(canvasContainer);
+
+        playbackLine = new Line(0*stepSize, 0, 0*stepSize, 400);
+        playbackLine.setStroke(Color.RED);
+        
+        zoomXSlider = new Slider(0.1,10,1);
+     // Adding Listener to value property. 
+        zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 
+  
+	            public void changed(ObservableValue <? extends Number >  
+	                      observable, Number oldValue, Number newValue) 
+	            { 
+	  
+	                //l.setText("value: " + newValue); 
+	            	System.out.println(newValue);
+	            	zoomFactor = (Double) newValue;
+	            	stepSize = zoomFactor*2;
+	            	updateTimeline();
+	            } 
+        }); 
+        guiContainer.getChildren().add(zoomXSlider);
+        timelineContainer.getChildren().addAll(timelineCanvas, playbackCanvas);
+        
+        moduleContainer.getChildren().addAll(guiContainer, timelineContainer);
+        sc.setContent(moduleContainer);
         GUI.rootLayout.setBottom(sc);
+        
+        lines = new ArrayList<Line>();
 	}
 	
 	
-	public void clearCanvas() {
-		gc2.clearRect(0, 0, layer2.getWidth(), layer2.getHeight());
+	public Pane getTimelinePane() {
+		return timelineCanvas;
 	}
+	
 	
 	public void drawPlaybackPosition(double _t) {
-		gc2.setStroke(Color.RED);
-		gc2.strokeLine(_t, 0, _t, 400);
+		playbackLine.setStartX(_t*stepSize);
+		playbackLine.setStartY(0);
+		playbackLine.setEndX(_t*stepSize);
+		playbackLine.setEndY(400);
+	}
+	
+	public void updateTimeline() {
+		//int lineListLength = timelineCanvas.getChildren().size();
+		
+		for (int i = 0; i < lines.size(); i++) {
+			Line l = lines.get(i);
+			l.setStartX(i*stepSize+0.5);
+			l.setEndX(i*stepSize+0.5);
+		}
+		timelineCanvas.setPrefSize(lines.size()*zoomFactor*2,400);
 	}
 	
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
 		
-		double originX = canvasHeight - 200;
+		playbackCanvas.getChildren().add(playbackLine);
+		
+		
+		
+		//stackedCanvas.setStyle("-fx-background-color: black;");
+		timelineCanvas.setPrefSize(1200,400);
+	    int rangeLength = _end - _begin;
+	    stepSize = zoomFactor*2;
+	    timelineCanvas.setPrefWidth(rangeLength * stepSize);
+		
+	    
+		double originX =  200;
 
 		for (int i = _begin; i < _end; i = i + 1) {
 			double lHeight = s.getDOA(i)*400;					// get line height as current Deviation of Attention
 			Point2D currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
-			gc1.setStroke(Color.BLUE);
-			gc1.setLineWidth(1);
 			//float[] c = this.getColor(currentAFA);				// get color of current AFA
 			//p.println(c[0]+","+ c[1]+","+ c[2]);
 			//p.stroke(c[0], c[1], c[2]);							// set color for line
-			gc1.strokeLine(i*2+0.5, originX, i*2+0.5, originX-lHeight);						// draw lines
-			gc1.strokeLine(i*2+0.5, originX, i*2+0.5, originX+lHeight);
+			Line line = new Line(i*stepSize+0.5, originX+lHeight, i*stepSize+0.5, originX-lHeight); // make lines
+			line.setStroke(Color.BLACK);
+			line.setStrokeWidth(1*zoomFactor);
+			lines.add(line);
 		}		
-		//canvasHeight +=400;
-		//canvas.setHeight(canvasHeight);
+		timelineCanvas.getChildren().addAll(lines);				// add all line Nodes to parent Pane
+		timelineCanvas.setPrefSize(rangeLength*zoomFactor*2,400);
 	}
 	/*
 	public float[] getColor(PVector _p) {
