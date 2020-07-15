@@ -1,5 +1,6 @@
 package irmaANALYSIS;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -48,6 +49,7 @@ public class GUI {
 	static MediaPlayer mediaPlayer;
 	static MediaView mediaView;
 	
+	static triangleWidget tri;
 	
 	Sample sample;
 	
@@ -86,7 +88,9 @@ public class GUI {
 		
 		// Right: Triangle Widget
 		// --------------------------------------
-	    triangleWidget tri = new triangleWidget(sample);
+	    tri = new triangleWidget(sample);
+	    
+	    
 	    
         
 	    // Bottom: Visualizer
@@ -134,18 +138,18 @@ public class GUI {
 		   		    TimerTask task = new TimerTask(){
 	
 		   	   	        public void run(){ 
-		   	   	              tri.clearCanvas();
-		   	   	              v.drawPlaybackPosition(timerCounter);
-		   	   	              tri.drawConnections((int) timerCounter);
-		   	   	              tri.drawSample((int) timerCounter);
-		   	   	              tri.drawAFA((int) timerCounter);
-		   	   	              timerCounter ++;
+			   	   	      Platform.runLater(() -> {					// runLater() is necessary for threading, eventually replace with JavaFX timeline
+					   	   	    tri.clearCanvas();			
+			   	   	            v.drawPlaybackPosition(timerCounter);
+			   	   	            tri.drawSampleVector((int) timerCounter);
+			   	   	            timerCounter ++;
+			              });
 		   	   	        }
 		   	   	        
 		   	   	    };
 			   	    globalTimer.scheduleAtFixedRate(task, 0, 100l);
 			   	    globalIsPlaying = true;
-			   	    mediaPlayer.play();
+			   	   // mediaPlayer.play();
 			   	 
 	   	    	}else {
 	   	    		
@@ -214,6 +218,10 @@ public class GUI {
 	 	
 	}
 	
+	
+	/*public static void makeTriangleData(){
+    	tri.makeSample();
+    }*/
 	
 	static public void makeVideo(String _f) {
 		String n = "file:"+_f;

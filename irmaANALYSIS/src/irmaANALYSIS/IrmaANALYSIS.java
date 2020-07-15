@@ -13,8 +13,6 @@ Point2D: http://geom-java.sourceforge.net/api/index.html
 
 package irmaANALYSIS;
 
-import java.io.File;
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

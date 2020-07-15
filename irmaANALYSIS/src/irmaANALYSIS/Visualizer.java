@@ -63,16 +63,7 @@ public class Visualizer {
         playbackLine.setStroke(Color.RED);
         
         zoomXSlider = new Slider(0.1,10,1);
-     // Adding Listener to value property. 
-        zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 
-  
-	            public void changed(ObservableValue <? extends Number >  
-	                      observable, Number oldValue, Number newValue){ 
-	            	zoomFactor = (Double) newValue;
-	            	stepSize = zoomFactor*2;
-	            	updateTimeline();
-	            } 
-        }); 
+      
         guiContainer.getChildren().add(zoomXSlider);
         timelineContainer.getChildren().addAll(timelineCanvas, playbackCanvas);
         
@@ -81,6 +72,16 @@ public class Visualizer {
         GUI.rootLayout.setBottom(sc);
         
         lines = new ArrayList<Line>();
+               
+     
+        zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 		 // Adding Listener to value property.
+	            public void changed(ObservableValue <? extends Number >  
+	                      observable, Number oldValue, Number newValue){ 
+	            	zoomFactor = (Double) newValue;
+	            	stepSize = zoomFactor*2;
+	            	updateTimeline();
+	            } 
+        });
 	}
 	
 	
@@ -118,7 +119,6 @@ public class Visualizer {
 		for (int i = _begin; i < _end; i = i + 1) {
 			double lHeight = s.getDOA(i)*400;					// get line height as current Deviation of Attention
 			Point2D currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
-			System.out.println(currentAFA.x()+" ,"+ currentAFA.y());
 			double[] c = this.getColor(currentAFA);				// get color of current AFA
 			Line line = new Line(i*stepSize+0.5, originX+lHeight, i*stepSize+0.5, originX-lHeight); // make lines
 			line.setStroke(Color.rgb((int) c[0], (int) c[1], (int) c[2]));	// set color for line
@@ -129,7 +129,7 @@ public class Visualizer {
 		timelineCanvas.setPrefSize(rangeLength*zoomFactor*2,400);
 	}
 	
-	public double[] getColor(Point2D _p) {
+	public static double[] getColor(Point2D _p) {
 		double[] rgb = {0,0,0};
 		Point2D topCorner = new Point2D(0.0, -0.577350269189626);
 		Point2D rightCorner = new Point2D(0.5, 0.288675134594813);
@@ -145,7 +145,7 @@ public class Visualizer {
 		
 	}
 	
-	public double distancePointLine(Point2D PV, Point2D LV1, Point2D LV2) {
+	public static double distancePointLine(Point2D PV, Point2D LV1, Point2D LV2) {
 		// PV = Point ; LV1 = Line Point 1 ; LV2 = Line Point 2
 		//double dist = Math.abs((L2.y()-L1.y())*P.x()-(L2.x()-L1.x())*P.y()+L2.x()*L1.y()-L2.y()*L1.x()) / Math.sqrt(Math.sqrt((L2.y()-L1.y())+Math.sqrt(L2.x()-L1.x())));
 										
@@ -165,7 +165,7 @@ public class Visualizer {
 		return ostart + (ostop - ostart) * ((value - istart) / (istop - istart));
 		}
 	
-	public double mapValue(double _value, double _valMin, double _valMax, double _destMin, double _destMax){
+	public static double mapValue(double _value, double _valMin, double _valMax, double _destMin, double _destMax){
         double proportion = (_value - _valMin) / (_valMax - _valMin);  // calculate the proportion between 0 and 1
         double scal = _destMax - _destMin;                             
         double result = (proportion * scal) + _valMin;                 // now scale it according to the desired scale
