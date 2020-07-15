@@ -43,9 +43,30 @@ public class triangleWidget {
 			Point2D p = sub.getPointByIndex(_t);
 			double px = (p.x()*100)+100;
 			double py = (p.y()*100)+87;
-			gL.strokeOval(px, py, 5, 5);
+			gL.fillOval(px-2, py-2, 4, 4);
 		}
 		
 	}
+	
+	public static void drawAFA(int _t) {
+		gL.setFill(Color.WHITE);
+		Point2D pointAFA = Sample.getAFA(_t);
+		double px = (pointAFA.x()*100)+100;
+		double py = (pointAFA.y()*100)+87;
+		gL.fillOval(px-5, py-5, 10, 10);
+	}
+	
+	public static void drawConnections(int _t) {
+		Point2D pointAFA = Sample.getAFA(_t);
+		double afaX = (pointAFA.x()*100)+100;;
+		double afaY = (pointAFA.y()*100)+87;
+		for (Subject sub: Sample.SubjectsList) {
+			Point2D p = sub.getPointByIndex(_t);
+			double px = (p.x()*100)+100;
+			double py = (p.y()*100)+87;
+			gL.strokeLine(afaX, afaY, px, py);
+		}
+	}
+	
 	
 }

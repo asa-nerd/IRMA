@@ -32,7 +32,7 @@ public class Visualizer {
 	Sample s;
 	ScrollPane sc;
 	GraphicsContext gc1, gc2;
-	double  zoomFactor = 4;
+	double  zoomFactor = 1;
 	VBox moduleContainer; 
 	HBox guiContainer;
 	StackPane timelineContainer;
@@ -97,12 +97,11 @@ public class Visualizer {
 	}
 	
 	public void updateTimeline() {
-		//int lineListLength = timelineCanvas.getChildren().size();
-		
 		for (int i = 0; i < lines.size(); i++) {
 			Line l = lines.get(i);
 			l.setStartX(i*stepSize+0.5);
 			l.setEndX(i*stepSize+0.5);
+			l.setStrokeWidth(1*zoomFactor);
 		}
 		timelineCanvas.setPrefSize(lines.size()*zoomFactor*2,400);
 	}
@@ -110,17 +109,11 @@ public class Visualizer {
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
 		
 		playbackCanvas.getChildren().add(playbackLine);
-		
-		
-		
-		//stackedCanvas.setStyle("-fx-background-color: black;");
 		timelineCanvas.setPrefSize(1200,400);
 	    int rangeLength = _end - _begin;
+	    double originX =  200;
 	    stepSize = zoomFactor*2;
 	    timelineCanvas.setPrefWidth(rangeLength * stepSize);
-		
-	    
-		double originX =  200;
 
 		for (int i = _begin; i < _end; i = i + 1) {
 			double lHeight = s.getDOA(i)*400;					// get line height as current Deviation of Attention
@@ -142,42 +135,44 @@ public class Visualizer {
 		Point2D rightCorner = new Point2D(0.5, 0.288675134594813);
 		Point2D leftCorner = new Point2D(-0.5, 0.288675134594813);
 		Point2D currentPoint = _p;
-		double propRed = this.distancePointLine(currentPoint, leftCorner, topCorner); 		// get red
-		rgb[0] = map(propRed, 0.0, 0.88, 0.0, 255); 										// map Value and save it to rgb array
-		double propGreen = this.distancePointLine(currentPoint, topCorner, rightCorner); 	// get green
-	    rgb[1] = map(propGreen, 0, 0.88, 0, 255); 											// map Value and save it to rgb array
-		double propBlue = this.distancePointLine(currentPoint, rightCorner, leftCorner);	// get blue
-	    rgb[2] = map(propBlue, 0, 0.88, 0, 255); 											// map Value and save it to rgb array				
+		double propRed = distancePointLine(currentPoint, leftCorner, topCorner); 		// get red
+		rgb[0] = mapValue(propRed, 0.0, 0.88/2, 0, 255); 										// map Value and save it to rgb array
+		double propGreen = distancePointLine(currentPoint, topCorner, rightCorner); 	// get green
+	    rgb[1] = mapValue(propGreen, 0, 0.88/2, 0, 255); 											// map Value and save it to rgb array
+		double propBlue = distancePointLine(currentPoint, leftCorner, rightCorner);	// get blue
+	    rgb[2] = mapValue(propBlue, 0, 0.88/2, 0, 255); 											// map Value and save it to rgb array				
 		return rgb;
 		
 	}
 	
-	public double distancePointLine(Point2D _pointVector, Point2D _lineVector1, Point2D _lineVector2) {
-		//Distance = (| a*x1 + b*y1 + c |) / (sqrt( a*a + b*b))
-		
-		
-		Point2D P = _pointVector;
-		Point2D L1 = _lineVector1;
-		Point2D L2 = _lineVector2;
-		double dist = Math.abs((L2.y()-L1.y())*P.x()-(L2.x()-L1.x())*P.y()+L2.x()*L1.y()-L2.y()*L1.x()) / Math.sqrt(Math.sqrt((L2.y()-L1.y())+Math.sqrt(L2.x()-L1.x())));
-		
-	   /* //PVector slope = LV2.sub(LV1); 								// slope of line
-	    Point2D slope = new Point2D (LV2.x() - LV1.x(), LV2.y() - LV1.y());
+	public double distancePointLine(Point2D PV, Point2D LV1, Point2D LV2) {
+		// PV = Point ; LV1 = Line Point 1 ; LV2 = Line Point 2
+		//double dist = Math.abs((L2.y()-L1.y())*P.x()-(L2.x()-L1.x())*P.y()+L2.x()*L1.y()-L2.y()*L1.x()) / Math.sqrt(Math.sqrt((L2.y()-L1.y())+Math.sqrt(L2.x()-L1.x())));
+										
+	    Point2D slope = new Point2D (LV2.x() - LV1.x(), LV2.y() - LV1.y());		// slope of line
+	    double lineLengthi = slope.x() * slope.x() + slope.y() * slope.y();     // squared length of line;
+
 	    Point2D s = new Point2D(PV.x() - LV1.x(), PV.y() - LV1.y());
-		double ti = (s.x()* slope.x()+ s.y()*slope.y())/ 
-	    float ti = s.dot(slope) / lineLengthi;
-		Point2D p = new Point2D(slope.x() * ti, slope.y() * ti);		// crawl the line acoording to its slope to distance t
-		//PVector projectionOnLine = LV1.add(p);						// add the starting coordinates
-		Point2D projectionOnLine = new Point2D(LV1.x()+p.x(), LV1.y()+p.y());
-		//PVector subber = projectionOnLine.sub(PV);				// now calculate the distance of the measuring point to the projected point on the line
-		Point2D subber = new Point2D(projectionOnLine.x()- PV.x(), projectionOnLine.y()- PV.y());
+		double ti = (s.x()* slope.x()+ s.y()*slope.y())/lineLengthi;
+		Point2D p = new Point2D(slope.x() * ti, slope.y() * ti);				// crawl the line acoording to its slope to distance t
+		Point2D projectionOnLine = new Point2D(LV1.x()+p.x(), LV1.y()+p.y());	// add the starting coordinates			
+		Point2D subber = new Point2D(projectionOnLine.x()- PV.x(), projectionOnLine.y()- PV.y()); // now calculate the distance of the measuring point to the projected point on the line
 		double dist = (float) Math.sqrt(subber.x() * subber.x() + subber.y() * subber.y());
-		*/
 		return dist;
 	}
+	
 	public double map(double value, double istart, double istop, double ostart, double ostop) {
 		return ostart + (ostop - ostart) * ((value - istart) / (istop - istart));
 		}
+	
+	public double mapValue(double _value, double _valMin, double _valMax, double _destMin, double _destMax){
+        double proportion = (_value - _valMin) / (_valMax - _valMin);  // calculate the proportion between 0 and 1
+        double scal = _destMax - _destMin;                             
+        double result = (proportion * scal) + _valMin;                 // now scale it according to the desired scale
+        if (result > _destMax){result = _destMax;}                  // coinstrain value to 0 - 255
+        if (result < _destMin){result = _destMin;}
+        return result;
+    }
 	
 
 }

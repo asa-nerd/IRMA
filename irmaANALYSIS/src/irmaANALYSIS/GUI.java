@@ -84,8 +84,6 @@ public class GUI {
 		rootLayout.setBottom(bottom);
 		//rootLayout.getLef
 		
-		
-		
 		// Right: Triangle Widget
 		// --------------------------------------
 	    triangleWidget tri = new triangleWidget(sample);
@@ -123,12 +121,6 @@ public class GUI {
 	    Button drawButton = new Button("Draw");
 	    Button printButton = new Button("Print");
 	    
-	    drawButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-            	v.drawTimeline(0, sample.getShortestDataset());
-            }
-        });
-	   
 	    playButton.setOnAction(new EventHandler<ActionEvent>() {
 	   	    @Override public void handle(ActionEvent e) {   
 	   	    	if (globalIsPlaying != true) {
@@ -144,7 +136,9 @@ public class GUI {
 		   	   	        public void run(){ 
 		   	   	              tri.clearCanvas();
 		   	   	              v.drawPlaybackPosition(timerCounter);
+		   	   	              tri.drawConnections((int) timerCounter);
 		   	   	              tri.drawSample((int) timerCounter);
+		   	   	              tri.drawAFA((int) timerCounter);
 		   	   	              timerCounter ++;
 		   	   	        }
 		   	   	        
@@ -184,7 +178,6 @@ public class GUI {
 	   	    	}
 	   	    }
 	   	});
-	    
 	    printButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
             	System.out.println("print.");
@@ -196,7 +189,13 @@ public class GUI {
 	                job.endJob();
                 }
             }
+        });    
+	    drawButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override public void handle(ActionEvent e) {
+            	v.drawTimeline(0, sample.getShortestDataset());
+            }
         });
+	   
 	    
 	    HBox playButtonBox = new HBox();
 	    playButtonBox.getChildren().addAll(playButton, pauseButton, stopButton, drawButton, printButton);

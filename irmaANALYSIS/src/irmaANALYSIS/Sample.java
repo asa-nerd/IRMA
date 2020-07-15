@@ -58,7 +58,7 @@ public class Sample {
        return(SubjectsList.get(i)); 
     }
    
-    public Point2D getAFA(int _t) {												// Average Focus of Attention at _t
+    static public Point2D getAFA(int _t) {												// Average Focus of Attention at _t
     	double AFAx = 0;
     	double AFAy = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {
