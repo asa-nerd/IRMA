@@ -27,18 +27,20 @@ import math.geom2d.Point2D;
 
 
 import irmaANALYSIS.GUI;
+import irmaANALYSIS.timelineAFA;
 
-public class Visualizer {
+public class VisualizerTemporal {
 	Sample s;
 	ScrollPane sc;
 	GraphicsContext gc1, gc2;
-	double  zoomFactor = 1;
+	
 	VBox moduleContainer; 
 	HBox guiContainer;
 	StackPane timelineContainer;
 	Pane timelineCanvas;
 	Pane playbackCanvas;
 	
+	double  zoomFactor = 1;
 	double stepSize = zoomFactor*2;
 	
 	Line playbackLine;
@@ -46,8 +48,10 @@ public class Visualizer {
 	
 	ArrayList<Line> lines;
 	
+	ArrayList<timelineAFA> timelines;
 	
-	Visualizer (Sample _s){
+	
+	VisualizerTemporal (Sample _s){
 		s = _s;
 		sc = new ScrollPane();
 			moduleContainer = new VBox();
@@ -55,8 +59,9 @@ public class Visualizer {
 				timelineContainer = new StackPane();
 					timelineCanvas = new Pane();
 					playbackCanvas = new Pane();
-		sc.setMinSize(1200, 400);
-		sc.setMaxSize(1200, 400);
+		sc.setMinSize(1300, 400);
+		sc.setPrefSize(1360, 400);
+		sc.setMaxSize(1400, 400);
 		sc.setVbarPolicy(ScrollBarPolicy.ALWAYS);
 
         playbackLine = new Line(0*stepSize, 0, 0*stepSize, 400);
@@ -67,12 +72,12 @@ public class Visualizer {
         guiContainer.getChildren().add(zoomXSlider);
         timelineContainer.getChildren().addAll(timelineCanvas, playbackCanvas);
         
-        moduleContainer.getChildren().addAll(guiContainer, timelineContainer);
-        sc.setContent(moduleContainer);
-        GUI.rootLayout.setBottom(sc);
+       // moduleContainer.getChildren().addAll(guiContainer, timelineContainer);
+
+       // GUI.rootLayout.setBottom(sc);
         
         lines = new ArrayList<Line>();
-               
+        timelines = new ArrayList<timelineAFA>();
      
         zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 		 // Adding Listener to value property.
 	            public void changed(ObservableValue <? extends Number >  
@@ -82,19 +87,37 @@ public class Visualizer {
 	            	updateTimeline();
 	            } 
         });
+
+        sc.setContent(moduleContainer);
 	}
 	
 	
-	public Pane getTimelinePane() {
-		return timelineCanvas;
+	
+	public ScrollPane getTemporalContainer() {
+		return sc;
+	}
+	
+	public void makeTimelineElement(Sample _s) {
+		timelineAFA newTL = new timelineAFA(_s);
+		timelines.add(newTL);
+		moduleContainer.getChildren().add(newTL.getTimeline());
+		
+	}
+	
+	public void movePlaybackLines(int _t) {
+		for (int i = 0; i < timelines.size(); i++) {
+			timelineAFA tl = timelines.get(i);
+			tl.drawPlaybackPosition(_t);
+			
+		}
 	}
 	
 	
 	public void drawPlaybackPosition(double _t) {
 		playbackLine.setStartX(_t*stepSize);
-		playbackLine.setStartY(0);
+		playbackLine.setStartY(60);
 		playbackLine.setEndX(_t*stepSize);
-		playbackLine.setEndY(400);
+		playbackLine.setEndY(180);
 	}
 	
 	public void updateTimeline() {
@@ -106,6 +129,7 @@ public class Visualizer {
 		}
 		timelineCanvas.setPrefSize(lines.size()*zoomFactor*2,400);
 	}
+	
 	
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
 		

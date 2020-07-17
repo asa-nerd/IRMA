@@ -11,6 +11,8 @@ import javafx.scene.layout.*;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -21,7 +23,7 @@ import java.util.TimerTask;
 
 import irmaANALYSIS.Sample;
 import irmaANALYSIS.Subject;
-import irmaANALYSIS.triangleWidget;
+import irmaANALYSIS.VisualizerSpatial;
 
 // left: Subjects
 // center: Video
@@ -29,11 +31,17 @@ import irmaANALYSIS.triangleWidget;
 // bottom: timeline
 
 public class GUI {
-	static BorderPane rootLayout;
+	
 	Stage primaryStage;
+	
 	VBox mainStageContainer;
-	VBox top, left, right, center, bottom;
-	Button b1, b2;
+	HBox topContainer;
+	HBox bottomContainer;
+	
+	GridPane topLeftContainer;
+	VBox topMiddleContainer;
+	GridPane topRightContainer;
+	
 	static TableView table;
 	//static TableColumn tableColumnId, tableColumnRecording, tableColumnLength;
 	static TableColumn <Long, Subject> tableColumnId;
@@ -49,81 +57,73 @@ public class GUI {
 	static MediaPlayer mediaPlayer;
 	static MediaView mediaView;
 	
-	static triangleWidget tri;
+	static VisualizerSpatial tri;
 	
 	Sample sample;
 	
 	GUI(Stage _primaryStage, Sample _sample){
 		sample = _sample;
 		primaryStage = _primaryStage;
-		
+			
 		mainStageContainer = new VBox();
-		rootLayout = new BorderPane();
-		top = new VBox();
-		left = new VBox();
-		right = new VBox();
-		center = new VBox();
-		center.setMinWidth(300.0);
-		top.setMinHeight(100.0);
-		top.setStyle("-fx-background-color: #888");
-		right.setStyle("-fx-background-color: #888");
-		right.setMinWidth(300.0);
-		right.setPrefHeight(400.0);
-		right.setMaxHeight(400.0);
-		left.setMinWidth(300.0);
-		left.setPrefWidth(300.0);
-		left.setMaxWidth(300.0);
-		left.setMinHeight(200.0);
-		left.setPrefHeight(300.0);
-		left.setMaxHeight(400.0);
-		b1 = new Button("Play");
-		b2 = new Button("Pause");
-		bottom = new VBox(b1, b2);
-		//rootLayout.setTop(top);
-		rootLayout.setLeft(left);
-		rootLayout.setRight(right);
-		rootLayout.setCenter(center);
-		rootLayout.setBottom(bottom);
-		//rootLayout.getLef
+		topContainer = new HBox();
+		bottomContainer = new HBox();
+		topLeftContainer = new GridPane();
+		topMiddleContainer = new VBox();
+		topRightContainer = new GridPane();;
 		
-		// Right: Triangle Widget
-		// --------------------------------------
-	    tri = new triangleWidget(sample);
-	    
-	    
-	    
-        
-	    // Bottom: Visualizer
-	 	// --------------------------------------
-	    Visualizer v = new Visualizer (sample);										// initialize visualizer 
-	    
-	    
-   	    
-		// Left: Table
-		// --------------------------------------
-		table = makeSampleTable();
-		final Label label = new Label("Sample Data");
-		final VBox vbox = new VBox();
-	    Button sampleLoadButton = new Button("Load Data");
-	    vbox.setSpacing(5);
-	    vbox.setPadding(new Insets(10, 0, 0, 10));
-	    vbox.getChildren().addAll(label, table, sampleLoadButton);
-	       
-	    rootLayout.setLeft(vbox);
+		topContainer.getChildren().addAll(topLeftContainer, topMiddleContainer, topRightContainer);		
 		
-	    // Center: Video
+		HBox.setMargin(topLeftContainer, new Insets( 0, 16, 0, 0 ) );
+	    HBox.setMargin(topMiddleContainer, new Insets( 0, 16, 0, 0 ) );
+	    topRightContainer.setStyle("-fx-border-color: white");
+	    
+		// Bottom: Temporal Visualizer
 	 	// --------------------------------------
+	    VisualizerTemporal v = new VisualizerTemporal(sample);										// initialize visualizer 
+	    ScrollPane t = v.getTemporalContainer();
+	    bottomContainer.getChildren().add(t);
+			    
+			    
+		// Top-Left: Main Navigation
+		// --------------------------------------
+		
+	    Label labelVideo = new Label("Video");
+	    Label labelVisualization = new Label("Visualize");
+	    Label labelStatistic = new Label("Statistical Methods");
 	    
-	   
+	    Line lineVideo = new Line(0,0,212,0);
+	    lineVideo.setStroke(Color.rgb(112,112,112));
+	    Line lineVis= new Line(0,0,212,0);
+	    lineVis.setStroke(Color.rgb(112,112,112));
+	    Line lineStat = new Line(0,0,212,0);
+	    lineStat.setStroke(Color.rgb(112,112,112));
 	    
-	    // Top: Buttons 
-	    // --------------------------------------
-       
-	    Button playButton = new Button("Play");
-	    Button pauseButton = new Button("Pause");
-	    Button stopButton = new Button("Stop");
-	    Button drawButton = new Button("Draw");
-	    Button printButton = new Button("Print");
+	    Button playButton = new Button("P");
+	    Button pauseButton = new Button("Pa");
+	    Button stopButton = new Button("St");
+	    Button drawButton = new Button("FA");
+	    Button attentionButton = new Button("AT");
+	    Button printButton = new Button("Pr");
+	    
+	    labelVideo.getStyleClass().add("main-navi-label");
+	    labelVisualization.getStyleClass().add("main-navi-label");
+	    labelStatistic.getStyleClass().add("main-navi-label");
+	    
+	    playButton.getStyleClass().add("main-navi-button");
+	    pauseButton.getStyleClass().add("main-navi-button");
+	    stopButton.getStyleClass().add("main-navi-button");
+	    drawButton.getStyleClass().add("main-navi-button");
+	    attentionButton.getStyleClass().add("main-navi-button");
+	    printButton.getStyleClass().add("main-navi-button");
+	    
+	    playButton.setPrefSize(26, 26);
+	    pauseButton.setPrefSize(26, 26);
+	    stopButton.setPrefSize(26, 26);
+	    drawButton.setPrefSize(26, 26);
+	    attentionButton.setPrefSize(26, 26);
+	    printButton.setPrefSize(26, 26);
+
 	    
 	    playButton.setOnAction(new EventHandler<ActionEvent>() {
 	   	    @Override public void handle(ActionEvent e) {   
@@ -139,13 +139,13 @@ public class GUI {
 	
 		   	   	        public void run(){ 
 			   	   	      Platform.runLater(() -> {					// runLater() is necessary for threading, eventually replace with JavaFX timeline
-					   	   	    tri.clearCanvas();			
+					   	   	  			
 			   	   	            v.drawPlaybackPosition(timerCounter);
+			   	   	            v.movePlaybackLines((int) timerCounter);
 			   	   	            tri.drawSampleVector((int) timerCounter);
 			   	   	            timerCounter ++;
 			              });
-		   	   	        }
-		   	   	        
+		   	   	        }		   	   	        
 		   	   	    };
 			   	    globalTimer.scheduleAtFixedRate(task, 0, 100l);
 			   	    globalIsPlaying = true;
@@ -174,7 +174,6 @@ public class GUI {
 	   	    	if (globalIsPlaying == true) {
 		   	    	timerCounter = 0;
 		   	    	timerPaused = false;
-		   	    	tri.clearCanvas();
 		   	    	globalTimer.cancel();
 		   	    	globalTimer.purge();
 		   	    	globalIsPlaying= false;
@@ -185,7 +184,7 @@ public class GUI {
 	    printButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
             	System.out.println("print.");
-            	Pane p = v.getTimelinePane();
+            	ScrollPane p = v.getTemporalContainer();
             	PrinterJob job = PrinterJob.createPrinterJob();
                 if(job != null){
 	                job.showPrintDialog(primaryStage); 
@@ -196,32 +195,81 @@ public class GUI {
         });    
 	    drawButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-            	v.drawTimeline(0, sample.getShortestDataset());
+            	//v.drawTimeline(0, sample.getShortestDataset());
+            	v.makeTimelineElement(sample);
             }
         });
 	   
 	    
-	    HBox playButtonBox = new HBox();
-	    playButtonBox.getChildren().addAll(playButton, pauseButton, stopButton, drawButton, printButton);
-	    top.getChildren().add(playButtonBox);
-	    rootLayout.setTop(top);
 	    
+	    topLeftContainer.setHgap(6);
+	    topLeftContainer.setVgap(6);
+	    topLeftContainer.add(labelVideo, 0, 0, 6, 1);
+	    topLeftContainer.add(lineVideo, 0, 1, 6, 1);
+	    //topLeftContainer.setGridLinesVisible(true);
+	    
+	    topLeftContainer.add(playButton, 0, 2);
+	    topLeftContainer.add(pauseButton, 1, 2);
+	    topLeftContainer.add(stopButton, 2, 2);
+	   
+	    topLeftContainer.add(labelVisualization, 0, 4, 6, 1);
+	    topLeftContainer.add(lineVis, 0, 5, 6, 1);
+	    topLeftContainer.add(drawButton, 0, 6);
+	    topLeftContainer.add(attentionButton, 1, 6);
+	    topLeftContainer.add(printButton, 2, 6);
+	    topLeftContainer.add(labelStatistic, 0,8, 6, 1);
+	    topLeftContainer.add(lineStat, 0, 9, 6, 1);
+	    
+	    
+			 
+	    // Top-Middle: Data Table
+		// --------------------------------------
+		table = makeSampleTable();
+	    topMiddleContainer.getChildren().add(table);
+	    
+			    
+		// Top-Right: Spatial Visualizer
+		// --------------------------------------
+	    tri = new VisualizerSpatial(sample);
+	    HBox spatialConatiner = tri.getSpatialContainer();
+	    topRightContainer.getChildren().add(spatialConatiner);
+
 	    // Menu Bar
 	    // --------------------------------------
 	    MenuBarFX mbfx = new MenuBarFX(primaryStage);
 	    VBox mbfxContainer = mbfx.getMainMenu();
 	    
-	    // Set whole Scene
+	    // Set whole GUI Scene
 	    // --------------------------------------
+	    mainStageContainer.getChildren().addAll(mbfxContainer, topContainer, bottomContainer);
 	    
-	    mainStageContainer.getChildren().addAll(mbfxContainer, rootLayout);
-	 	
+	    
+	    
+	    
+	    topLeftContainer.setPrefSize(212, 400);
+	    topLeftContainer.setMinSize(212, 400);
+	    topLeftContainer.setMaxSize(212, 400);
+	    
+	    topMiddleContainer.setPrefSize(554, 400);
+	    topMiddleContainer.setMinSize(554, 400);
+	    topMiddleContainer.setMaxSize(554, 400);
+	    
+	    topRightContainer.setPrefSize(554, 400);
+	    topRightContainer.setMinSize(554, 400);
+	    topRightContainer.setMaxSize(554, 400);
+	    topContainer.setPadding(new Insets(20, 20, 10, 20));
+	    bottomContainer.setPadding(new Insets(10, 20, 20, 20));
+	    
+	    topContainer.setMaxHeight(400);
+	    topContainer.setPrefHeight(400);
+	    bottomContainer.setMinHeight(400);
+	    bottomContainer.setPrefHeight(400);
 	}
 	
-	
-	/*public static void makeTriangleData(){
-    	tri.makeSample();
-    }*/
+
+	public VBox getLayout() {
+		return mainStageContainer;
+	}
 	
 	static public void makeVideo(String _f) {
 		String n = "file:"+_f;
@@ -229,16 +277,8 @@ public class GUI {
 	    mediaPlayer = new MediaPlayer(media);  
 	    mediaView = new MediaView (mediaPlayer);
 	    mediaView.setFitWidth(500);
-	    
-	    rootLayout.setCenter(mediaView);
+	   // rootLayout.setCenter(mediaView);
 		
-	}
-	public void setSize(long w, long h) {
-		
-	}
-	
-	public VBox getLayout() {
-		return mainStageContainer;
 	}
 	
 	public static void updateSampleTable() {
@@ -263,6 +303,11 @@ public class GUI {
 		// tableColumnLength = new TableColumn<>("Length");
 		tableColumnId.setSortable(false);
 		tableColumnRecordName.setSortable(false);
+		
+		tableColumnId.setPrefWidth(40);
+		tableColumnRecordName.setPrefWidth(140);
+		tableColumnAge.setPrefWidth(40);
+		tableColumnEducation.setPrefWidth(180);
 		//tableColumnLength.setSortable(false);
 		thisTable.getColumns().addAll(tableColumnId, tableColumnRecordName, tableColumnAge, tableColumnEducation);
 		return thisTable;

@@ -28,7 +28,7 @@ import javafx.stage.Stage;
 import irmaANALYSIS.Sample;
 import irmaANALYSIS.Subject;
 import irmaANALYSIS.GUI;
-import irmaANALYSIS.triangleWidget;
+import irmaANALYSIS.VisualizerSpatial;
 
 public class MenuBarFX extends MenuBar{
 	
@@ -43,7 +43,7 @@ public class MenuBarFX extends MenuBar{
 		fileMenu = new Menu("File"); 
 		editMenu = new Menu("Edit"); 
 		controlMenu = new Menu("Control");
-	    analyzeMenu = new Menu("Analyze");
+	    analyzeMenu = new Menu("Visualize");
 		
 	    
 	     f1=new MenuItem("Load Sample Data");  
