@@ -34,7 +34,7 @@ public class VisualizerTemporal {
 	ScrollPane sc;
 	GraphicsContext gc1, gc2;
 	
-	VBox moduleContainer; 
+	static VBox moduleContainer; 
 	HBox guiContainer;
 	StackPane timelineContainer;
 	Pane timelineCanvas;
@@ -48,7 +48,9 @@ public class VisualizerTemporal {
 	
 	ArrayList<Line> lines;
 	
-	ArrayList<timelineAFA> timelines;
+	static ArrayList<timeline> timelines;
+	
+	int timelineCounter = 0;
 	
 	
 	VisualizerTemporal (Sample _s){
@@ -77,7 +79,8 @@ public class VisualizerTemporal {
        // GUI.rootLayout.setBottom(sc);
         
         lines = new ArrayList<Line>();
-        timelines = new ArrayList<timelineAFA>();
+        //timelines = new ArrayList<timelineAFA>();
+        timelines = new ArrayList<timeline>();
      
         zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 		 // Adding Listener to value property.
 	            public void changed(ObservableValue <? extends Number >  
@@ -97,16 +100,53 @@ public class VisualizerTemporal {
 		return sc;
 	}
 	
-	public void makeTimelineElement(Sample _s) {
-		timelineAFA newTL = new timelineAFA(_s);
-		timelines.add(newTL);
-		moduleContainer.getChildren().add(newTL.getTimeline());
+	public static void discardTimeline(int id) {
+		for (int i = 0; i < timelines.size(); i++) {
+			int cid = timelines.get(i).id;
+			if (cid == id) {
+				timelines.remove(i);
+				moduleContainer.getChildren().clear();
+				return;
+			}
+		}
+	}
+	
+	public static void clearTimelines() {
+		moduleContainer.getChildren().clear();
+		timelines.clear();
+	}
+	
+	public void makeTimelineElement(Sample _s, String _type) {
 		
+		switch(_type) {
+			case "AFA":
+				timelineAFA newTL = new timelineAFA(_s, timelineCounter);
+				timelines.add(newTL);
+				moduleContainer.getChildren().add(newTL.getTimeline());
+				break;
+			case "ATTENTION":
+				timelineActivity newTLA = new timelineActivity(_s, timelineCounter);
+				timelines.add(newTLA);
+				moduleContainer.getChildren().add(newTLA.getTimeline());
+				break;
+			case "SUBJECTACTIVITY":
+				timelineSubjectsActivity newTSA = new timelineSubjectsActivity(_s, timelineCounter);
+				timelines.add(newTSA);
+				moduleContainer.getChildren().add(newTSA.getTimeline());
+				break;
+			case "SUBJECTATTENTION":
+				timelineSubjectsAttention newTSAT = new timelineSubjectsAttention(_s, timelineCounter);
+				timelines.add(newTSAT);
+				moduleContainer.getChildren().add(newTSAT.getTimeline());
+				break;
+				
+		}	
+		timelineCounter ++;
 	}
 	
 	public void movePlaybackLines(int _t) {
 		for (int i = 0; i < timelines.size(); i++) {
-			timelineAFA tl = timelines.get(i);
+			timeline tl = (timeline) timelines.get(i);
 			tl.drawPlaybackPosition(_t);
 			
 		}

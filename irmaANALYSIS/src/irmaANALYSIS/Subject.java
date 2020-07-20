@@ -125,5 +125,15 @@ public class Subject {
 		return PointsList.get(_t).getPoint();
 	}
 	
+	public double getActivity(int _t) {
+		double currentActivity;
+		if (_t == 0) {
+			currentActivity = 0;	
+		}else {
+			currentActivity = PointsList.get(_t).getActivityData();
+		}
+		return currentActivity;
+	}
+	
 	// 3. Visualize
 }

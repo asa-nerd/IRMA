@@ -1,6 +1,9 @@
 package irmaANALYSIS;
 
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
+import javafx.print.PrinterJob;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.ComboBox;
@@ -55,7 +58,9 @@ public class VisualizerSpatial {
 		MenuItem c2=new MenuItem("Color Edges");
 		MenuItem c3=new MenuItem("Dimensions Labels");
 		MenuItem c4=new MenuItem("Subject Labels");
-		m.getItems().addAll(c1, c2, c3, c4);
+		MenuItem c5=new MenuItem("Convex Hull");
+		MenuItem c6=new MenuItem("Cluster Analysis");
+		m.getItems().addAll(c1, c2, c3, c4, c5, c6);
 		VBox.setMargin(m,new Insets(6,6,6,6));
 		
 		MenuPullDown m2 = new MenuPullDown("Export");
@@ -82,11 +87,30 @@ public class VisualizerSpatial {
         
         HBox.setMargin(triangleContainer, new Insets(50, 0, 0, 0));
         
+        e1.setOnAction(new EventHandler<ActionEvent>() {public void handle(ActionEvent event) {	// Load Data Menu Function
+	        	PrinterJob job = PrinterJob.createPrinterJob();
+	            if(job != null){
+	         		job.showPrintDialog(IrmaANALYSIS.getPrimaryStage()); 
+	                boolean printed = job.printPage(triangleContainer);
+	                if (printed) {
+	                    job.endJob();
+	                }else{
+	                    System.out.println("Print failed");
+	                }
+	            }
+	    	}
+	    });
         
 	}
 	
 	public HBox getSpatialContainer() {
 		return mainContainer;
+	}
+	
+	public static void clearSpatial() {
+		dataCanvas.getChildren().clear();
+		subjectCircles.clear();
+		subjectLines.clear();
 	}
 	
 	public void makeBGTriangle() {

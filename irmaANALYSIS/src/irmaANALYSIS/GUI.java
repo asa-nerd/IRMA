@@ -102,8 +102,10 @@ public class GUI {
 	    Button playButton = new Button("P");
 	    Button pauseButton = new Button("Pa");
 	    Button stopButton = new Button("St");
-	    Button drawButton = new Button("FA");
-	    Button attentionButton = new Button("AT");
+	    Button VisAFAButton = new Button("FA");
+	    Button VisActivityButton = new Button("AC");
+	    Button VisSubActivityButton = new Button("SAC");
+	    Button VisSubAttentionButton = new Button("SAT");
 	    Button printButton = new Button("Pr");
 	    
 	    labelVideo.getStyleClass().add("main-navi-label");
@@ -113,15 +115,19 @@ public class GUI {
 	    playButton.getStyleClass().add("main-navi-button");
 	    pauseButton.getStyleClass().add("main-navi-button");
 	    stopButton.getStyleClass().add("main-navi-button");
-	    drawButton.getStyleClass().add("main-navi-button");
-	    attentionButton.getStyleClass().add("main-navi-button");
+	    VisAFAButton.getStyleClass().add("main-navi-button");
+	    VisActivityButton.getStyleClass().add("main-navi-button");
+	    VisSubActivityButton.getStyleClass().add("main-navi-button");
+	    VisSubAttentionButton.getStyleClass().add("main-navi-button");
 	    printButton.getStyleClass().add("main-navi-button");
 	    
 	    playButton.setPrefSize(26, 26);
 	    pauseButton.setPrefSize(26, 26);
 	    stopButton.setPrefSize(26, 26);
-	    drawButton.setPrefSize(26, 26);
-	    attentionButton.setPrefSize(26, 26);
+	    VisAFAButton.setPrefSize(26, 26);
+	    VisActivityButton.setPrefSize(26, 26);
+	    VisSubActivityButton.setPrefSize(26, 26);
+	    VisSubAttentionButton.setPrefSize(26, 26);
 	    printButton.setPrefSize(26, 26);
 
 	    
@@ -193,14 +199,29 @@ public class GUI {
                 }
             }
         });    
-	    drawButton.setOnAction(new EventHandler<ActionEvent>() {
+	    VisAFAButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-            	//v.drawTimeline(0, sample.getShortestDataset());
-            	v.makeTimelineElement(sample);
+            	v.makeTimelineElement(sample, "AFA");
             }
         });
-	   
 	    
+	    VisActivityButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override public void handle(ActionEvent e) {
+            	v.makeTimelineElement(sample, "ATTENTION");
+            }
+        });
+	    
+	    VisSubActivityButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override public void handle(ActionEvent e) {
+            	v.makeTimelineElement(sample, "SUBJECTACTIVITY");
+            }
+        });
+	    
+	    VisSubAttentionButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override public void handle(ActionEvent e) {
+            	v.makeTimelineElement(sample, "SUBJECTATTENTION");
+            }
+        });
 	    
 	    topLeftContainer.setHgap(6);
 	    topLeftContainer.setVgap(6);
@@ -214,13 +235,13 @@ public class GUI {
 	   
 	    topLeftContainer.add(labelVisualization, 0, 4, 6, 1);
 	    topLeftContainer.add(lineVis, 0, 5, 6, 1);
-	    topLeftContainer.add(drawButton, 0, 6);
-	    topLeftContainer.add(attentionButton, 1, 6);
-	    topLeftContainer.add(printButton, 2, 6);
+	    topLeftContainer.add(VisAFAButton, 0, 6);
+	    topLeftContainer.add(VisActivityButton, 1, 6);
+	    topLeftContainer.add(VisSubActivityButton, 2, 6);
+	    topLeftContainer.add(VisSubAttentionButton, 3, 6);
+	    topLeftContainer.add(printButton, 4, 6);
 	    topLeftContainer.add(labelStatistic, 0,8, 6, 1);
 	    topLeftContainer.add(lineStat, 0, 9, 6, 1);
-	    
-	    
 			 
 	    // Top-Middle: Data Table
 		// --------------------------------------

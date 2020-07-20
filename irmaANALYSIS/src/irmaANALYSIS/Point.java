@@ -43,6 +43,10 @@ public class Point{
   public Point2D getPoint(){
      return thisPoint;
   }
+  
+  public double getActivityData() {
+	  return activity;
+  }
 }
 
 

@@ -7,22 +7,29 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.event.*;
+import javafx.geometry.Bounds;
 import javafx.geometry.Insets;
 import javafx.print.PageLayout;
 import javafx.print.Paper;
 import javafx.print.PrinterJob;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Slider;
+import javafx.scene.input.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
+import javafx.scene.shape.Rectangle;
 import javafx.stage.FileChooser;
 import math.geom2d.Point2D;
+
+import irmaANALYSIS.VisualizerTemporal;
 
 public class timeline {
 	
@@ -37,15 +44,33 @@ public class timeline {
 	Pane playbackLayer;
 	
 	Sample s;
+	int id;
 	
-	double  zoomFactor = 1;
+	double zoomFactor = 1;
+	double yScale = 1;
 	double stepSize = zoomFactor*2;
 	
-	Line playbackLine;
+	timelinePlaybackMarker playMarker;
 	Slider zoomXSlider;
+	Slider zoomYSlider;
+	Slider clusterIntervalSlider;
+	Label zoomXLabel;
+	Label zoomYLabel;
+	Label clusterIntervalLabel;
+	
+	ArrayList<Line> gridLines;
+	ArrayList<timelineMarker> markerList;
+	
+	Rectangle timelineScale;
+	 
 
-	timeline(Sample _s){
+	timeline(Sample _s, int _id){
 		s = _s;
+		id = _id;
+		gridLines = new ArrayList<Line>();
+		markerList = new ArrayList<timelineMarker>();
+		playMarker = new timelinePlaybackMarker();
+		
 		mainContainer = new HBox();
 		guiContainer = new VBox();
 		visualContainer = new Pane();
@@ -55,34 +80,49 @@ public class timeline {
 		dataLayer = new Pane();
 		markerLayer = new Pane();
 		playbackLayer = new Pane();
-		
+		layerContainer.setStyle("-fx-background-color: rgba(255,255,255, 0.2);");
 		layerContainer.getChildren().addAll(scaleLayer, dataLayer, markerLayer, playbackLayer);
 		scrollContainer.setContent(layerContainer);
 		visualContainer.getChildren().add(scrollContainer);
 		mainContainer.getChildren().addAll(guiContainer, visualContainer);
 		
-		mainContainer.getStyleClass().add("timeline-main");
+		mainContainer.getStyleClass().add("timeline");
 		
 		mainContainer.setPrefSize(1160, 250);
 		mainContainer.setMinSize(1160, 250);
 		guiContainer.setPrefSize(108, 250);
 		guiContainer.setMinSize(108, 250);
-		visualContainer.setPrefSize(1020, 220);
-		visualContainer.setMinSize(1020, 220);
-		scrollContainer.setPrefSize(1020, 250);
-		scrollContainer.setMinSize(1020, 250);
-		layerContainer.setPrefSize(1020, 220);
-		layerContainer.setMinSize(1020, 220);
+		visualContainer.setPrefSize(1220, 220);
+		visualContainer.setMinSize(1220, 220);
+		scrollContainer.setPrefSize(1220, 250);
+		scrollContainer.setMinSize(1220, 250);
+		layerContainer.setPrefSize(1220, 220);
+		layerContainer.setMinSize(1220, 220);
 		layerContainer.setMaxHeight(220);
 		
-		playbackLine = new Line();
-        playbackLine.setStroke(Color.RED);
+		//playbackLine = new Line();
+        //playbackLine.setStroke(Color.RED);
+		playbackLayer.getChildren().add(playMarker.getMarkerNode());
         
-        
+		timelineScale = new Rectangle(0,0,1400,20);
+		timelineScale.setFill(Color.WHITE);
+		
+		
+		timelineScale.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent e) {
+            	System.out.println("x: ");
+            	makeMarker(e.getX());
+             }
+ 
+          });
+		playbackLayer.getChildren().add(timelineScale);
+		
         MenuPullDown m1 = new MenuPullDown("Config");
 		MenuItem c1=new MenuItem("Color On/Off");
 		MenuItem c2=new MenuItem("Follow PLayback");
-		m1.getItems().addAll(c1, c2);
+		MenuItem c3=new MenuItem("Discard Timeline");
+		m1.getItems().addAll(c1, c2, c3);
 		VBox.setMargin(m1,new Insets(0,0,6,0));
 		
 		MenuPullDown m2 = new MenuPullDown("Visual");
@@ -114,9 +154,23 @@ public class timeline {
 		m5.getItems().addAll(d1);
 		VBox.setMargin(m5,new Insets(0,0,6,0));
 		
-        zoomXSlider = new Slider(0.1,10,1);
-		guiContainer.getChildren().addAll(m1, m2, m3,m4,m5, zoomXSlider);
+        zoomXSlider = new Slider(0.1,10, 1);
+        zoomYSlider = new Slider(0.1, 5, 1);
+        clusterIntervalSlider = new Slider(1, 100, 1);
+        zoomXLabel = new Label("Zoom X");
+        zoomYLabel = new Label("Zoom Y");
+        clusterIntervalLabel = new Label("Cluster Interval");
+        zoomXSlider.setPrefSize(90, 20);
+        zoomYSlider.setPrefSize(90, 20);
+        zoomXLabel.getStyleClass().add("sliderlabel");
+        zoomYLabel.getStyleClass().add("sliderlabel");
+        clusterIntervalLabel.getStyleClass().add("sliderlabel");
+		guiContainer.getChildren().addAll(m1, m2, m3,m4,m5, zoomXSlider, zoomXLabel, zoomYSlider, zoomYLabel, clusterIntervalSlider, clusterIntervalLabel);
 		
+		c3.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
+			VisualizerTemporal.discardTimeline(id);
+		}});
+
 		e1.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
 			FileChooser fileChooser = new FileChooser();
 			fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("png files (*.png)", "*.png"));
@@ -125,16 +179,16 @@ public class timeline {
 		}});
 		
 		e2.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
-			PrinterJob job = PrinterJob.createPrinterJob();
-	           if(job != null){
-	        		job.showPrintDialog(IrmaANALYSIS.getPrimaryStage()); 
-	        		boolean printed = job.printPage(scrollContainer);
-	                if (printed) {
-	                    job.endJob();
-	                }else{
-	                    System.out.println("Print failed");
-	                }
-	           }
+		   PrinterJob job = PrinterJob.createPrinterJob();
+           if(job != null){
+        		job.showPrintDialog(IrmaANALYSIS.getPrimaryStage()); 
+        		boolean printed = job.printPage(scrollContainer);
+                if (printed) {
+                    job.endJob();
+                }else{
+                    System.out.println("Print failed");
+                }
+           }
 		}});
 		
 		e3.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
@@ -150,15 +204,22 @@ public class timeline {
            }
 	    }});
 		
-		e4.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
-			
-		}});
+		
 		
 		zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 		 	// Adding Listener to value property.
             public void changed(ObservableValue <? extends Number >  
-                      observable, Number oldValue, Number newValue){ 
+                	observable, Number oldValue, Number newValue){ 
             	zoomFactor = (Double) newValue;
             	stepSize = zoomFactor*2;
+            	updateTimeline();
+            	updateScale();
+            } 
+        });
+		
+		zoomYSlider.valueProperty().addListener(new ChangeListener<Number>() { 		 	// Adding Listener to value property.
+            public void changed(ObservableValue <? extends Number >  
+                      observable, Number oldValue, Number newValue){ 
+            	yScale = (Double) newValue;
             	updateTimeline();
             } 
         });
@@ -176,11 +237,36 @@ public class timeline {
 		
 	}
 	
+	public void drawScale(int _begin, int _end) {
+		for (int i = _begin; i < _end; i+= 20) {
+			Line l = new Line(i*stepSize+0.5, 0, i*stepSize+0.5, 240);
+			l.setStroke(Color.rgb(255,255,255, 0.2));
+			l.setStrokeWidth(1);
+			gridLines.add(l);
+						
+		}
+		scaleLayer.getChildren().addAll(gridLines);
+	}
+	
+	public void updateScale() {
+		for (int i = 0; i < gridLines.size(); i++) {
+			Line l = gridLines.get(i);
+			l.setStartX(i*20*stepSize+0.5);
+			l.setEndX(i*20*stepSize+0.5);
+		}
+	}
+	
+	
 	public void drawPlaybackPosition(double _t) {
-		playbackLine.setStartX(_t*stepSize);
-		playbackLine.setStartY(0);
-		playbackLine.setEndX(_t*stepSize);
-		playbackLine.setEndY(200);
+		playMarker.moveTo(_t*stepSize);
+		playMarker.setLabel(_t);
+	}
+	
+	public void makeMarker(double _xPos) {
+		
+		timelineMarker tm = new timelineMarker(_xPos);
+		markerList.add(tm);
+		playbackLayer.getChildren().add(tm.getMarkerNode());
 	}
 	
 	public static double[] getColor(Point2D _p) {

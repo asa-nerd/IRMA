@@ -29,12 +29,13 @@ import irmaANALYSIS.Sample;
 import irmaANALYSIS.Subject;
 import irmaANALYSIS.GUI;
 import irmaANALYSIS.VisualizerSpatial;
+import irmaANALYSIS.VisualizerTemporal;
 
 public class MenuBarFX extends MenuBar{
 	
 	MenuBar mb;
 	Menu fileMenu, editMenu, controlMenu, analyzeMenu;
-	MenuItem f1, f2, f3, f4, f5, c1, c2, c3, a1, a2, a3, a4; 
+	MenuItem f0, f1, f2, f3, f4, f5, c1, c2, c3, a1, a2, a3, a4; 
 	VBox vb;
     
 	
@@ -46,7 +47,8 @@ public class MenuBarFX extends MenuBar{
 	    analyzeMenu = new Menu("Visualize");
 		
 	    
-	     f1=new MenuItem("Load Sample Data");  
+	     f0=new MenuItem("Load Sample Data");
+	     f1=new MenuItem("Clear Sample");
 	     f2=new MenuItem("Load Project");
 	     f3=new MenuItem("Save Project");
 	     f4=new MenuItem("Load Video");
@@ -59,11 +61,11 @@ public class MenuBarFX extends MenuBar{
 	     a3=new MenuItem("Subjects – Focus");  
 	     a4=new MenuItem("Subjects – Activity");
 	     
-	     f1.setAccelerator(KeyCombination.keyCombination("Ctrl+L"));
+	     f0.setAccelerator(KeyCombination.keyCombination("Ctrl+L"));
 	     f5.setAccelerator(KeyCombination.keyCombination("Ctrl+Q"));
 	     
 	     
-	     f1.setOnAction(new EventHandler<ActionEvent>() {							// Load Data Menu Function
+	     f0.setOnAction(new EventHandler<ActionEvent>() {							// Load Data Menu Function
 	         public void handle(ActionEvent event) {
 	           FileChooser fileChooser = new FileChooser();							// Open File Chooser
 	           fileChooser.setTitle("Load Subject's Data");
@@ -93,6 +95,15 @@ public class MenuBarFX extends MenuBar{
 	         }
 	       });
 	     
+	     f1.setOnAction(new EventHandler<ActionEvent>() {							// Load Data Menu Function
+	         public void handle(ActionEvent event) {
+	        	 Sample.clearSample();
+	        	 VisualizerTemporal.clearTimelines();
+	        	 VisualizerSpatial.clearSpatial();
+	        	 GUI.updateSampleTable();
+	        	 
+	         }
+	     });
 	     f4.setOnAction(new EventHandler<ActionEvent>() {
 	         public void handle(ActionEvent event) {
 	        	 FileChooser fileChooser = new FileChooser();							// Open File Chooser
@@ -113,7 +124,7 @@ public class MenuBarFX extends MenuBar{
 	       });
 	    
 	     
-	     fileMenu.getItems().addAll(f1, new SeparatorMenuItem(), f2, f3, new SeparatorMenuItem(), f4, new SeparatorMenuItem(), f5);
+	     fileMenu.getItems().addAll(f0, f1, new SeparatorMenuItem(), f2, f3, new SeparatorMenuItem(), f4, new SeparatorMenuItem(), f5);
 	     controlMenu.getItems().addAll(c1, c2, c3);
 	     analyzeMenu.getItems().addAll(a1, a2, new SeparatorMenuItem(), a3, a4);
 

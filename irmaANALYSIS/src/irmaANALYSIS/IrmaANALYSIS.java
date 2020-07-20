@@ -46,7 +46,7 @@ public class IrmaANALYSIS extends Application{
 		VBox root = gui.getLayout();
 		Scene scene = new Scene(root, 1400, 900);
 		
-		root.setOnMousePressed(new EventHandler<MouseEvent>() {
+		/*root.setOnMousePressed(new EventHandler<MouseEvent>() {
 	            @Override
 	            public void handle(MouseEvent event) {
 	                xOffset = event.getSceneX();
@@ -61,9 +61,9 @@ public class IrmaANALYSIS extends Application{
 	            	primaryStage.setX(event.getScreenX() - xOffset);
 	            	primaryStage.setY(event.getScreenY() - yOffset);
 	            }
-	        });
+	        });*/
 		
-		scene.getStylesheets().add("/stylesheet.css");
+		scene.getStylesheets().add("/Ressources/stylesheet.css");
 		primaryStage.setScene(scene);
 		pStage = primaryStage;
 		primaryStage.show();

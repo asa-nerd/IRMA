@@ -36,6 +36,10 @@ public class Sample {
 	       datasetLength = 100;                              // amount of measuring points (temporal) of the sample  
 	}
 
+	public static void clearSample() {
+		SubjectsList.clear();
+	}
+	
 	public static void addSubject(Subject _s){
        SubjectsList.add(_s);
        //datasetLength = _s.subjectPoints.size();
@@ -85,5 +89,14 @@ public class Sample {
     	double deviationOfAttention = distance/SubjectsList.size();
     	return deviationOfAttention;
     	
+    }
+    
+    public double getActivity(int _t) {
+    	double sampleAct = 0;
+    	for (int i = 0; i < SubjectsList.size(); i ++) {
+    		double a = SubjectsList.get(i).getActivity(_t);
+    		sampleAct += a; 
+    	}
+    	return sampleAct;
     }
 }

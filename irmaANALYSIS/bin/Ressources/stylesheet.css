@@ -1,3 +1,13 @@
+@font-face {
+    /*font-family: Lato-Regular;*/
+    src: url('fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+   /* font-family: 'OswaldRegular';*/
+    src: url('fonts/Oswald/Oswald-Regular.ttf');
+}
+
 
 .root{
    -fx-background: rgb(36, 46, 64);
@@ -8,12 +18,12 @@
 	-fx-background-color: white;
 	-fx-border-radius: 0px;	
 	-fx-border: none;
-	-fx-font-family: Verdana;
+	-fx-font-family: 'Oswald';
 	-fx-font-size: 9px;
 }
 
 .main-navi-label{
-	-fx-font-family: Verdana;
+	-fx-font-family: 'Lato';
 	-fx-font-size: 12px;
 	-fx-text-fill: rgb(112,112,112);
 }
@@ -52,8 +62,9 @@
 .table-view{
 	-fx-background-color: rgba(255,255,255,0);
 	-fx-border-color: rgba(255,255,255,0.1);
-	-fx-font-family: Verdana;
+	-fx-font-family: 'Lato', Verdana;
 	-fx-font-size: 12px;
+	-fx-letter-spacing: 3px;
 	}
 
 .table-view .column-header .label{
@@ -96,12 +107,9 @@
 	-fx-alignment: CENTER;
 }
 
-
-
-
 .MenuPullDown  {
     -fx-font-size: 12px;
-    -fx-font-family: Verdana;
+    -fx-font-family: 'Lato';
     -fx-padding: 0;
  	-fx-background-color: rgb(255,255,255,1);
  	-fx-background-radius: 0;
@@ -127,7 +135,7 @@
 
 .MenuPullDown .menu-item{
 	-fx-font-size: 12px;
-    -fx-font-family: Verdana;
+    -fx-font-family: 'Lato';
 	-fx-border-color: rgb(112,112,112);
 	-fx-border-width: 0 0 1 0;
 	-fx-padding: 2 8 2 4;
@@ -141,6 +149,35 @@
     -fx-background-insets: 0;
     -fx-padding: 0;
 }
+
+
+/* Main MenuBar*/
+/*--------------------------------------*/
+
+.menu-bar .menu-item .label{
+    -fx-font-size: 12px;
+    -fx-font-family: 'Lato';
+}
+
+
+/* timeline */
+/*--------------------------------------*/
+
+.timeline .sliderlabel {
+	-fx-font-size: 12px;
+    -fx-font-family: 'Lato';
+}
+
+.marker .label {
+	-fx-font-size: 10px;
+    -fx-font-family: 'Lato';
+}
+
+.playbackmarker .label {
+	-fx-font-size: 10px;
+    -fx-font-family: 'Lato';
+}
+
 
 /*
 .spatialVisualizerGui .menu-item:focused, 
