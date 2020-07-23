@@ -58,8 +58,12 @@ public class timelineSubjectsAttention extends timeline{
 		    	Line line = new Line(i*stepSize+0.5, originX, i*stepSize+0.5, originX-5);		 		// make lines
 				line.setStroke(Color.rgb((int) c[0],(int) c[1],(int) c[2]));													// set color for line
 				line.setStrokeWidth(1*zoomFactor);
+				line.getProperties().put("timeCode", i);
+				line.getProperties().put("color", c);
 				subjectLines.add(line);
 		    }
+		    // add Rollover and Clickability
+			makeRollovers(subjectLines);
 		    dataLayer.getChildren().addAll(subjectLines);				// add all line Nodes to parent Pane
 		    originX += 20;
 	   }

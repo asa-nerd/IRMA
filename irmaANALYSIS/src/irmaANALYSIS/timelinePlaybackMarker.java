@@ -10,16 +10,20 @@ import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
 
 public class timelinePlaybackMarker {
+		
+		double currentPos;							// Variable to track the Position of the Playback Head
+		double initialX;
+		int timerPos;								// stores the current position of playback in timecode position of data
 		Line playbackLine;
 		Rectangle r;
-		Label l = new Label("10 s");
+		Label l = new Label("0");
 		Group g = new Group();
 		Color markerColor = Color.rgb(180,75,75);
-		double initialX;
-	     
+		
 	timelinePlaybackMarker(){
 		initialX = 0;
-		
+		currentPos = 0;
+		timerPos = 0;
 		
 		playbackLine = new Line(0,0,0,200);
         r = new Rectangle(0,0,40,20);
@@ -82,13 +86,26 @@ public class timelinePlaybackMarker {
 		return g;
 	}
 	
+	public void updateTimerPos(int _t) {
+		timerPos = _t;
+	}
+	
+	public int getTimerPos() {
+		return timerPos;
+	}
+	
+	/*public double getPosition() {
+		return currentPos;
+	}*/
+	
 	public void moveTo(double posX) {
 		g.relocate(posX, 40);	
+		currentPos = posX;
 	}
 	
 	public void setLabel(double _t) {
 		//double t = (double) _t;
-		_t = _t/2;
+		//_t = _t/2;
 		String txt = String.valueOf(_t);
 		l.setText(txt);
 	}

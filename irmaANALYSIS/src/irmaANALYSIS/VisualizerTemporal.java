@@ -148,7 +148,7 @@ public class VisualizerTemporal {
 		for (int i = 0; i < timelines.size(); i++) {
 			timeline tl = (timeline) timelines.get(i);
 			tl.drawPlaybackPosition(_t);
-			
+			tl.updatePlaybackTimer(_t);
 		}
 	}
 	

@@ -2,6 +2,9 @@ package irmaANALYSIS;
 
 import java.util.ArrayList;
 
+import javafx.event.EventHandler;
+import javafx.geometry.Bounds;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import math.geom2d.Point2D;
@@ -38,7 +41,6 @@ public class timelineAFA extends timeline{
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
 		
 		// General definitions
-		//playbackLayer.getChildren().add(playbackLine);
 	    int rangeLength = _end - _begin;
 	    stepSize = zoomFactor*2;
 	    layerContainer.setPrefWidth(rangeLength * stepSize);
@@ -50,10 +52,17 @@ public class timelineAFA extends timeline{
 			Point2D currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
 			double[] c = this.getColor(currentAFA);				// get color of current AFA
 			Line line = new Line(i*stepSize+0.5, originY+lHeight*yScale, i*stepSize+0.5, originY-lHeight*yScale); // make lines
+			line.getProperties().put("timeCode", i);
+			line.getProperties().put("color", c);
+
 			line.setStroke(Color.rgb((int) c[0], (int) c[1], (int) c[2]));	// set color for line
 			line.setStrokeWidth(1*zoomFactor);
+			
 			lines.add(line);
 		}
+		
+		// add Rollover and Clickability
+		makeRollovers(lines);
 		
 		// Add objects to timeline
 		dataLayer.getChildren().addAll(lines);					// add all line Nodes to parent Pane

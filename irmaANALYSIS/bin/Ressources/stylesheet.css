@@ -179,6 +179,17 @@
 }
 
 
+/* timeline scale*/
+/*--------------------------------------*/
+
+
+.scale .label{
+	-fx-font-size: 7px;
+    -fx-font-family: 'Lato';
+    -fx-text-fill: rgb(112,112,112);
+}
+
+
 /*
 .spatialVisualizerGui .menu-item:focused, 
 .spatialVisualizerGui .menu-item:hover {
