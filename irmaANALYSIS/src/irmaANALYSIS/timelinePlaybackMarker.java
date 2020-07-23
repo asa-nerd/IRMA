@@ -25,15 +25,16 @@ public class timelinePlaybackMarker {
 		currentPos = 0;
 		timerPos = 0;
 		
-		playbackLine = new Line(0,0,0,200);
+		playbackLine = new Line(0,0,0,250);
         r = new Rectangle(0,0,40,20);
+        r.relocate(0, 5);
 		playbackLine.setStroke(markerColor);
-		l.relocate(2, 2);
+		l.relocate(2, 7);
 		l.getStyleClass().add("label");
         r.setFill(markerColor);
         g.getChildren().addAll(playbackLine, r, l);
         g.getStyleClass().add("playbackmarker");
-        g.relocate(0, 40);
+        g.relocate(0, 20);
         
         g.setOnMouseEntered(new EventHandler<MouseEvent>() {
         	@Override
@@ -99,7 +100,7 @@ public class timelinePlaybackMarker {
 	}*/
 	
 	public void moveTo(double posX) {
-		g.relocate(posX, 40);	
+		g.relocate(posX, 20);	
 		currentPos = posX;
 	}
 	

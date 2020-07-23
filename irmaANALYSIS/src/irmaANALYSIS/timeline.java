@@ -42,15 +42,15 @@ public class timeline {
 	Pane scaleLayer;
 	Pane dataLayer;
 	Pane sectionLayer;
-	Pane markerLayer;
+	static Pane markerLayer;
 	Pane playbackLayer;
 	
 	Sample s;
 	int id;
 	
-	double zoomFactor = 1;
+	static double zoomFactor = 1;
 	double yScale = 1;
-	double stepSize = zoomFactor*2;
+	static double stepSize = zoomFactor*2;
 	double minStepSizeZoom;									// used for the zoom slider
 	int zoomFirstTimeCode;
 	int zoomLastTimeCode;
@@ -91,7 +91,7 @@ public class timeline {
 		sectionLayer = new Pane();
 		markerLayer = new Pane();
 		playbackLayer = new Pane();
-		layerContainer.setStyle("-fx-background-color: rgba(255,255,255, 0.2);");
+		scaleLayer.setStyle("-fx-background-color: rgba(255,255,255, 0.1);");
 		
 		scaleLayer.setPickOnBounds(false);										// Make all Layers of Timeline transparent for MouseClicks
 		sectionLayer.setPickOnBounds(false);
@@ -100,7 +100,7 @@ public class timeline {
 				
 		mainContainer.getStyleClass().add("timeline");
 		
-		mainContainer.setPrefSize(1400, 250);
+		mainContainer.setPrefSize(1300, 250);
 		mainContainer.setMinSize(1160, 250);
 		guiContainer.setPrefSize(108, 250);
 		guiContainer.setMinSize(108, 250);
@@ -108,9 +108,9 @@ public class timeline {
 		visualContainer.setMinSize(1200, 220);
 		scrollContainer.setPrefSize(1200, 250);
 		scrollContainer.setMinSize(1200, 250);
-		layerContainer.setPrefSize(1200, 220);
-		//layerContainer.setMaxSize(1200, 220);
-		layerContainer.setMinSize(1200, 220);
+		scrollContainer.setMaxSize(1200, 250);
+		layerContainer.setPrefSize(1200, 237);
+		layerContainer.setMinSize(1200, 237);
 		layerContainer.setMaxHeight(220);
 		
 		playbackLayer.getChildren().add(playMarker.getMarkerNode());					// Add Playback Marker Node
@@ -222,6 +222,7 @@ public class timeline {
             	updateTimeline();
             	updatePlaybackHead();
             	updateMarkers(stepSize);
+            	updateSections(stepSize);
             	scale.updateScale(layerContainer.getBoundsInParent().getWidth(), stepSize);
             	updateScale();
             	scrollContainer.setHvalue(currentScrollPaneX);
@@ -251,9 +252,9 @@ public class timeline {
 		return mainContainer;
 	}
 	
-	static public ArrayList<timelineSection> getSectionList(){
+	/*static public ArrayList<timelineSection> getSectionList(){
 		return sectionList;
-	}
+	}*/
 	
 	public void updateTimeline() {
 		
@@ -337,6 +338,7 @@ public class timeline {
 	// Marker functions
 	// --------------------------------------------------------------
 	
+	
 	public void updateMarkers(double stepSize) {
 		for(int i = 0; i < markerList.size(); i++) {
 			timelineMarker m = markerList.get(i);
@@ -360,6 +362,16 @@ public class timeline {
 	
 	// Section functions
 	// --------------------------------------------------------------
+	
+	static public void makeSection(double xPosTimeCode) {
+		double endPos = findNextMarkerPos(xPosTimeCode);
+        timelineSection s = new timelineSection(xPosTimeCode, endPos, stepSize);
+        //ArrayList<timelineSection> sl = timeline.getSectionList();
+        sectionList.add(s);
+        //sl.add(s);
+        markerLayer.getChildren().add(s.getSectionNode());
+	}
+	
 	public void updateSections(double _newStepSize) {
 		for(int i = 0; i < sectionList.size(); i++) {
 			timelineSection s = sectionList.get(i);

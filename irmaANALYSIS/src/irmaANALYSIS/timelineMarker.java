@@ -56,10 +56,11 @@ public class timelineMarker {
         
         cm1.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent e) {
 	            System.out.println("Make new Section");
-	            double endPos = timeline.findNextMarkerPos(xPosTimeCode);
+	            timeline.makeSection(xPosTimeCode);
+	            /*double endPos = timeline.findNextMarkerPos(xPosTimeCode);
 	            timelineSection s = new timelineSection(xPosTimeCode, endPos);
 	            ArrayList<timelineSection> sl = timeline.getSectionList();
-	            sl.add(s);
+	            sl.add(s);*/
 	            //timeline.updateSections();
 	            //sectionLayer.
 	        }
@@ -86,6 +87,8 @@ public class timelineMarker {
         });
 
 	}
+	
+	
 	
 	public Group getMarkerNode() {
 		return g;
