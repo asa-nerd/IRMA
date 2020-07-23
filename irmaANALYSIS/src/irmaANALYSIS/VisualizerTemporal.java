@@ -79,7 +79,7 @@ public class VisualizerTemporal {
        // GUI.rootLayout.setBottom(sc);
         
         lines = new ArrayList<Line>();
-        //timelines = new ArrayList<timelineAFA>();
+        //timelines = new AsrrayList<timelineAFA>();
         timelines = new ArrayList<timeline>();
      
         zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 		 // Adding Listener to value property.

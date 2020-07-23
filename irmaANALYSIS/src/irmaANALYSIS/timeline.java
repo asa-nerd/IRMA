@@ -100,6 +100,8 @@ public class timeline {
 				
 		mainContainer.getStyleClass().add("timeline");
 		
+		VBox.setMargin(mainContainer,new Insets(10,0,10,0));
+		
 		mainContainer.setPrefSize(1300, 250);
 		mainContainer.setMinSize(1160, 250);
 		guiContainer.setPrefSize(108, 250);
