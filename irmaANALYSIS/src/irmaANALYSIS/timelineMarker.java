@@ -1,5 +1,7 @@
 package irmaANALYSIS;
 
+import java.util.ArrayList;
+
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
@@ -10,6 +12,8 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
+
+import irmaANALYSIS.timeline;
 
 public class timelineMarker {
 	Line markerLine;
@@ -25,7 +29,7 @@ public class timelineMarker {
 		xPosTimeCode = _xPos;
 		Color markerColor = Color.rgb(230,220,100);
 		Polygon MarkerTriangle = new Polygon();
-		MarkerTriangle.getPoints().addAll(0.0, 0.0, -10.0,-10.0, +10.0,-10.0);
+		MarkerTriangle.getPoints().addAll(0.0, 0.0, -5.0,-5.0, +5.0,-5.0);
 		MarkerTriangle.setFill(markerColor);
 		r = new Rectangle(0,185,30,200);
 		r.setFill(markerColor);
@@ -37,10 +41,11 @@ public class timelineMarker {
 		markerLine.setStroke(markerColor);
 		g.getChildren().addAll(MarkerTriangle,markerLine, r, l);
 		g.getStyleClass().add("marker");
-        g.relocate(xPosTimeCode*_stepSize-(_stepSize/4), 20);
+        g.relocate(xPosTimeCode*_stepSize-(_stepSize/4), 15);
 
         // create the context menu 
         ContextMenu contextMenu = new ContextMenu();
+        contextMenu.getStyleClass().add("MenuPullDown");
         MenuItem cm1 = new MenuItem("Make new Section"); 
         MenuItem cm2 = new MenuItem("Delete Section"); 
         MenuItem cm3 = new MenuItem("Average of Section"); 
@@ -51,7 +56,11 @@ public class timelineMarker {
         
         cm1.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent e) {
 	            System.out.println("Make new Section");
-	            timelineSection s = new timelineSection(xPosTimeCode, xPosTimeCode+30);
+	            double endPos = timeline.findNextMarkerPos(xPosTimeCode);
+	            timelineSection s = new timelineSection(xPosTimeCode, endPos);
+	            ArrayList<timelineSection> sl = timeline.getSectionList();
+	            sl.add(s);
+	            //timeline.updateSections();
 	            //sectionLayer.
 	        }
 	    });

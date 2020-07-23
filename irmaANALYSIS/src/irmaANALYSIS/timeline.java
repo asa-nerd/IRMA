@@ -64,8 +64,8 @@ public class timeline {
 	Label clusterIntervalLabel;
 	
 	ArrayList<Line> gridLines;
-	ArrayList<timelineMarker> markerList;
-	ArrayList<timelineSection> sectionList;
+	static ArrayList<timelineMarker> markerList;
+	static ArrayList<timelineSection> sectionList;
 	
 	//Rectangle timelineScale;
 	timelineScale scale;
@@ -127,15 +127,6 @@ public class timeline {
 		MenuItem c3=new MenuItem("Discard Timeline");
 		m1.getItems().addAll(c1, c2, c3);
 		VBox.setMargin(m1,new Insets(0,0,6,0));
-		
-		/*
-		MenuPullDown m2 = new MenuPullDown("Visual");
-		MenuItem v1=new MenuItem("Sample – Activity");
-		MenuItem v2=new MenuItem("Sample – Average Focus of Attention");
-		MenuItem v3=new MenuItem("Subjects – Activity");
-		MenuItem v4=new MenuItem("Subjects – Focus of Attention");
-		m2.getItems().addAll(v1, v2, v3, v4);
-		VBox.setMargin(m2,new Insets(0,0,10,0));*/
 		
 		MenuPullDown m3 = new MenuPullDown("Filter");
 		MenuItem f1=new MenuItem("Personal Background");
@@ -260,6 +251,10 @@ public class timeline {
 		return mainContainer;
 	}
 	
+	static public ArrayList<timelineSection> getSectionList(){
+		return sectionList;
+	}
+	
 	public void updateTimeline() {
 		
 	}
@@ -290,15 +285,10 @@ public class timeline {
 	            	int tc = (int) l.getProperties().get("timeCode");
 	            	timelineMarker tm = new timelineMarker(tc, stepSize);
 	            	markerList.add(tm);
-	            	
 	            	markerLayer.getChildren().add(tm.getMarkerNode());
-	                
-	                System.out.println(markerList.size());
-	                tm = null;
-	                for (int i = 0; i < markerList.size(); i++) {
+	               /* for (int i = 0; i < markerList.size(); i++) {
 	                	timelineMarker hg = markerList.get(i);
-	                	System.out.print(i+":"+hg.getMarkerX()+"--");
-	                }
+	                }*/
 	            }
 	         });
 		}
@@ -353,6 +343,30 @@ public class timeline {
 			m.updateMarkerPos(stepSize);
 		}
 	}
+	
+	static public double findNextMarkerPos(double _currentPos) {
+		double nextPos = 2000;
+		for(int i = 0; i < markerList.size(); i++) {
+			timelineMarker m = markerList.get(i);
+			double checkX = m.getMarkerX();
+			if (checkX < nextPos && checkX > _currentPos) {
+				nextPos = checkX;
+			}
+			//m.updateMarkerPos(stepSize);
+		}
+		return nextPos;
+	}
+	
+	
+	// Section functions
+	// --------------------------------------------------------------
+	public void updateSections(double _newStepSize) {
+		for(int i = 0; i < sectionList.size(); i++) {
+			timelineSection s = sectionList.get(i);
+			s.updateSectionPos(_newStepSize);
+		}
+	}
+	
 	
 	/*
 	public void makeMarker(double _xPos) {								// make new Marker and update all sections

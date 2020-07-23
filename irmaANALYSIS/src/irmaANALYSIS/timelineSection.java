@@ -20,6 +20,7 @@ public class timelineSection {
 		r.setFill(markerColor);
 		g.getChildren().add(r);
 		g.relocate(startTimeCode, 10);
+		System.out.println(startTimeCode +","+ endTimeCode);
 	}
 	
 	public Group getSectionNode() {
