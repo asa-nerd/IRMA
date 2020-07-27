@@ -30,9 +30,9 @@ import irmaANALYSIS.VisualizerSpatial;
 
 public class GUI {
 	Stage primaryStage;
-	VBox mainStageContainer;
-	HBox topContainer;
-	HBox bottomContainer;
+	static VBox mainStageContainer;
+	static HBox topContainer;
+	static HBox bottomContainer;
 	GridPane topLeftContainer;
 	VBox topMiddleContainer;
 	GridPane topRightContainer;
@@ -78,6 +78,8 @@ public class GUI {
 	 	// --------------------------------------
 	    visTemp = new VisualizerTemporal(s);										// initialize visualizer 
 	    ScrollPane t = visTemp.getTemporalContainer();
+	    t.prefHeightProperty().bind(bottomContainer.heightProperty());
+	    //t.setPrefHeight(bottomContainer.getHeight());
 	    bottomContainer.getChildren().add(t);
 			    
 			    
@@ -102,7 +104,6 @@ public class GUI {
 	    Button VisActivityButton = new Button("AC");
 	    Button VisSubActivityButton = new Button("SAC");
 	    Button VisSubAttentionButton = new Button("SAT");
-	    Button printButton = new Button("Pr");
 	    
 	    labelVideo.getStyleClass().add("main-navi-label");
 	    labelVisualization.getStyleClass().add("main-navi-label");
@@ -115,7 +116,6 @@ public class GUI {
 	    VisActivityButton.getStyleClass().add("main-navi-button");
 	    VisSubActivityButton.getStyleClass().add("main-navi-button");
 	    VisSubAttentionButton.getStyleClass().add("main-navi-button");
-	    printButton.getStyleClass().add("main-navi-button");
 	    
 	    playButton.setPrefSize(26, 26);
 	    pauseButton.setPrefSize(26, 26);
@@ -124,8 +124,6 @@ public class GUI {
 	    VisActivityButton.setPrefSize(26, 26);
 	    VisSubActivityButton.setPrefSize(26, 26);
 	    VisSubAttentionButton.setPrefSize(26, 26);
-	    printButton.setPrefSize(26, 26);
-
 	    
 	    playButton.setOnAction(new EventHandler<ActionEvent>() {
 	   	    @Override public void handle(ActionEvent e) {   
@@ -173,56 +171,25 @@ public class GUI {
 	   	    	}
 	   	    }
 	   	});
-	    stopButton.setOnAction(new EventHandler<ActionEvent>() {
-	   	    @Override public void handle(ActionEvent e) {   
-	   	    	if (globalIsPlaying == true) {
-	   	    		System.out.print("stoop");
-		   	    	timerCounter = 0;
-		   	    	timerPaused = false;
-		   	    	globalTimer.cancel();
-		   	    	globalTimer.purge();
-		   	    	globalIsPlaying= false;
-		   	    	if (visVid.mediaView != null) {
-			   	    	visVid.stopVideo();
-			   	    }	
-	   	    	}
-	   	    }
-	   	});
-	    printButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-            	System.out.println("print.");
-            	ScrollPane p = visTemp.getTemporalContainer();
-            	PrinterJob job = PrinterJob.createPrinterJob();
-                if(job != null){
-	                job.showPrintDialog(primaryStage); 
-	                job.printPage(p);
-	                job.endJob();
-                }
-            }
-        });    
-	    VisAFAButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-            	visTemp.makeTimelineElement(s, "AFA");
-            }
-        });
-	    
-	    VisActivityButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-            	visTemp.makeTimelineElement(s, "ATTENTION");
-            }
-        });
-	    
-	    VisSubActivityButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-            	visTemp.makeTimelineElement(s, "SUBJECTACTIVITY");
-            }
-        });
-	    
-	    VisSubAttentionButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override public void handle(ActionEvent e) {
-            	visTemp.makeTimelineElement(s, "SUBJECTATTENTION");
-            }
-        });
+	    stopButton.setOnMousePressed(e ->{
+	    	if (globalIsPlaying == true) {
+   	    		System.out.print("stoop");
+	   	    	timerCounter = 0;
+	   	    	timerPaused = false;
+	   	    	globalTimer.cancel();
+	   	    	globalTimer.purge();
+	   	    	globalIsPlaying= false;
+	   	    	if (visVid.mediaView != null) {
+		   	    	visVid.stopVideo();
+		   	    }	
+   	    	} 
+	    });
+
+	    VisAFAButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "AFA"); });	   
+	    VisActivityButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "ATTENTION"); });
+	    VisSubActivityButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "SUBJECTACTIVITY"); });
+	    VisSubAttentionButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "SUBJECTATTENTION"); });
+	   
 	    
 	    topLeftContainer.setHgap(6);
 	    topLeftContainer.setVgap(6);
@@ -240,7 +207,6 @@ public class GUI {
 	    topLeftContainer.add(VisActivityButton, 1, 6);
 	    topLeftContainer.add(VisSubActivityButton, 2, 6);
 	    topLeftContainer.add(VisSubAttentionButton, 3, 6);
-	    topLeftContainer.add(printButton, 4, 6);
 	    topLeftContainer.add(labelStatistic, 0,8, 6, 1);
 	    topLeftContainer.add(lineStat, 0, 9, 6, 1);
 			 
@@ -280,10 +246,12 @@ public class GUI {
 	    topContainer.setPadding(new Insets(20, 20, 10, 20));
 	    bottomContainer.setPadding(new Insets(10, 20, 20, 20));
 	    
-	    topContainer.setMaxHeight(400);
-	    topContainer.setPrefHeight(400);
+	    //topContainer.setMaxHeight(100);
+	    //topContainer.setPrefHeight(100);
 	    bottomContainer.setMinHeight(400);
-	    bottomContainer.setPrefHeight(400);
+	   // bottomContainer.setPrefHeight(400);
+	    
+	    
 	}
 	
 

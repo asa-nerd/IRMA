@@ -25,8 +25,8 @@ import javafx.stage.Stage;
 public class MenuBarFX extends MenuBar{
 	
 	MenuBar mb;
-	Menu fileMenu, editMenu, controlMenu, analyzeMenu;
-	MenuItem f0, f1, f2, f3, f4, f5, c1, c2, c3, a1, a2, a3, a4; 
+	Menu fileMenu, editMenu, controlMenu, analyzeMenu, layoutMenu;
+	MenuItem f0, f1, f2, f3, f4, f5, c1, c2, c3, a1, a2, a3, a4, l0, l1; 
 	VBox vb;
     
 	MenuBarFX(Stage stage){
@@ -34,7 +34,8 @@ public class MenuBarFX extends MenuBar{
 		fileMenu = new Menu("File"); 
 		editMenu = new Menu("Edit"); 
 		controlMenu = new Menu("Control");
-	    analyzeMenu = new Menu("Visualize");	
+	    analyzeMenu = new Menu("Visualize");
+	    layoutMenu = new Menu("Layout");
 	    
 	     f0=new MenuItem("Load Sample Data");
 	     f1=new MenuItem("Clear Sample");
@@ -49,10 +50,14 @@ public class MenuBarFX extends MenuBar{
 	     a2=new MenuItem("Sample – Activity ");  
 	     a3=new MenuItem("Subjects – Focus");  
 	     a4=new MenuItem("Subjects – Activity");
+	     l0=new MenuItem("Standard Layout");  
+	     l1=new MenuItem("Timeline Layout");
 	     
 	     f0.setAccelerator(KeyCombination.keyCombination("Ctrl+L"));
 	     f5.setAccelerator(KeyCombination.keyCombination("Ctrl+Q"));
-	         
+	     l0.setAccelerator(KeyCombination.keyCombination("Ctrl+1"));
+	     l1.setAccelerator(KeyCombination.keyCombination("Ctrl+2"));
+	     
 	     f0.setOnAction(new EventHandler<ActionEvent>() {							// Load Data Menu Function
 	         public void handle(ActionEvent event) {
 	           FileChooser fileChooser = new FileChooser();							// Open File Chooser
@@ -107,11 +112,22 @@ public class MenuBarFX extends MenuBar{
 	         }
 	       });
  
+	     l0.setOnAction(evt -> {
+	    	 GUI.topContainer.setVisible(true);
+	    	 GUI.topContainer.setManaged(true);
+	    	 GUI.bottomContainer.setPrefHeight(GUI.mainStageContainer.getHeight());
+	    	 
+	     });
+	     l1.setOnAction(evt -> {
+	    	 GUI.topContainer.setVisible(false);
+	    	 GUI.topContainer.setManaged(false);
+	     });
 	     fileMenu.getItems().addAll(f0, f1, new SeparatorMenuItem(), f2, f3, new SeparatorMenuItem(), f4, new SeparatorMenuItem(), f5);
 	     controlMenu.getItems().addAll(c1, c2, c3);
 	     analyzeMenu.getItems().addAll(a1, a2, new SeparatorMenuItem(), a3, a4);
+	     layoutMenu.getItems().addAll(l0,l1);
 
-	    mb.getMenus().addAll(fileMenu, editMenu, controlMenu, analyzeMenu);
+	    mb.getMenus().addAll(fileMenu, editMenu, controlMenu, analyzeMenu, layoutMenu);
 	    vb = new VBox(mb);
 	}
 	
