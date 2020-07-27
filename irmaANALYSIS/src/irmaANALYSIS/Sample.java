@@ -28,26 +28,29 @@ import java.util.ArrayList;
 import math.geom2d.Point2D;
 
 public class Sample {
-	static ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
-	static int datasetLength;
-	static int sampleSize = 0;
+	ArrayList<Subject> SubjectsList = new ArrayList<Subject>();
+	int datasetLength;
+	int sampleSize;
 	
-	Sample(){
-	       datasetLength = 100;                              // amount of measuring points (temporal) of the sample  
+	Sample(){          
+		sampleSize = 0;
 	}
 
-	public static void clearSample() {
+	public void clearSample() {
 		SubjectsList.clear();
 	}
 	
-	public static void addSubject(Subject _s){
+	public void addSubject(Subject _s){
        SubjectsList.add(_s);
-       //datasetLength = _s.subjectPoints.size();
-       datasetLength = getShortestDataset();
+       datasetLength = getShortestDataset();						// amount of measuring points (temporal) of the sample  
        sampleSize ++;
     }
 	
-	static public int getShortestDataset() {						// find the shortes Dataset in the Sample to avoid breaking the iterator while looping through non-existent data
+	public ArrayList<Subject> getSubjectList(){
+		return SubjectsList;
+	}
+	
+	public int getShortestDataset() {						// find the shortes Dataset in the Sample to avoid breaking the iterator while looping through non-existent data
 		int minimalLength = 1000000000;
 		for (int i = 0; i < SubjectsList.size(); i ++) {
 			int testLength = SubjectsList.get(i).getDatasetLength();
@@ -62,7 +65,23 @@ public class Sample {
        return(SubjectsList.get(i)); 
     }
    
-    static public Point2D getAFA(int _t) {												// Average Focus of Attention at _t
+    public Point2D getSectionAFA(int _start, int _end) {
+    	int len = _end-_start;
+    	double AFAx = 0;
+    	double AFAy = 0;
+    	
+    	for (int i = _start; i < _end; i++) {
+    		Point2D cp = getAFA(i);
+    		AFAx += cp.x();
+    		AFAy += cp.y();
+    	}
+    	AFAx = AFAx / len;
+    	AFAy = AFAy / len;
+    	Point2D SectionAFA = new Point2D(AFAx, AFAy);
+    	return SectionAFA;
+    }
+    
+     public Point2D getAFA(int _t) {												// Average Focus of Attention at _t
     	double AFAx = 0;
     	double AFAy = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {

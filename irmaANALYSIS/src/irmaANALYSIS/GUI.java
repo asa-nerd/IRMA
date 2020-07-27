@@ -5,6 +5,8 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.print.PrinterJob;
+import javafx.scene.Group;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.MenuBar;
 import javafx.scene.layout.*;
@@ -18,6 +20,7 @@ import javafx.stage.Stage;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -25,46 +28,35 @@ import irmaANALYSIS.Sample;
 import irmaANALYSIS.Subject;
 import irmaANALYSIS.VisualizerSpatial;
 
-// left: Subjects
-// center: Video
-// right: triangle
-// bottom: timeline
-
 public class GUI {
-	
 	Stage primaryStage;
-	
 	VBox mainStageContainer;
 	HBox topContainer;
 	HBox bottomContainer;
-	
 	GridPane topLeftContainer;
 	VBox topMiddleContainer;
 	GridPane topRightContainer;
 	
-	static TableView table;
-	//static TableColumn tableColumnId, tableColumnRecording, tableColumnLength;
-	static TableColumn <Long, Subject> tableColumnId;
-	static TableColumn <String, Subject> tableColumnRecordName;
-	static TableColumn <Double, Subject> tableColumnAge;
-	static TableColumn <String, Subject> tableColumnEducation;
-	
 	Timer globalTimer;
-	long timerCounter;
+	static long timerCounter;
 	boolean timerPaused = false;
 	boolean globalIsPlaying = false;
-	static Media media;
+	
+	/*static Media media;
 	static MediaPlayer mediaPlayer;
-	static MediaView mediaView;
+	static MediaView mediaView;*/
 	
-	static VisualizerSpatial tri;
+	static VisualizerList visList;
+	static VisualizerSpatial visSpat;
+	static VisualizerTemporal visTemp;
+	static VisualizerVideo visVid;
 	
-	Sample sample;
+	static Sample s;
 	
-	GUI(Stage _primaryStage, Sample _sample){
-		sample = _sample;
+	GUI(Stage _primaryStage, Sample _s){
+		s = _s;
 		primaryStage = _primaryStage;
-			
+		
 		mainStageContainer = new VBox();
 		topContainer = new HBox();
 		bottomContainer = new HBox();
@@ -78,10 +70,14 @@ public class GUI {
 	    HBox.setMargin(topMiddleContainer, new Insets( 0, 16, 0, 0 ) );
 	    topRightContainer.setStyle("-fx-border-color: white");
 	    
+	    // External Window: Video Visualizer
+	 	// --------------------------------------
+	    visVid = new VisualizerVideo();
+	    
 		// Bottom: Temporal Visualizer
 	 	// --------------------------------------
-	    VisualizerTemporal v = new VisualizerTemporal(sample);										// initialize visualizer 
-	    ScrollPane t = v.getTemporalContainer();
+	    visTemp = new VisualizerTemporal(s);										// initialize visualizer 
+	    ScrollPane t = visTemp.getTemporalContainer();
 	    bottomContainer.getChildren().add(t);
 			    
 			    
@@ -142,21 +138,21 @@ public class GUI {
 		   	    	}
 		   	    	
 		   		    TimerTask task = new TimerTask(){
-	
 		   	   	        public void run(){ 
 			   	   	      Platform.runLater(() -> {					// runLater() is necessary for threading, eventually replace with JavaFX timeline
-					   	   	  			
-			   	   	            v.drawPlaybackPosition(timerCounter);
-			   	   	            v.movePlaybackLines((int) timerCounter);
-			   	   	            tri.drawSampleVector((int) timerCounter);
+			   	   	    		//visTemp.setMainTimer((int) timerCounter);
+			   	   	    	    visTemp.movePlaybackLines((int) timerCounter);
+			   	   	            visSpat.updateTimerDisplay((int) timerCounter);
+			   	   	    	    visSpat.drawSampleVector((int) timerCounter);
 			   	   	            timerCounter ++;
 			              });
 		   	   	        }		   	   	        
 		   	   	    };
-			   	    globalTimer.scheduleAtFixedRate(task, 0, 100l);
+			   	    globalTimer.scheduleAtFixedRate(task, 0, 500l);
 			   	    globalIsPlaying = true;
-			   	   // mediaPlayer.play();
-			   	 
+			   	    if (visVid.mediaView != null) {
+			   	    	visVid.playVideo();
+			   	    }
 	   	    	}else {
 	   	    		
 	   	    	}
@@ -166,31 +162,36 @@ public class GUI {
 	   	    @Override public void handle(ActionEvent e) {   	    
 		   	    //task.pause();
 	   	    	if (globalIsPlaying == true) {
+	   	    		System.out.print("pause");
 		   	    	timerPaused = true;
 		   	    	globalIsPlaying= false;
 		   	    	globalTimer.cancel();
 		   	    	globalTimer.purge();
-		   	    	mediaPlayer.pause();
-		   	    	
+		   	    	if (visVid.mediaView != null) {
+			   	    	visVid.pauseVideo();
+			   	    }	   	    	
 	   	    	}
 	   	    }
 	   	});
 	    stopButton.setOnAction(new EventHandler<ActionEvent>() {
 	   	    @Override public void handle(ActionEvent e) {   
 	   	    	if (globalIsPlaying == true) {
+	   	    		System.out.print("stoop");
 		   	    	timerCounter = 0;
 		   	    	timerPaused = false;
 		   	    	globalTimer.cancel();
 		   	    	globalTimer.purge();
 		   	    	globalIsPlaying= false;
-		   	    	mediaPlayer.stop();
+		   	    	if (visVid.mediaView != null) {
+			   	    	visVid.stopVideo();
+			   	    }	
 	   	    	}
 	   	    }
 	   	});
 	    printButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
             	System.out.println("print.");
-            	ScrollPane p = v.getTemporalContainer();
+            	ScrollPane p = visTemp.getTemporalContainer();
             	PrinterJob job = PrinterJob.createPrinterJob();
                 if(job != null){
 	                job.showPrintDialog(primaryStage); 
@@ -201,25 +202,25 @@ public class GUI {
         });    
 	    VisAFAButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-            	v.makeTimelineElement(sample, "AFA");
+            	visTemp.makeTimelineElement(s, "AFA");
             }
         });
 	    
 	    VisActivityButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-            	v.makeTimelineElement(sample, "ATTENTION");
+            	visTemp.makeTimelineElement(s, "ATTENTION");
             }
         });
 	    
 	    VisSubActivityButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-            	v.makeTimelineElement(sample, "SUBJECTACTIVITY");
+            	visTemp.makeTimelineElement(s, "SUBJECTACTIVITY");
             }
         });
 	    
 	    VisSubAttentionButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-            	v.makeTimelineElement(sample, "SUBJECTATTENTION");
+            	visTemp.makeTimelineElement(s, "SUBJECTATTENTION");
             }
         });
 	    
@@ -245,14 +246,15 @@ public class GUI {
 			 
 	    // Top-Middle: Data Table
 		// --------------------------------------
-		table = makeSampleTable();
-	    topMiddleContainer.getChildren().add(table);
+		//table = makeSampleTable();
+	    visList = new VisualizerList();
+	    topMiddleContainer.getChildren().add(visList.getVisualizerListContainer());
 	    
 			    
 		// Top-Right: Spatial Visualizer
 		// --------------------------------------
-	    tri = new VisualizerSpatial(sample);
-	    HBox spatialConatiner = tri.getSpatialContainer();
+	    visSpat = new VisualizerSpatial(s);
+	    HBox spatialConatiner = visSpat.getSpatialContainer();
 	    topRightContainer.getChildren().add(spatialConatiner);
 
 	    // Menu Bar
@@ -263,9 +265,6 @@ public class GUI {
 	    // Set whole GUI Scene
 	    // --------------------------------------
 	    mainStageContainer.getChildren().addAll(mbfxContainer, topContainer, bottomContainer);
-	    
-	    
-	    
 	    
 	    topLeftContainer.setPrefSize(212, 400);
 	    topLeftContainer.setMinSize(212, 400);
@@ -292,45 +291,36 @@ public class GUI {
 		return mainStageContainer;
 	}
 	
-	static public void makeVideo(String _f) {
-		String n = "file:"+_f;
-		media = new Media(n);
-	    mediaPlayer = new MediaPlayer(media);  
-	    mediaView = new MediaView (mediaPlayer);
-	    mediaView.setFitWidth(500);
-	   // rootLayout.setCenter(mediaView);
+	public static void setTimerCounter(int _t) {
+		timerCounter = _t;
+		visTemp.movePlaybackLines((int) timerCounter);
+	    visSpat.updateTimerDisplay((int) timerCounter);
+	    visSpat.drawSampleVector((int) timerCounter);	
+	    if (visVid.mediaView != null) {
+   	    	visVid.jumpTo(_t);
+   	    }	
+	}
+	
+	public static int getTimerCounter() {
+		return (int) timerCounter;
+	}
+	
+	public static void makeVideo(String _f) {
+		visVid.initVideo(_f);
 		
+		Group g = visVid.getVisualizerListContainer();
+		//VBox videoContainer = new VBox();
+		Scene videoScene = new Scene(g, 640, 360);
+		Stage videoStage = new Stage();
+		videoStage.setScene(videoScene);
+		videoStage.show();
 	}
 	
 	public static void updateSampleTable() {
-		table.getItems().clear();					// first erase all entries from table
-		for (Subject s: Sample.SubjectsList) {		// loop through subjects list		
-			table.getItems().add(s);				// and add each subject
-		}
-	}
-	
-	private TableView makeSampleTable() {
-		TableView thisTable = new TableView();
-		thisTable.setPlaceholder(new Label("Please load sample data."));
-		thisTable.setEditable(true);
-		tableColumnId = new TableColumn<>("ID");
-		tableColumnId.setCellValueFactory(new PropertyValueFactory<>("id"));
-		tableColumnRecordName = new TableColumn<>("Record Name");
-		tableColumnRecordName.setCellValueFactory(new PropertyValueFactory<>("recordName"));
-		tableColumnAge = new TableColumn<>("Age");
-		tableColumnAge.setCellValueFactory(new PropertyValueFactory<>("age"));
-		tableColumnEducation =  new TableColumn<>("Education");
-		tableColumnEducation.setCellValueFactory(new PropertyValueFactory<>("education"));
-		// tableColumnLength = new TableColumn<>("Length");
-		tableColumnId.setSortable(false);
-		tableColumnRecordName.setSortable(false);
-		
-		tableColumnId.setPrefWidth(40);
-		tableColumnRecordName.setPrefWidth(140);
-		tableColumnAge.setPrefWidth(40);
-		tableColumnEducation.setPrefWidth(180);
-		//tableColumnLength.setSortable(false);
-		thisTable.getColumns().addAll(tableColumnId, tableColumnRecordName, tableColumnAge, tableColumnEducation);
-		return thisTable;
+		visList.clearTable();						// first erase all entries from table
+		ArrayList<Subject> subl = s.getSubjectList();
+		s.getSubjectList().forEach((s) -> {		// loop through subjects list
+			visList.addSubject(s);					// and add each subject
+		});
 	}
 }

@@ -7,9 +7,6 @@ import java.io.IOException;
 import java.io.Reader;
 import java.util.List;
 
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -25,12 +22,6 @@ import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
-import irmaANALYSIS.Sample;
-import irmaANALYSIS.Subject;
-import irmaANALYSIS.GUI;
-import irmaANALYSIS.VisualizerSpatial;
-import irmaANALYSIS.VisualizerTemporal;
-
 public class MenuBarFX extends MenuBar{
 	
 	MenuBar mb;
@@ -38,14 +29,12 @@ public class MenuBarFX extends MenuBar{
 	MenuItem f0, f1, f2, f3, f4, f5, c1, c2, c3, a1, a2, a3, a4; 
 	VBox vb;
     
-	
 	MenuBarFX(Stage stage){
 		MenuBar mb = new MenuBar();
 		fileMenu = new Menu("File"); 
 		editMenu = new Menu("Edit"); 
 		controlMenu = new Menu("Control");
-	    analyzeMenu = new Menu("Visualize");
-		
+	    analyzeMenu = new Menu("Visualize");	
 	    
 	     f0=new MenuItem("Load Sample Data");
 	     f1=new MenuItem("Clear Sample");
@@ -63,8 +52,7 @@ public class MenuBarFX extends MenuBar{
 	     
 	     f0.setAccelerator(KeyCombination.keyCombination("Ctrl+L"));
 	     f5.setAccelerator(KeyCombination.keyCombination("Ctrl+Q"));
-	     
-	     
+	         
 	     f0.setOnAction(new EventHandler<ActionEvent>() {							// Load Data Menu Function
 	         public void handle(ActionEvent event) {
 	           FileChooser fileChooser = new FileChooser();							// Open File Chooser
@@ -79,12 +67,9 @@ public class MenuBarFX extends MenuBar{
 		        		   try {
 							 jsonData = (JSONArray) parser.parse(reader);				// Parse JSON
 							 Subject s = new Subject(jsonData);							// Make new Subject	
-							 Sample.addSubject(s);										// add Subject to Sample							 
+							 GUI.s.addSubject(s);										// add Subject to Sample							 
 							 GUI.updateSampleTable();									// update the Sample Table in GUI
-							 //GUI.makeTriangleData();
-							 // triangleWidget.drawSample(100);
 		        		   } catch (ParseException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 		        		   }
 		        		   
@@ -97,9 +82,9 @@ public class MenuBarFX extends MenuBar{
 	     
 	     f1.setOnAction(new EventHandler<ActionEvent>() {							// Load Data Menu Function
 	         public void handle(ActionEvent event) {
-	        	 Sample.clearSample();
-	        	 VisualizerTemporal.clearTimelines();
-	        	 VisualizerSpatial.clearSpatial();
+	        	 GUI.s.clearSample();
+	        	 GUI.visTemp.clearTimelines();
+	        	 GUI.visSpat.clearSpatial();
 	        	 GUI.updateSampleTable();
 	        	 
 	         }
@@ -118,12 +103,10 @@ public class MenuBarFX extends MenuBar{
 	     
 	     f5.setOnAction(new EventHandler<ActionEvent>() {
 	         public void handle(ActionEvent event) {
-	           System.out.println("Quit");
 	           System.exit(0);
 	         }
 	       });
-	    
-	     
+ 
 	     fileMenu.getItems().addAll(f0, f1, new SeparatorMenuItem(), f2, f3, new SeparatorMenuItem(), f4, new SeparatorMenuItem(), f5);
 	     controlMenu.getItems().addAll(c1, c2, c3);
 	     analyzeMenu.getItems().addAll(a1, a2, new SeparatorMenuItem(), a3, a4);

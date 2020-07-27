@@ -14,8 +14,8 @@ public class timelineAFA extends timeline{
 	ArrayList<Double> linieLengths;
 	double originY =  120;
 	
-	timelineAFA(Sample _s, int _id){
-		super(_s, _id);       
+	timelineAFA(Sample _s, int _id, int _initialTimeCode){
+		super(_s, _id, _initialTimeCode);       
         lines = new ArrayList<Line>();
         linieLengths = new ArrayList<Double>();
         drawScale(0, s.getShortestDataset());

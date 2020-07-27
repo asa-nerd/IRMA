@@ -32,86 +32,49 @@ import irmaANALYSIS.timelineAFA;
 public class VisualizerTemporal {
 	Sample s;
 	ScrollPane sc;
-	GraphicsContext gc1, gc2;
-	
-	static VBox moduleContainer; 
-	HBox guiContainer;
-	StackPane timelineContainer;
-	Pane timelineCanvas;
-	Pane playbackCanvas;
-	
-	double  zoomFactor = 1;
-	double stepSize = zoomFactor*2;
-	
-	Line playbackLine;
-	Slider zoomXSlider;
-	
-	ArrayList<Line> lines;
-	
-	static ArrayList<timeline> timelines;
-	
+	VBox moduleContainer; 
+	ArrayList<timeline> timelines;	
 	int timelineCounter = 0;
-	
+	int mainTimer = 0;
 	
 	VisualizerTemporal (Sample _s){
 		s = _s;
 		sc = new ScrollPane();
-			moduleContainer = new VBox();
-				guiContainer = new HBox();
-				timelineContainer = new StackPane();
-					timelineCanvas = new Pane();
-					playbackCanvas = new Pane();
+		moduleContainer = new VBox();
 		sc.setMinSize(1300, 400);
 		sc.setPrefSize(1360, 400);
 		sc.setMaxSize(1400, 400);
-		sc.setVbarPolicy(ScrollBarPolicy.ALWAYS);
-
-        playbackLine = new Line(0*stepSize, 0, 0*stepSize, 400);
-        playbackLine.setStroke(Color.RED);
-        
-        zoomXSlider = new Slider(0.1,10,1);
-      
-        guiContainer.getChildren().add(zoomXSlider);
-        timelineContainer.getChildren().addAll(timelineCanvas, playbackCanvas);
-        
-       // moduleContainer.getChildren().addAll(guiContainer, timelineContainer);
-
-       // GUI.rootLayout.setBottom(sc);
-        
-        lines = new ArrayList<Line>();
-        //timelines = new AsrrayList<timelineAFA>();
-        timelines = new ArrayList<timeline>();
-     
-        zoomXSlider.valueProperty().addListener(new ChangeListener<Number>() { 		 // Adding Listener to value property.
-	            public void changed(ObservableValue <? extends Number >  
-	                      observable, Number oldValue, Number newValue){ 
-	            	zoomFactor = (Double) newValue;
-	            	stepSize = zoomFactor*2;
-	            	updateTimeline();
-	            } 
-        });
-
+		sc.setVbarPolicy(ScrollBarPolicy.ALWAYS);  
         sc.setContent(moduleContainer);
+        
+        timelines = new ArrayList<timeline>();
 	}
-	
-	
 	
 	public ScrollPane getTemporalContainer() {
 		return sc;
 	}
 	
-	public static void discardTimeline(int id) {
+	public int getMainTimer() {
+		return mainTimer;
+	}
+	
+	public void setMainTimer(int _t) {
+		mainTimer = _t;
+	}
+	
+	public void discardTimeline(int _id) {
 		for (int i = 0; i < timelines.size(); i++) {
-			int cid = timelines.get(i).id;
-			if (cid == id) {
+			timeline tl = timelines.get(i);
+			int cid = tl.id;
+			if (cid == _id) {
 				timelines.remove(i);
-				moduleContainer.getChildren().clear();
+				moduleContainer.getChildren().remove(tl.getTimeline());
 				return;
 			}
 		}
 	}
 	
-	public static void clearTimelines() {
+	public void clearTimelines() {
 		moduleContainer.getChildren().clear();
 		timelines.clear();
 	}
@@ -120,22 +83,22 @@ public class VisualizerTemporal {
 		
 		switch(_type) {
 			case "AFA":
-				timelineAFA newTL = new timelineAFA(_s, timelineCounter);
+				timelineAFA newTL = new timelineAFA(_s, timelineCounter, GUI.getTimerCounter());
 				timelines.add(newTL);
 				moduleContainer.getChildren().add(newTL.getTimeline());
 				break;
 			case "ATTENTION":
-				timelineActivity newTLA = new timelineActivity(_s, timelineCounter);
+				timelineActivity newTLA = new timelineActivity(_s, timelineCounter, GUI.getTimerCounter());
 				timelines.add(newTLA);
 				moduleContainer.getChildren().add(newTLA.getTimeline());
 				break;
 			case "SUBJECTACTIVITY":
-				timelineSubjectsActivity newTSA = new timelineSubjectsActivity(_s, timelineCounter);
+				timelineSubjectsActivity newTSA = new timelineSubjectsActivity(_s, timelineCounter, GUI.getTimerCounter());
 				timelines.add(newTSA);
 				moduleContainer.getChildren().add(newTSA.getTimeline());
 				break;
 			case "SUBJECTATTENTION":
-				timelineSubjectsAttention newTSAT = new timelineSubjectsAttention(_s, timelineCounter);
+				timelineSubjectsAttention newTSAT = new timelineSubjectsAttention(_s, timelineCounter, GUI.getTimerCounter());
 				timelines.add(newTSAT);
 				moduleContainer.getChildren().add(newTSAT.getTimeline());
 				break;
@@ -145,52 +108,7 @@ public class VisualizerTemporal {
 	}
 	
 	public void movePlaybackLines(int _t) {
-		for (int i = 0; i < timelines.size(); i++) {
-			timeline tl = (timeline) timelines.get(i);
-			tl.drawPlaybackPosition(_t);
-			tl.updatePlaybackTimer(_t);
-		}
-	}
-	
-	
-	public void drawPlaybackPosition(double _t) {
-		playbackLine.setStartX(_t*stepSize);
-		playbackLine.setStartY(60);
-		playbackLine.setEndX(_t*stepSize);
-		playbackLine.setEndY(180);
-	}
-	
-	public void updateTimeline() {
-		for (int i = 0; i < lines.size(); i++) {
-			Line l = lines.get(i);
-			l.setStartX(i*stepSize+0.5);
-			l.setEndX(i*stepSize+0.5);
-			l.setStrokeWidth(1*zoomFactor);
-		}
-		timelineCanvas.setPrefSize(lines.size()*zoomFactor*2,400);
-	}
-	
-	
-	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
-		
-		playbackCanvas.getChildren().add(playbackLine);
-		timelineCanvas.setPrefSize(1200,400);
-	    int rangeLength = _end - _begin;
-	    double originX =  200;
-	    stepSize = zoomFactor*2;
-	    timelineCanvas.setPrefWidth(rangeLength * stepSize);
-
-		for (int i = _begin; i < _end; i = i + 1) {
-			double lHeight = s.getDOA(i)*400;					// get line height as current Deviation of Attention
-			Point2D currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
-			double[] c = this.getColor(currentAFA);				// get color of current AFA
-			Line line = new Line(i*stepSize+0.5, originX+lHeight, i*stepSize+0.5, originX-lHeight); // make lines
-			line.setStroke(Color.rgb((int) c[0], (int) c[1], (int) c[2]));	// set color for line
-			line.setStrokeWidth(1*zoomFactor);
-			lines.add(line);
-		}		
-		timelineCanvas.getChildren().addAll(lines);				// add all line Nodes to parent Pane
-		timelineCanvas.setPrefSize(rangeLength*zoomFactor*2,400);
+		timelines.forEach((tl) -> {tl.updatePlaybackTimer(_t);});
 	}
 	
 	public static double[] getColor(Point2D _p) {

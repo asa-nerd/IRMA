@@ -11,8 +11,8 @@ public class timelineActivity extends timeline{
 	ArrayList<Double> linieLengths;
 	double originY =  240;
 	
-	timelineActivity(Sample _s, int _id){
-		super(_s, _id);
+	timelineActivity(Sample _s, int _id, int _initialTimeCode){
+		super(_s, _id, _initialTimeCode);
 		lines = new ArrayList<Line>();
 		linieLengths = new ArrayList<Double>();
 		drawScale(0, s.getShortestDataset());

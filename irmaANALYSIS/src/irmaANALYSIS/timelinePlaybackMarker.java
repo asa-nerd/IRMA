@@ -11,9 +11,14 @@ import javafx.scene.shape.Rectangle;
 
 public class timelinePlaybackMarker {
 		
-		double currentPos;							// Variable to track the Position of the Playback Head
-		double initialX;
-		int timerPos;								// stores the current position of playback in timecode position of data
+		double pixelPos;							// Variable to track the Position of the Playback Head
+		//double initialX;
+		int timeCodePos;							// stores the current position of playback in timecode position of data
+		double stepSize = 2;
+		
+		double startXScreen;						// Variables for dragging interaction
+	    double startXScrollPane;
+	    
 		Line playbackLine;
 		Rectangle r;
 		Label l = new Label("0");
@@ -21,94 +26,68 @@ public class timelinePlaybackMarker {
 		Color markerColor = Color.rgb(180,75,75);
 		
 	timelinePlaybackMarker(){
-		initialX = 0;
-		currentPos = 0;
-		timerPos = 0;
+		//initialX = 0;
+		pixelPos = 0;
+		timeCodePos = 0;
 		
 		playbackLine = new Line(0,0,0,250);
         r = new Rectangle(0,0,40,20);
+        r.setFill(markerColor);
         r.relocate(0, 5);
 		playbackLine.setStroke(markerColor);
 		l.relocate(2, 7);
 		l.getStyleClass().add("label");
-        r.setFill(markerColor);
         g.getChildren().addAll(playbackLine, r, l);
         g.getStyleClass().add("playbackmarker");
         g.relocate(0, 20);
         
-        g.setOnMouseEntered(new EventHandler<MouseEvent>() {
-        	@Override
-        	public void handle(MouseEvent e) {
-        		playbackLine.setStroke(Color.WHITE);
+        g.setOnMouseEntered(e ->{ 
+        	playbackLine.setStroke(Color.WHITE);
+    		r.setFill(Color.WHITE);
+    		l.setTextFill(markerColor);
+        });
+        g.setOnMouseExited(e ->{ 
+        	playbackLine.setStroke(markerColor);
+    		r.setFill(markerColor);
+    		l.setTextFill(Color.WHITE);
+        });
+        g.setOnMousePressed(evt ->{
+        	startXScreen = evt.getScreenX();
+        	startXScrollPane = g.getBoundsInParent().getMinX();
+        });
+        g.setOnMouseDragged(evt -> {
+        	double distance = evt.getScreenX() - startXScreen;
+        	double newXPixelPos = startXScrollPane + distance;
+        	timeCodePos = (int) Math.round(newXPixelPos/stepSize);
+        	if (timeCodePos < 0) {
+        		timeCodePos = 0;
         	}
-        	
-        });
-        g.setOnMouseExited(new EventHandler<MouseEvent>() {
-        	@Override
-        	public void handle(MouseEvent e) {
-        		playbackLine.setStroke(Color.RED);
-        	}
-        	
-        });
-
-        g.setOnMousePressed(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent e) {
-               // initialX = g.getLayoutX();
-                //initialX = g.getBoundsInParent().getMinX();
-                Bounds b = g.getBoundsInLocal();
-                Bounds screenBounds = g.localToScreen(b);
-               // initialX= screenBounds.getMinX();
-              }
- 
-          });
-        g.setOnMouseDragged(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent me) {
-            	//playbackLine.getScene().getWindow().setX(me.getScreenX() - initialX);
-            	//playbackLine.getScene().getWindow().setY(me.getScreenY() - initialY);
-            	//playbackLine.setEndX(me.getScreenX() - initialX);
-            	//playbackLine.setStartX(me.getScreenX() - initialX);
-            	//moveTo(me.getScreenX()-150);
-            	moveTo(me.getX());
-   
-            }
-         });
-        g.setOnMouseReleased(new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent me) {
-            	initialX = me.getX();
-            }
-        });
-            
+        	GUI.setTimerCounter(timeCodePos);
+        	//GUI.visTemp.setMainTimer(timeCodePos);
+        	l.setText(String.valueOf(timeCodePos));
+        	g.relocate(timeCodePos*stepSize-(stepSize/4), 20);
+        });     
 	}
 	
 	public Group getMarkerNode() {
 		return g;
 	}
+	public void synchronizeStepSize(double _stepSizeNew) {
+		stepSize = _stepSizeNew;
+	}
 	
 	public void updateTimerPos(int _t) {
-		timerPos = _t;
-	}
-	
-	public int getTimerPos() {
-		return timerPos;
-	}
-	
-	/*public double getPosition() {
-		return currentPos;
-	}*/
-	
-	public void moveTo(double posX) {
-		g.relocate(posX, 20);	
-		currentPos = posX;
-	}
-	
-	public void setLabel(double _t) {
-		//double t = (double) _t;
-		//_t = _t/2;
+		timeCodePos = _t;
 		String txt = String.valueOf(_t);
 		l.setText(txt);
 	}
-
+	
+	public int getTimerPos() {
+		return timeCodePos;
+	}
+	
+	public void moveTo(double posX) {
+		g.relocate(posX, 20);	
+		pixelPos = posX;
+	}
 }

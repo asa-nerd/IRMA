@@ -38,7 +38,7 @@ public class IrmaANALYSIS extends Application{
 		//System.setProperty("apple.laf.useScreenMenuBar", "true");				// on OSX use Menu on top menu bar
 		
 		primaryStage.setTitle("irmaAnalysis");
-		primaryStage.initStyle(StageStyle.TRANSPARENT);
+		//primaryStage.initStyle(StageStyle.TRANSPARENT);
 		
 		Sample sample = new Sample();
 		GUI gui = new GUI(primaryStage, sample);

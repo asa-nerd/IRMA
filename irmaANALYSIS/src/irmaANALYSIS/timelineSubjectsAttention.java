@@ -10,8 +10,8 @@ public class timelineSubjectsAttention extends timeline{
 	ArrayList<ArrayList<Line>> SubjectLines;				// ArrayList to hold the Line-Arraylist for each Subject
 	
 	
-	timelineSubjectsAttention(Sample _s, int _id){
-		super(_s, _id);
+	timelineSubjectsAttention(Sample _s, int _id, int _initialTimeCode){
+		super(_s, _id, _initialTimeCode);
 		SubjectLines = new ArrayList<ArrayList<Line>>();
 		
 		for(Subject sub : _s.SubjectsList) {

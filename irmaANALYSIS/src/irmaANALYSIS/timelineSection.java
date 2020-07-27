@@ -1,6 +1,7 @@
 package irmaANALYSIS;
 
 import javafx.scene.Group;
+import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
@@ -9,8 +10,15 @@ public class timelineSection {
 	double endTimeCode;
 	double sectionLength;
 	double stepSize;
-	Rectangle r;
+	
+	double startXScreen;					// Variables for dragging interaction
+    double startXScrollPane;
+    
+	Label endLabel;
+	Rectangle background;
+	Rectangle grip;
 	Color markerColor = Color.rgb(230,220,100,0.2);
+	Color gripColor = Color.rgb(230,220,100);
 	Group g = new Group();
 	
 	timelineSection(double _startTimeCode, double _endTimeCode, double _stepSize){
@@ -18,11 +26,37 @@ public class timelineSection {
 		endTimeCode = _endTimeCode;
 		sectionLength = endTimeCode - startTimeCode;
 		stepSize = _stepSize;
-		r = new Rectangle(0,10, sectionLength*stepSize, 200);
-		r.setFill(markerColor);
-		g.getChildren().add(r);
-		g.relocate(startTimeCode*stepSize, 10);
-		System.out.println(startTimeCode +","+ endTimeCode);
+		endLabel = new Label(String.valueOf(endTimeCode));
+		endLabel.getStyleClass().add("label");
+		endLabel.relocate(sectionLength*stepSize-40, 180);
+		background = new Rectangle(0,0, sectionLength*stepSize-(stepSize/4), 190);
+		background.setFill(markerColor);
+		background.getStyleClass().add("background");
+		grip = new Rectangle(sectionLength*stepSize-5, 0, 5, 190);
+		grip.getStyleClass().add("grip");
+		grip.setFill(gripColor);
+		g.getChildren().addAll(background, grip, endLabel);
+		g.getStyleClass().add("section");
+		g.relocate(startTimeCode*stepSize, 25);
+		
+		grip.setOnMousePressed(evt ->{
+        	startXScreen = evt.getScreenX();
+        	startXScrollPane = g.getBoundsInParent().getMaxX()-5;
+        });
+		grip.setOnMouseDragged(evt -> {
+        	double distance = evt.getScreenX() - startXScreen;
+        	double newXPixelPos = startXScrollPane + distance;
+        	endTimeCode = Math.round(newXPixelPos/stepSize);
+        	if (endTimeCode >= startTimeCode + 30) {
+	        	endLabel.setText(String.valueOf(endTimeCode));
+	        	sectionLength = endTimeCode - startTimeCode;
+	        	background.setWidth(sectionLength*stepSize-(stepSize/4));
+	        	endLabel.relocate(sectionLength*stepSize-40, 0);
+	        	grip.relocate(sectionLength*stepSize-(stepSize/4), 0);
+	        	GUI.visSpat.drawSection((int) startTimeCode, (int) endTimeCode);
+        	}
+        	
+        });
 	}
 	
 	public Group getSectionNode() {
@@ -31,14 +65,27 @@ public class timelineSection {
 	
 	public void updateSectionPos(double _stepSizeNew) {
 		g.relocate(startTimeCode*_stepSizeNew-(_stepSizeNew/4), 20);
-		r.setWidth(sectionLength*_stepSizeNew);
+		grip.relocate(sectionLength*_stepSizeNew-10, 0);
+		endLabel.relocate(sectionLength*_stepSizeNew-40, 180);
+		background.setWidth(sectionLength*_stepSizeNew);
 	}
 	
-	/*
-	public double getStart() {
+	public void moveSection(double _newTimeCode) {
+		g.relocate(_newTimeCode*stepSize, 25);
+		startTimeCode = _newTimeCode;
+		endTimeCode = startTimeCode+sectionLength;
+		endLabel.setText(String.valueOf(endTimeCode));
+		
+	}
+	
+	public void synchronizeStepSize(double _stepSizeNew) {
+		stepSize = _stepSizeNew;
+	}
+	
+	public double getStartTimeCode() {
 		return startTimeCode;
 	}
-	public double getEnd() {
+	public double getEndTimeCode() {
 		return endTimeCode;
-	}*/
+	}
 }

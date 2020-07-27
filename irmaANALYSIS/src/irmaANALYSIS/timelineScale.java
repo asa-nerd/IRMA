@@ -43,68 +43,34 @@ public class timelineScale {
 		}
 		g.getChildren().addAll(labelList);
 		g.getChildren().addAll(lineList);
-
-		
-		g.setOnMousePressed(new EventHandler<MouseEvent>() {
-	        @Override
-	        public void handle(MouseEvent e) {
-	        	//makeMarker(e.getX());
-	        	System.out.println("Marker");
-	         }
-
-	     });
-		
 	}
 	
 	public Group getScaleNode() {
 		return g;
 	}
 	
-
-	
 	public void updateScale(double _width, double _stepSize) {
 		bgRect.setWidth(_width);
-		System.out.println(_stepSize);
+		labelList.forEach((l) -> {l.setVisible(false);});
+		lineList.forEach((l) -> {l.setVisible(false);});
 		
-		for(int i = 0; i < labelList.size(); i +=1) {
-			Label l = labelList.get(i);
-			Line li = lineList.get(i);
-			l.setVisible(false);
-			li.setVisible(false);
+		int viewStep = 0;
+		if (_stepSize < 1) {
+			viewStep = 4;
+		}else if(_stepSize >= 1 && _stepSize < 3) {
+			viewStep = 2;			
+		}else if(_stepSize >= 3) {
+			viewStep = 1;			
 		}
 		
-		if (_stepSize < 1) {
-			for(int i = 0; i < labelList.size(); i +=4) {
-				Label l = labelList.get(i);
-				Line li = lineList.get(i);
-				l.setVisible(true);
-				li.setVisible(true);
-				l.relocate(i*_stepSize*labelTimeCodeInterval, 5);
-				li.setStartX(i*_stepSize*labelTimeCodeInterval);
-				li.setEndX(i*_stepSize*labelTimeCodeInterval);
-			}
-		}else if(_stepSize >= 1 && _stepSize < 3) {
-			for(int i = 0; i < labelList.size(); i +=2) {
-				Label l = labelList.get(i);
-				Line li = lineList.get(i);
-				l.setVisible(true);
-				li.setVisible(true);
-				l.relocate(i*_stepSize*labelTimeCodeInterval, 5);
-				li.setStartX(i*_stepSize*labelTimeCodeInterval);
-				li.setEndX(i*_stepSize*labelTimeCodeInterval);
-			}
-			
-		}else if(_stepSize >= 3) {
-			for(int i = 0; i < labelList.size(); i +=1) {
-				Label l = labelList.get(i);
-				Line li = lineList.get(i);
-				l.setVisible(true);
-				li.setVisible(true);
-				l.relocate(i*_stepSize*labelTimeCodeInterval, 5);
-				li.setStartX(i*_stepSize*labelTimeCodeInterval);
-				li.setEndX(i*_stepSize*labelTimeCodeInterval);
-			}
-			
+		for(int i = 0; i < labelList.size(); i += viewStep) {
+			Label l = labelList.get(i);
+			Line li = lineList.get(i);
+			l.setVisible(true);
+			li.setVisible(true);
+			l.relocate(i*_stepSize*labelTimeCodeInterval, 5);
+			li.setStartX(i*_stepSize*labelTimeCodeInterval);
+			li.setEndX(i*_stepSize*labelTimeCodeInterval);
 		}
 		
 	}
