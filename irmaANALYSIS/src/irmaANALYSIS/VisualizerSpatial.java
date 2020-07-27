@@ -167,8 +167,9 @@ public class VisualizerSpatial {
 				Circle c = new Circle(px,py,1);					// make and style circle
 				c.setStrokeType(StrokeType.OUTSIDE);
 				c.setStrokeWidth(2);
-				c.setFill(Color.BLACK);
-				c.setStroke(Color.rgb((int) colorP[0], (int) colorP[1], (int) colorP[2]));
+				//c.setFill(Color.BLACK);
+				c.setFill(Color.rgb(0,0,0, 0.25));
+				c.setStroke(Color.rgb((int) colorP[0], (int) colorP[1], (int) colorP[2], 0.25));
 				subjectCircles.add(c);
 			}
 		}

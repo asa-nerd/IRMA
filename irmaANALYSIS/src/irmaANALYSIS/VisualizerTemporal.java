@@ -41,9 +41,9 @@ public class VisualizerTemporal {
 		s = _s;
 		sc = new ScrollPane();
 		moduleContainer = new VBox();
-		sc.setMinSize(1300, 400);
-		sc.setPrefSize(1360, 400);
-		sc.setMaxSize(1400, 400);
+		sc.setMinSize(1360, 400);
+		//sc.setPrefSize(1360, 400);
+		//sc.setMaxSize(1400, 400);
 		sc.setVbarPolicy(ScrollBarPolicy.ALWAYS);  
         sc.setContent(moduleContainer);
         

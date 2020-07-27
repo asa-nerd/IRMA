@@ -150,12 +150,13 @@ public class timeline {
 		MenuItem c2=new MenuItem("Follow Playback");
 		MenuItem c3=new MenuItem("Discard Timeline");
 		m1.getItems().addAll(c2, c3);
-		VBox.setMargin(m1,new Insets(6,0,6,0));
+		VBox.setMargin(m1,new Insets(0,0,6,8));
+		
 		
 		MenuPullDown m3 = new MenuPullDown("Filter");
 		MenuItem f1=new MenuItem("Personal Background");
 		m3.getItems().addAll(f1);
-		VBox.setMargin(m3,new Insets(6,0,6,0));
+		VBox.setMargin(m3,new Insets(6,0,6,8));
         
 		MenuPullDown m4 = new MenuPullDown("Export");
 		//MenuItem e1=new MenuItem("PNG");
@@ -166,7 +167,7 @@ public class timeline {
 		//MenuItem e6=new MenuItem("Current View All");
 		
 		m4.getItems().addAll(e2,e3,e4,e5);
-		VBox.setMargin(m4,new Insets(6,0,6,0));
+		VBox.setMargin(m4,new Insets(6,0,6,8));
 		
 		/*MenuPullDown m5 = new MenuPullDown("Data Header");
 		MenuItem d1=new MenuItem("Show Data Header");
@@ -178,18 +179,29 @@ public class timeline {
 		minStepSizeZoom = (double) lView/ (double) lData;				// now calculate for zoom slider the minimum step size 	
 																		// so all data fits nicely in the display when maximum zoomed out
 				
-        zoomXSlider = new Slider(minStepSizeZoom,10, 1);
+        VBox sliderContainer = new VBox();
+        VBox.setMargin(sliderContainer,new Insets(12,6,6,8));
+		zoomXSlider = new Slider(minStepSizeZoom,10, 1);
         zoomYSlider = new Slider(0.1, 5, 1);
         clusterIntervalSlider = new Slider(1, 100, 1);
         zoomXLabel = new Label("Zoom X");
         zoomYLabel = new Label("Zoom Y");
         clusterIntervalLabel = new Label("Cluster Interval");
+        VBox.setMargin(zoomXLabel,new Insets(2,0,6,0));
+        VBox.setMargin(zoomYLabel,new Insets(2,0,6,0));
+        VBox.setMargin(clusterIntervalLabel,new Insets(2,0,6,0));
         zoomXSlider.setPrefSize(90, 20);
         zoomYSlider.setPrefSize(90, 20);
+        clusterIntervalSlider.setPrefSize(90, 20);
+        zoomXSlider.setMaxSize(90, 20);
+        zoomYSlider.setMaxSize(90, 20);
+        clusterIntervalSlider.setMaxSize(90, 20);
         zoomXLabel.getStyleClass().add("sliderlabel");
         zoomYLabel.getStyleClass().add("sliderlabel");
         clusterIntervalLabel.getStyleClass().add("sliderlabel");
-		guiContainer.getChildren().addAll(m1,m3,m4, zoomXSlider, zoomXLabel, zoomYSlider, zoomYLabel, clusterIntervalSlider, clusterIntervalLabel);
+        sliderContainer.getChildren().addAll( zoomXSlider, zoomXLabel, zoomYSlider, zoomYLabel, clusterIntervalSlider, clusterIntervalLabel);
+        
+        guiContainer.getChildren().addAll(m1,m3,m4,sliderContainer);
 		
 		c3.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
 			GUI.visTemp.discardTimeline(id);

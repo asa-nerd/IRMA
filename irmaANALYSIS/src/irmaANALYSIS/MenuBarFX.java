@@ -112,13 +112,26 @@ public class MenuBarFX extends MenuBar{
 	         }
 	       });
  
-	     l0.setOnAction(evt -> {
-	    	 GUI.topContainer.setVisible(true);
-	    	 GUI.topContainer.setManaged(true);
-	    	 GUI.bottomContainer.setPrefHeight(GUI.mainStageContainer.getHeight());
+	     c1.setOnAction(e -> {
+	    	 System.out.println("play");
 	    	 
 	     });
-	     l1.setOnAction(evt -> {
+	     c2.setOnAction(e -> {
+	    	 System.out.println("pause");
+	     });
+	     c3.setOnAction(e -> {
+	    	 System.out.println("stop");
+	     });
+	     c1.setAccelerator(KeyCombination.keyCombination("Ctrl+Space"));
+	     c2.setAccelerator(KeyCombination.keyCombination("Ctrl+Shift+Space"));
+	     c3.setAccelerator(KeyCombination.keyCombination("Alt+Space"));
+	     l0.setOnAction(e -> {
+	    	 GUI.topContainer.setVisible(true);
+	    	 GUI.topContainer.setManaged(true);
+	    	 GUI.bottomContainer.setPrefHeight(800);
+	    	 
+	     });
+	     l1.setOnAction(e -> {
 	    	 GUI.topContainer.setVisible(false);
 	    	 GUI.topContainer.setManaged(false);
 	     });

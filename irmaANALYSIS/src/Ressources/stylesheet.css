@@ -154,11 +154,30 @@
 /* Main MenuBar*/
 /*--------------------------------------*/
 
+.menu-bar{
+	-fx-padding: 0 0 0 20;
+}
+.menu-bar .menu-button{
+	-fx-pref-width: 114px;
+  -fx-font-size: 12px;
+    -fx-font-family: 'Lato';
+}
+
+.menu-bar .menu-item {
+   -fx-pref-width: 229px;
+ }
+
+.menu-bar .menu-item > .label{
+  -fx-pref-width: 229px;
+  -fx-font-size: 12px;
+    -fx-font-family: 'Lato';
+ }
+ /*
 .menu-bar .menu-item .label{
     -fx-font-size: 12px;
     -fx-font-family: 'Lato';
 }
-
+*/
 
 /* timeline */
 /*--------------------------------------*/
@@ -208,6 +227,13 @@
 }
 
 
+.timeline .menu-item {
+   -fx-pref-width: 229px;
+ }
+
+.timeline .menu-item > .label{
+  -fx-pref-width: 229px;
+ }
 
 
 
@@ -229,7 +255,7 @@
 
 .slider .track {
 	-fx-background-radius: 0;
-	-fx-background-color : rgba(255,255,255,0.7);
+	-fx-background-color : rgba(255,255,255,1);
 	-fx-border-width: 0;
 	-fx-pref-height:1;
 	-fx-pref-width: 90;
@@ -237,10 +263,15 @@
 
 .slider .thumb {
 	-fx-background-radius: 0;
-	-fx-background-color : rgba(255,255,255,0.7);
-	-fx-border-width: 0;
+	-fx-border-width: 1;
+	-fx-border-color: rgba(255,255,255,1);
+	-fx-background-color : rgba(112,112, 112,1);
 	-fx-pref-height: 10;
-    -fx-pref-width: 4;
+    -fx-pref-width: 10;
+}
+
+.slider .thumb:hover{
+	-fx-background-color: rgba(255,255,255,1);	
 }
 
 /* scroll bar*/
