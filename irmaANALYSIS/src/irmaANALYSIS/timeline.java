@@ -336,6 +336,10 @@ public class timeline {
 	// Marker functions
 	// --------------------------------------------------------------
 	
+	public ArrayList<timelineMarker> getMarkerList(){
+		return markerList;
+	}
+	
 	public void updateMarkers(double stepSize) {
 		markerList.forEach( (m) -> { m.updateMarkerPos(stepSize);});
 	}
