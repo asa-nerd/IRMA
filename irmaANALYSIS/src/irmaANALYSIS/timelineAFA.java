@@ -15,11 +15,19 @@ public class timelineAFA extends timeline{
 	double originY =  120;
 	
 	timelineAFA(Sample _s, int _id, int _initialTimeCode){
-		super(_s, _id, _initialTimeCode);       
+		super(_s, _id, _initialTimeCode);    
+		timelineType = "AFA";
         lines = new ArrayList<Line>();
         linieLengths = new ArrayList<Double>();
         drawScale(0, s.getShortestDataset());
         drawTimeline(0, s.getShortestDataset());
+	}
+	
+	@Override
+	public void clearTimeline() {
+		lines.clear();
+		linieLengths.clear();
+		dataLayer.getChildren().clear();
 	}
 	
 	@Override
@@ -39,17 +47,18 @@ public class timelineAFA extends timeline{
 	
 	@Override
 	public void drawTimeline(int _begin, int _end) {			// function to draw the standard timeline
-		
+		//filterListSubjects
 		// General definitions
 	    int rangeLength = _end - _begin;
 	    stepSize = zoomFactor*2;
 	    layerContainer.setPrefWidth(rangeLength * stepSize);
+	    Color hightlightColor = Color.rgb(255, 255, 255);
 
 	    // Definitions specific for timeline "Average Focus of Attention"
 		for (int i = _begin; i < _end; i = i + 1) {
-			double lHeight = s.getDOA(i) *200;					// get line height as current Deviation of Attention
+			double lHeight = s.getDOA(i, filterListSubjects) *200;					// get line height as current Deviation of Attention
 			linieLengths.add(lHeight);
-			Point2D currentAFA = s.getAFA(i);					// get Vector of current Average Focus of Attention
+			Point2D currentAFA = s.getAFA(i, filterListSubjects);					// get Vector of current Average Focus of Attention
 			double[] c = this.getColor(currentAFA);				// get color of current AFA
 			Line line = new Line(i*stepSize+0.5, originY+lHeight*yScale, i*stepSize+0.5, originY-lHeight*yScale); // make lines
 			line.getProperties().put("timeCode", i);
@@ -62,7 +71,7 @@ public class timelineAFA extends timeline{
 		}
 		
 		// add Rollover and Clickability
-		makeRollovers(lines);
+		makeRollovers(lines, hightlightColor);
 		
 		// Add objects to timeline
 		dataLayer.getChildren().addAll(lines);					// add all line Nodes to parent Pane

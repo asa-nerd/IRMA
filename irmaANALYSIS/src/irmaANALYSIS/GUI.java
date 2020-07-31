@@ -37,10 +37,10 @@ public class GUI {
 	VBox topMiddleContainer;
 	GridPane topRightContainer;
 	
-	Timer globalTimer;
+	static Timer globalTimer;
 	static long timerCounter;
-	boolean timerPaused = false;
-	boolean globalIsPlaying = false;
+	static boolean timerPaused = false;
+	static boolean globalIsPlaying = false;
 	
 	/*static Media media;
 	static MediaPlayer mediaPlayer;
@@ -125,68 +125,12 @@ public class GUI {
 	    VisSubActivityButton.setPrefSize(26, 26);
 	    VisSubAttentionButton.setPrefSize(26, 26);
 	    
-	    playButton.setOnAction(new EventHandler<ActionEvent>() {
-	   	    @Override public void handle(ActionEvent e) {   
-	   	    	if (globalIsPlaying != true) {
-		   	    	globalTimer = new Timer();
-		   	    	if (timerPaused == true) {
-		   	    		timerPaused = false;
-		   	    	}else {
-		   	    		timerCounter = 0;
-		   	    	}
-		   	    	
-		   		    TimerTask task = new TimerTask(){
-		   	   	        public void run(){ 
-			   	   	      Platform.runLater(() -> {					// runLater() is necessary for threading, eventually replace with JavaFX timeline
-			   	   	    		//visTemp.setMainTimer((int) timerCounter);
-			   	   	    	    visTemp.movePlaybackLines((int) timerCounter);
-			   	   	            visSpat.updateTimerDisplay((int) timerCounter);
-			   	   	    	    visSpat.drawSampleVector((int) timerCounter);
-			   	   	            timerCounter ++;
-			              });
-		   	   	        }		   	   	        
-		   	   	    };
-			   	    globalTimer.scheduleAtFixedRate(task, 0, 500l);
-			   	    globalIsPlaying = true;
-			   	    if (visVid.mediaView != null) {
-			   	    	visVid.playVideo();
-			   	    }
-	   	    	}else {
-	   	    		
-	   	    	}
-	   	    }
-	   	});
-	    pauseButton.setOnAction(new EventHandler<ActionEvent>() {
-	   	    @Override public void handle(ActionEvent e) {   	    
-		   	    //task.pause();
-	   	    	if (globalIsPlaying == true) {
-	   	    		System.out.print("pause");
-		   	    	timerPaused = true;
-		   	    	globalIsPlaying= false;
-		   	    	globalTimer.cancel();
-		   	    	globalTimer.purge();
-		   	    	if (visVid.mediaView != null) {
-			   	    	visVid.pauseVideo();
-			   	    }	   	    	
-	   	    	}
-	   	    }
-	   	});
-	    stopButton.setOnMousePressed(e ->{
-	    	if (globalIsPlaying == true) {
-   	    		System.out.print("stoop");
-	   	    	timerCounter = 0;
-	   	    	timerPaused = false;
-	   	    	globalTimer.cancel();
-	   	    	globalTimer.purge();
-	   	    	globalIsPlaying= false;
-	   	    	if (visVid.mediaView != null) {
-		   	    	visVid.stopVideo();
-		   	    }	
-   	    	} 
-	    });
+	    playButton.setOnMousePressed(e ->{ startPlayback(); });	    
+	    pauseButton.setOnMousePressed(e ->{ pausePlayback();	});
+	    stopButton.setOnMousePressed(e ->{ 	stopPlayback();  });
 
 	    VisAFAButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "AFA"); });	   
-	    VisActivityButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "ATTENTION"); });
+	    VisActivityButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "ACTIVITY"); });
 	    VisSubActivityButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "SUBJECTACTIVITY"); });
 	    VisSubAttentionButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "SUBJECTATTENTION"); });
 	   
@@ -259,11 +203,75 @@ public class GUI {
 		return mainStageContainer;
 	}
 	
+	public static void startPlayback() {
+    	if (globalIsPlaying != true) {
+   	    	globalTimer = new Timer();
+   	    	if (timerPaused == true) {
+   	    		timerPaused = false;
+   	    	}else {
+   	    		timerCounter = 0;
+   	    	}
+   	    	System.out.println("hi");
+   		    TimerTask task = new TimerTask(){
+   	   	        public void run(){ 
+	   	   	      Platform.runLater(() -> {					// runLater() is necessary for threading, eventually replace with JavaFX timeline
+	   	   	    		//visTemp.setMainTimer((int) timerCounter);
+	   	   	    	    if (timerCounter < s.getShortestDataset()) {
+		   	   	    	    visTemp.movePlaybackLines((int) timerCounter);
+		   	   	            visSpat.updateTimerDisplay((int) timerCounter);
+		   	   	    	    visSpat.drawSampleVectorPlayback((int) timerCounter); 
+		   	   	            timerCounter ++;
+	   	   	    	    } else {
+	   	   	    	    	stopPlayback();
+	   	   	    	    }
+	              });
+   	   	        }		   	   	        
+   	   	    };
+	   	    globalTimer.scheduleAtFixedRate(task, 0, 500l);
+	   	    globalIsPlaying = true;
+	   	    if (visVid.mediaView != null) {
+	   	    	visVid.playVideo();
+	   	    }
+	    	}else {
+	    		
+	    	}
+    	
+    }
+	
+	public static void pausePlayback() {
+		if (globalIsPlaying == true) {
+	    		System.out.print("pause");
+   	    	timerPaused = true;
+   	    	globalIsPlaying= false;
+   	    	globalTimer.cancel();
+   	    	globalTimer.purge();
+   	    	if (visVid.mediaView != null) {
+	   	    	visVid.pauseVideo();
+	   	    }	   	    	
+	    }
+		
+	}
+
+	public static void stopPlayback() {
+		if (globalIsPlaying == true) {
+    		
+	    		System.out.print("stoop");
+   	    	timerCounter = 0;
+   	    	timerPaused = false;
+   	    	globalTimer.cancel();
+   	    	globalTimer.purge();
+   	    	globalIsPlaying= false;
+   	    	if (visVid.mediaView != null) {
+	   	    	visVid.stopVideo();
+	   	    }	
+	    	} 
+	}
+	
 	public static void setTimerCounter(int _t) {
 		timerCounter = _t;
 		visTemp.movePlaybackLines((int) timerCounter);
 	    visSpat.updateTimerDisplay((int) timerCounter);
-	    visSpat.drawSampleVector((int) timerCounter);	
+	    //visSpat.drawSampleVector((int) timerCounter);	// TODO 
 	    if (visVid.mediaView != null) {
    	    	visVid.jumpTo(_t);
    	    }	
@@ -275,9 +283,7 @@ public class GUI {
 	
 	public static void makeVideo(String _f) {
 		visVid.initVideo(_f);
-		
 		Group g = visVid.getVisualizerListContainer();
-		//VBox videoContainer = new VBox();
 		Scene videoScene = new Scene(g, 640, 360);
 		Stage videoStage = new Stage();
 		videoStage.setScene(videoScene);

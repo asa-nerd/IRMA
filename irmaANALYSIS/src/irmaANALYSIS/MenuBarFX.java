@@ -15,30 +15,37 @@ import org.json.simple.parser.ParseException;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.scene.Group;
+import javafx.scene.Scene;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.SeparatorMenuItem;
 import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
+import javafx.scene.web.WebView;
 import javafx.stage.FileChooser;
 import javafx.stage.FileChooser.ExtensionFilter;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+
 
 public class MenuBarFX extends MenuBar{
 	
 	MenuBar mb;
-	Menu fileMenu, editMenu, controlMenu, analyzeMenu, layoutMenu;
-	MenuItem f1, f2, f3, f4, f5, f6, c1, c2, c3, a1, a2, a3, a4, l0, l1; 
+	Menu fileMenu, editMenu, controlMenu, analyzeMenu, layoutMenu, helpMenu;
+	MenuItem f1, f2, f3, f4, f5, f6, f7, c1, c2, c3, a1, a2, a3, a4, l0, l1, h0; 
 	VBox vb;
     
 	MenuBarFX(Stage stage){
 		MenuBar mb = new MenuBar();
 		fileMenu = new Menu("File"); 
-		editMenu = new Menu("Edit"); 
+		//editMenu = new Menu("Edit"); 
 		controlMenu = new Menu("Control");
 	    analyzeMenu = new Menu("Visualize");
 	    layoutMenu = new Menu("Layout");
+	    helpMenu = new Menu("Help");
 	    
 	    
 	     f1=new MenuItem("New Project");
@@ -46,7 +53,8 @@ public class MenuBarFX extends MenuBar{
 	     f3=new MenuItem("Save Project");
 	     f4=new MenuItem("Load Sample Data");
 	     f5=new MenuItem("Load Video");
-	     f6=new MenuItem("Quit");
+	     f6=new MenuItem("About");
+	     f7=new MenuItem("Quit");
 
 	     c1=new MenuItem("Play");  
 	     c2=new MenuItem("Pause");  
@@ -57,13 +65,42 @@ public class MenuBarFX extends MenuBar{
 	     a4=new MenuItem("Subjects – Activity");
 	     l0=new MenuItem("Standard Layout");  
 	     l1=new MenuItem("Timeline Layout");
+	     h0=new MenuItem("Online Help");
 	     
+	     f1.setAccelerator(KeyCombination.keyCombination("Ctrl+N"));
 	     f2.setAccelerator(KeyCombination.keyCombination("Ctrl+L"));
-	     f6.setAccelerator(KeyCombination.keyCombination("Ctrl+Q"));
+	     f3.setAccelerator(KeyCombination.keyCombination("Ctrl+S"));
+	     f4.setAccelerator(KeyCombination.keyCombination("Ctrl+D"));
+	     f5.setAccelerator(KeyCombination.keyCombination("Ctrl+B"));
+	     f7.setAccelerator(KeyCombination.keyCombination("Ctrl+Q"));
+	     c1.setAccelerator(KeyCombination.keyCombination("Ctrl+Space"));
+	     c2.setAccelerator(KeyCombination.keyCombination("Ctrl+Shift+Space"));
+	     c3.setAccelerator(KeyCombination.keyCombination("Alt+Space"));
 	     l0.setAccelerator(KeyCombination.keyCombination("Ctrl+1"));
 	     l1.setAccelerator(KeyCombination.keyCombination("Ctrl+2"));
+	     h0.setAccelerator(KeyCombination.keyCombination("Ctrl+Shift+H"));
 	     
+	     c1.setOnAction(e -> {  	GUI.startPlayback();	     });				// Control – Play
+	     c2.setOnAction(e -> {		GUI.pausePlayback();	     });				// Control – Pause
+	     c3.setOnAction(e -> {		GUI.stopPlayback();			 });				// Control – Stop
 	     
+	     a1.setOnAction(e -> {  	GUI.visTemp.makeTimelineElement(GUI.s, "AFA");	     });						// Visualize 
+	     a2.setOnAction(e -> {  	GUI.visTemp.makeTimelineElement(GUI.s, "ACTIVITY");	     });				// Visualize 
+	     a3.setOnAction(e -> {  	GUI.visTemp.makeTimelineElement(GUI.s, "SUBJECTACTIVITY");	     });			// Visualize 
+	     a4.setOnAction(e -> {  	GUI.visTemp.makeTimelineElement(GUI.s, "SUBJECTATTENTION");	     });			// Visualize 
+	     
+	     h0.setOnAction(e -> { 									// Help Menu
+	    	 WebView webView = new WebView();
+	         webView.getEngine().load("http://google.com");
+	         webView.setMinSize(840, 720);
+	         webView.setPrefSize(840, 720);
+	         Group g = new Group(webView);
+	    	 Scene helpScene = new Scene(g, 840, 720);
+	    	 Stage helpStage = new Stage();
+	    	 helpStage.setResizable(false);
+	    	 helpStage.setScene(helpScene);
+	    	 helpStage.show();	     
+	    });				
 	     
 	     f1.setOnAction(new EventHandler<ActionEvent>() {							// New Project Function
 	         public void handle(ActionEvent event) {
@@ -85,20 +122,44 @@ public class MenuBarFX extends MenuBar{
 		           fileChooser.setTitle("Load Subject's Data");
 		           File file = fileChooser.showOpenDialog(stage);
 		           JSONParser parser = new JSONParser();
-		           JSONArray jsonData = new JSONArray();
+		           JSONObject jsonData = new JSONObject();
 		           
 		           if (file != null) {
 		        	   try (Reader reader = new FileReader(file)) {	        		   // Read selected file
 		        		   try {
-							 jsonData = (JSONArray) parser.parse(reader);				// Parse JSON
-							// Subjects
-							 // Timelines
-							 // Markers
-							 // Sections
-							 
-							 // Subject s = new Subject(jsonData);							// Make new Subject	
-							// GUI.s.addSubject(s);										// add Subject to Sample							 
-							// GUI.updateSampleTable();									// update the Sample Table in GUI
+		        			   jsonData = (JSONObject) parser.parse(reader);				// Parse JSON
+		        			   JSONArray subjects = (JSONArray) jsonData.get("subjects");
+		        			   for (int i = 0; i < subjects.size(); i++) {					// 1. load and make subjects
+									 JSONArray sub = (JSONArray) subjects.get(i); 
+									 Subject subject = new Subject(sub);					// Make new Subject	
+									 GUI.s.addSubject(subject);								// add Subject to Sample							 
+									 GUI.updateSampleTable();								// update the Sample Table in GUI
+		        			   }
+		        			   GUI.visSpat.makeFilterListSubjects();
+		        			   JSONArray timelines = (JSONArray) jsonData.get("timelines");  // 2. load and make timelines
+		        			   for (int i = 0; i < timelines.size(); i++) {
+		        				   JSONObject tl = (JSONObject) timelines.get(i); 
+		        				   String tlType = (String) tl.get("type");
+		        				   GUI.visTemp.makeTimelineElement(GUI.s, tlType);
+		        				   
+		        				   JSONArray markers = (JSONArray) tl.get("markers");  		// 2.1 make Markers for timeline
+		        				   if (markers.size()< 0) {
+		        					   for (int k = 0; k < markers.size(); k++) {
+			        					   JSONObject ma = (JSONObject) markers.get(k); 
+			        					   double timecode = (double) ma.get("timecode");
+			        					   timeline t = GUI.visTemp.timelines.get(i);
+			        					   t.makeTimelineMarker(timecode, k, t.stepSize);
+			        					   Boolean section = (Boolean) ma.get("section");		// 2.2 make Sections	  
+			        					   if (section == true) {
+			        						   double sectionEnd = (double) ma.get("section-end");
+			        						   t.makeSection(t.markerList.get(k), sectionEnd);
+			        					   }
+			        				   }
+		        				   }
+		        				  
+		        				   
+		        			   }
+
 		        		   } catch (ParseException e) {
 								e.printStackTrace();
 		        		   }
@@ -119,20 +180,16 @@ public class MenuBarFX extends MenuBar{
 	             JSONObject projecttData = new JSONObject();
 	             final JSONArray subjectArray = new JSONArray();
 	             final JSONArray timelineArray = new JSONArray();
-	             final JSONArray markerArray = new JSONArray();
 	             
-	             GUI.s.SubjectsList.forEach((s) ->{
-	            	 subjectArray.add(s.JSONData);
-	            	 
+	             GUI.s.SubjectsList.forEach((s) ->{ subjectArray.add(s.JSONData); });
+	             
+	             GUI.visTemp.timelines.forEach((tl) -> {
+	            	 JSONObject timelineData = tl.getTimeLineDataJSON();
+	            	 timelineArray.add(timelineData);
 	             });
-	             
-	           /*  GUI.visTemp.timelines.forEach((tl) ->{
-	            	 tl.getMarkerList();
-	             });*/
-	               
+
+	             projecttData.put("timelines", timelineArray);
 	             projecttData.put("subjects", subjectArray);
-	             //projecttData.put("timelines", timelineArray);
-	             //projecttData.put("marker", markerArray);
 	             
 	             String subjectDataString = projecttData.toString();
 	             if (file != null) {
@@ -164,6 +221,7 @@ public class MenuBarFX extends MenuBar{
 		        	   }catch (IOException e) {
 		        	   }
 	        	   }
+	        	   GUI.visSpat.makeFilterListSubjects();
 	           }
 	         }
 	       });
@@ -179,25 +237,28 @@ public class MenuBarFX extends MenuBar{
 	         }
 	       });
 	     
-	     f6.setOnAction(new EventHandler<ActionEvent>() {								// QUit Function
-	         public void handle(ActionEvent event) {
-	           System.exit(0);
-	         }
-	       });
- 
-	     c1.setOnAction(e -> {
-	    	 System.out.println("play");
+	     f6.setOnAction(e -> {
+	         Group g = new Group();
+	         Text a = new Text(20,20, "irmaAnalysis");
+	         Text t = new Text(10,60, "c Andreas Pirchner 2018-2020");
+	         VBox v = new VBox(g,a,t);
+	         v.setMinSize(640, 360);
+	         v.setPrefSize(640, 360);
+	    	 Scene aboutScene = new Scene(v, 640, 360);
+	    	 Stage aboutStage = new Stage();
+	    	 aboutStage.initStyle(StageStyle.TRANSPARENT);
+	    	 aboutStage.setResizable(false);
+	    	 aboutStage.setScene(aboutScene);
+	    	 aboutStage.show();	
 	    	 
-	     });
-	     c2.setOnAction(e -> {
-	    	 System.out.println("pause");
-	     });
-	     c3.setOnAction(e -> {
-	    	 System.out.println("stop");
-	     });
-	     c1.setAccelerator(KeyCombination.keyCombination("Ctrl+Space"));
-	     c2.setAccelerator(KeyCombination.keyCombination("Ctrl+Shift+Space"));
-	     c3.setAccelerator(KeyCombination.keyCombination("Alt+Space"));
+	    	 aboutScene.setOnMousePressed((m) -> {
+	    		 aboutStage.close();
+	    	 });
+	    	 
+	     });														// About Function
+	     
+	     f7.setOnAction(e -> {System.exit(0);});										// QUit Function	    
+	     
 	     l0.setOnAction(e -> {
 	    	 GUI.topContainer.setVisible(true);
 	    	 GUI.topContainer.setManaged(true);
@@ -208,12 +269,14 @@ public class MenuBarFX extends MenuBar{
 	    	 GUI.topContainer.setVisible(false);
 	    	 GUI.topContainer.setManaged(false);
 	     });
-	     fileMenu.getItems().addAll(f1, f2, f3, new SeparatorMenuItem(), f4, f5, new SeparatorMenuItem(), f6);
+	     
+	     fileMenu.getItems().addAll(f1, f2, f3, new SeparatorMenuItem(), f4, f5, new SeparatorMenuItem(), f6, f7);
 	     controlMenu.getItems().addAll(c1, c2, c3);
 	     analyzeMenu.getItems().addAll(a1, a2, new SeparatorMenuItem(), a3, a4);
 	     layoutMenu.getItems().addAll(l0,l1);
+	     helpMenu.getItems().add(h0);
 
-	    mb.getMenus().addAll(fileMenu, editMenu, controlMenu, analyzeMenu, layoutMenu);
+	    mb.getMenus().addAll(fileMenu, controlMenu, analyzeMenu, layoutMenu, helpMenu);
 	    vb = new VBox(mb);
 	}
 	

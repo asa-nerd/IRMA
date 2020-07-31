@@ -25,6 +25,8 @@
 package irmaANALYSIS;
 
 import java.util.ArrayList;
+import java.util.List;
+
 import math.geom2d.Point2D;
 
 public class Sample {
@@ -65,15 +67,16 @@ public class Sample {
        return(SubjectsList.get(i)); 
     }
    
-    public Point2D getSectionAFA(int _start, int _end) {
+    public Point2D getSectionAFA(int _start, int _end,  ArrayList<Boolean> filterList) {
     	int len = _end-_start;
     	double AFAx = 0;
     	double AFAy = 0;
     	
     	for (int i = _start; i < _end; i++) {
-    		Point2D cp = getAFA(i);
-    		AFAx += cp.x();
-    		AFAy += cp.y();
+	    		Point2D cp = getAFA(i, filterList);
+	    		AFAx += cp.x();
+	    		AFAy += cp.y();
+    	
     	}
     	AFAx = AFAx / len;
     	AFAy = AFAy / len;
@@ -81,40 +84,52 @@ public class Sample {
     	return SectionAFA;
     }
     
-     public Point2D getAFA(int _t) {												// Average Focus of Attention at _t
+     public Point2D getAFA(int _t, ArrayList<Boolean> filterList) {												// Average Focus of Attention at _t
+    	int countedSubjects = 0;
     	double AFAx = 0;
     	double AFAy = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		Point2D cp = SubjectsList.get(i).getPointByIndex(_t);
-    		AFAx += cp.x();
-    		AFAy += cp.y();
+    		if (filterList.get(i) == Boolean.TRUE) {
+	    		Point2D cp = SubjectsList.get(i).getPointByIndex(_t);
+	    		AFAx += cp.x();
+	    		AFAy += cp.y();
+	    		countedSubjects ++;
+    		}
     	}
-    	AFAx = AFAx / SubjectsList.size();
-    	AFAy = AFAy / SubjectsList.size();
+    	AFAx = AFAx / countedSubjects;
+    	AFAy = AFAy / countedSubjects;
+    	//AFAx = AFAx / SubjectsList.size();
+    	//AFAy = AFAy / SubjectsList.size();
     	
     	Point2D AverageFocusOfAttention = new Point2D(AFAx, AFAy);
     	return AverageFocusOfAttention;
     }
     
-    public double getDOA(int _t) {												// Deviation of Attention at _t
-    	
+    public double getDOA(int _t,  ArrayList<Boolean> filterList) {												// Deviation of Attention at _t
+    	int countedSubjects = 0;
     	double distance = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		Point2D currentFocus = SubjectsList.get(i).getPointByIndex(_t);
-    		Point2D AFA = this.getAFA(_t);
-    		double d = AFA.distance(currentFocus);
-    		distance += d;
+    		if (filterList.get(i) == Boolean.TRUE) {
+	    		Point2D currentFocus = SubjectsList.get(i).getPointByIndex(_t);
+	    		Point2D AFA = this.getAFA(_t, filterList);
+	    		double d = AFA.distance(currentFocus);
+	    		distance += d;
+	    		countedSubjects ++;
+    		}
     	}
-    	double deviationOfAttention = distance/SubjectsList.size();
+    	double deviationOfAttention = distance/countedSubjects;
+    	//double deviationOfAttention = distance/SubjectsList.size();
     	return deviationOfAttention;
     	
     }
     
-    public double getActivity(int _t) {
+    public double getActivity(int _t, ArrayList<Boolean> filterList) {
     	double sampleAct = 0;
     	for (int i = 0; i < SubjectsList.size(); i ++) {
-    		double a = SubjectsList.get(i).getActivity(_t);
-    		sampleAct += a; 
+    		if (filterList.get(i) == Boolean.TRUE) {
+	    		double a = SubjectsList.get(i).getActivity(_t);
+	    		sampleAct += a; 
+    		}
     	}
     	return sampleAct;
     }

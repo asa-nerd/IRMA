@@ -1,6 +1,10 @@
 package irmaANALYSIS;
 
 import java.util.ArrayList;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
@@ -8,6 +12,7 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.print.PrinterJob;
 import javafx.scene.Group;
+import javafx.scene.control.CheckMenuItem;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
@@ -21,6 +26,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Text;
 import math.geom2d.Point2D;
 
 public class timeline {
@@ -39,6 +45,7 @@ public class timeline {
 	VBox buttonPanelRight;
 	Group buttonCloseTL;
 	Group buttonMoveTL;
+	Group labelTL;
 	
 	Sample s;
 	int id;
@@ -64,6 +71,9 @@ public class timeline {
 	int markerCounter = 0;
 
 	timelineScale scale;
+	
+	String timelineType;
+	ArrayList<Boolean> filterListSubjects;
 	 
 	timeline(Sample _s, int _id, int _initialTimeCode){
 		s = _s;
@@ -73,6 +83,8 @@ public class timeline {
 		gridLines = new ArrayList<Line>();
 		markerList = new ArrayList<timelineMarker>();
 		playMarker = new timelinePlaybackMarker();
+		
+		filterListSubjects = new ArrayList<Boolean>();
 		
 		mainContainer = new HBox();
 		guiContainer = new VBox();
@@ -93,10 +105,15 @@ public class timeline {
 				
 		mainContainer.getStyleClass().add("timeline");
 		
-		VBox.setMargin(mainContainer,new Insets(10,0,10,0));
+		buttonPanelRight = new VBox();
 		
-		mainContainer.setPrefSize(1300, 250);
-		mainContainer.setMinSize(1160, 250);
+		VBox.setMargin(mainContainer,new Insets(10,0,10,0));
+		HBox.setMargin(guiContainer,new Insets(5,0,5,0));
+		HBox.setMargin(visualContainer,new Insets(5,0,5,0));
+		HBox.setMargin(buttonPanelRight,new Insets(5,0,5,0));
+		
+		mainContainer.setPrefSize(1340, 260);
+		mainContainer.setMinSize(1340, 260);
 		guiContainer.setPrefSize(108, 250);
 		guiContainer.setMinSize(108, 250);
 		visualContainer.setPrefSize(1200, 220);
@@ -116,7 +133,8 @@ public class timeline {
 		visualContainer.getChildren().add(scrollContainer);
 		//mainContainer.getChildren().addAll(guiContainer, visualContainer);
 		
-		buttonPanelRight = new VBox();
+		
+		HBox.setMargin(guiContainer,new Insets(5,0,5,0));
 		//buttonPanelRight.getStyleClass().add("buttonPanelRight");
 		buttonCloseTL = new Group();
 		buttonCloseTL.getStyleClass().add("rbutton");
@@ -124,7 +142,10 @@ public class timeline {
 		bcbg.setFill(Color.WHITE);
 		buttonCloseTL.setOnMouseEntered(e ->{ bcbg.setFill(Color.rgb(112,112,112)); });
 		buttonCloseTL.setOnMouseExited(e ->{ bcbg.setFill(Color.WHITE); });
-		buttonCloseTL.setOnMousePressed(e ->{GUI.visTemp.discardTimeline(id); });
+		buttonCloseTL.setOnMousePressed(e ->{
+			GUI.visTemp.discardTimeline(id); 
+			GUI.visSpat.removeMenu(id);
+		});
 		
 		VBox.setMargin(buttonCloseTL,new Insets(0,0,6,6));
 		Line l1 = new Line(6,6,15,15);
@@ -142,20 +163,41 @@ public class timeline {
 		Line bm2 = new Line(3,10.5,17,10.5);
 		Line bm3 = new Line(3,15.5,17,15.5);
 		buttonMoveTL.getChildren().addAll(bmbg, bm1, bm2, bm3);
-		buttonPanelRight.getChildren().addAll(buttonCloseTL, buttonMoveTL);
+		
+		Text t = new Text();
+		Rectangle lbg = new Rectangle(0,0,21,21);	
+		lbg.setFill(Color.WHITE);	
+		labelTL = new Group(lbg, t);
+		VBox.setMargin(labelTL,new Insets(0,0,6,6));
+		buttonPanelRight.getChildren().addAll(buttonCloseTL, labelTL, buttonMoveTL);	
 		
 		mainContainer.getChildren().addAll(guiContainer, visualContainer, buttonPanelRight);
 		
         MenuPullDown m1 = new MenuPullDown("Config");
 		MenuItem c2=new MenuItem("Follow Playback");
-		MenuItem c3=new MenuItem("Discard Timeline");
-		m1.getItems().addAll(c2, c3);
+		//MenuItem c3=new MenuItem("Discard Timeline");
+		m1.getItems().add(c2);
 		VBox.setMargin(m1,new Insets(0,0,6,8));
 		
 		
 		MenuPullDown m3 = new MenuPullDown("Filter");
-		MenuItem f1=new MenuItem("Personal Background");
-		m3.getItems().addAll(f1);
+		
+		for (int i = 0; i < s.SubjectsList.size(); i++) {
+			CheckMenuItem c = new CheckMenuItem("Subject "+i);
+			c.getProperties().put("id", i);
+			c.setSelected(true);
+			c.setOnAction((e) -> { 
+				toggleFilterListSubjects((int) c.getProperties().get("id")); 	
+				clearTimeline();
+				drawTimeline(0, s.getShortestDataset());
+			});
+			
+			m3.getItems().add(c);
+		}
+		
+		
+		//MenuItem f1=new MenuItem("Personal Background");
+		
 		VBox.setMargin(m3,new Insets(6,0,6,8));
         
 		MenuPullDown m4 = new MenuPullDown("Export");
@@ -202,10 +244,6 @@ public class timeline {
         sliderContainer.getChildren().addAll( zoomXSlider, zoomXLabel, zoomYSlider, zoomYLabel, clusterIntervalSlider, clusterIntervalLabel);
         
         guiContainer.getChildren().addAll(m1,m3,m4,sliderContainer);
-		
-		c3.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
-			GUI.visTemp.discardTimeline(id);
-		}});
 
 		/*e1.setOnAction(new EventHandler<ActionEvent>() { public void handle(ActionEvent event) {
 			FileChooser fileChooser = new FileChooser();
@@ -264,13 +302,73 @@ public class timeline {
 		
 		updatePlaybackHead();
 		updatePlaybackTimer(_initialTimeCode);
+		makeFilterListSubjects();
 	}
 	
 	public HBox getTimeline() {
 		return mainContainer;
 	}
 	
+	public void setHighlight() {
+		Color highlightColor = Color.rgb(230,220,100,1);
+		//mainContainer.setFill(highlightColor);
+		//mainContainer.setStyle("-fx-background-color: rgba(230,220,100,1);");
+		mainContainer.setStyle("-fx-border-color: rgba(230,220,100,1);");
+		
+	}
 	
+	public void unHighlight() {
+		//mainContainer.setStyle("-fx-background-color: rgba(230,220,100,0);");	
+		mainContainer.setStyle("-fx-border-color: rgba(230,220,100,0);");
+	}
+	
+	public void makeFilterListSubjects() {
+		for(int i = 0; i < s.SubjectsList.size(); i++) {
+			filterListSubjects.add(Boolean.TRUE);
+		}
+	}
+	
+	public ArrayList<Boolean> getFilterListSubjects() {
+		return filterListSubjects;
+	}
+	
+	public void toggleFilterListSubjects(int n) {
+		if (filterListSubjects.get(n) == Boolean.TRUE) {
+			filterListSubjects.set(n, Boolean.FALSE);
+		}else {
+			filterListSubjects.set(n, Boolean.TRUE);
+		}
+	}
+	
+	
+	public JSONObject getTimeLineDataJSON() {
+		JSONObject timelineData = new JSONObject();
+		
+		timelineData.put("type", timelineType);
+		
+		final JSONArray markersArray = new JSONArray();
+		
+		markerList.forEach((ma) -> {
+			double tc = ma.getMarkerTimeCode();
+			JSONObject markerdata = new JSONObject();
+			markerdata.put("timecode", tc);
+			if (ma.section != null) {
+				markerdata.put("section", true);
+				markerdata.put("section-end", ma.section.getEndTimeCode());
+			}else {
+				markerdata.put("section", false);
+			}
+			
+			markersArray.add(markerdata);
+		});
+		timelineData.put("markers", markersArray);
+		return timelineData;		
+	}
+	
+	public void clearTimeline() {
+		
+	}
+
 	public void updateTimeline() {
 		
 	}
@@ -279,24 +377,27 @@ public class timeline {
 		
 	}
 	
-	public void makeRollovers(ArrayList<Line> list) {
+	public void makeRollovers(ArrayList<Line> list, Color _c) {
 		list.forEach((l) -> {
-			l.setOnMouseEntered(e ->{ l.setStroke(Color.WHITE);	});
+			l.setOnMouseEntered(e ->{ l.setStroke(_c);	});
 			l.setOnMouseExited(e ->{ 
 				double[] c = (double[]) l.getProperties().get("color");
         		l.setStroke(Color.rgb((int) c[0], (int) c[1], (int) c[2]));
 			});
 			l.setOnMousePressed(e ->{ 
 				int tc = (int) l.getProperties().get("timeCode");
-            	timelineMarker tm = new timelineMarker(tc, markerCounter, stepSize);
-            	makeMarkerContextMenu(tm);
-            	markerList.add(tm);
-            	markerLayer.getChildren().add(tm.getMarkerNode());
-            	markerCounter ++;
+				makeTimelineMarker(tc, markerCounter, stepSize);
 			});			
 		});
 	}
 	
+	public void makeTimelineMarker(double _xPos, int _id, double _stepSize) {
+		timelineMarker tm = new timelineMarker(_xPos, _id, stepSize);
+    	makeMarkerContextMenu(tm);
+    	markerList.add(tm);
+    	markerLayer.getChildren().add(tm.getMarkerNode());
+    	markerCounter ++;
+	}
 	// Manage Scale 
 	// --------------------------------------------------------------
 	
@@ -374,13 +475,16 @@ public class timeline {
 		
 		
 		// Event Handlers for Context Menu (as Lambda Functions)
-		cm1.setOnAction(e ->{ makeSection(_tm); });											// Menu: Make new Section for this Marker	
+		cm1.setOnAction(e ->{ makeSection(_tm, _tm.getMarkerTimeCode()+200); });											// Menu: Make new Section for this Marker	
 		cm2.setOnAction(e ->{ System.out.println("Delete Section");	
 			markerLayer.getChildren().remove(_tm.getSection().getSectionNode());
 			_tm.clearSection();
 		});
 		cm3.setOnAction(e ->{ System.out.println("Average of Section");	});
-		cm4.setOnAction(e ->{ GUI.visSpat.drawSection((int) _tm.section.getStartTimeCode(), (int) _tm.section.getEndTimeCode()); });
+		cm4.setOnAction(e ->{ 
+			System.out.println((int) _tm.section.getStartTimeCode()+", "+ (int) _tm.section.getEndTimeCode());
+			GUI.visSpat.drawSection((int) _tm.section.getStartTimeCode(), (int) _tm.section.getEndTimeCode(), filterListSubjects); 
+			});
 		cm5.setOnAction(e ->{ 
 			markerLayer.getChildren().remove(_tm.getMarkerNode());		// Remove Marker from Layer Node
 			markerLayer.getChildren().remove(_tm.getSection().getSectionNode()); // Remove Selection from Layer Node 
@@ -391,10 +495,10 @@ public class timeline {
 	// Section functions
 	// --------------------------------------------------------------
 	
-	public void makeSection(timelineMarker _tm) {
+	public void makeSection(timelineMarker _tm, double _endTimeCode) {
 		double startPos = _tm.getMarkerTimeCode();
 		//double endPos = findNextMarkerPosTC(startPos);
-		double endPos = startPos + 200;
+		double endPos = _endTimeCode;
 		timelineSection section = new timelineSection(startPos, endPos, stepSize); 	
 		_tm.setSection(section);
 		markerLayer.getChildren().add(_tm.getSection().getSectionNode());

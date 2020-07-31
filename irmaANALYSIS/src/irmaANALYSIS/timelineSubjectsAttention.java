@@ -12,6 +12,7 @@ public class timelineSubjectsAttention extends timeline{
 	
 	timelineSubjectsAttention(Sample _s, int _id, int _initialTimeCode){
 		super(_s, _id, _initialTimeCode);
+		timelineType = "SUBJECTATTENTION";
 		SubjectLines = new ArrayList<ArrayList<Line>>();
 		
 		for(Subject sub : _s.SubjectsList) {
@@ -46,6 +47,7 @@ public class timelineSubjectsAttention extends timeline{
 	   double originX =  40;
 	   stepSize = zoomFactor*2;
 	   layerContainer.setPrefWidth(rangeLength * stepSize);
+	   Color hightlightColor = Color.rgb(255, 255, 255);
 
 	   // Definitions specific for timeline "Subjects Activity"
 	   for (int k = 0; k < s.SubjectsList.size(); k ++) {
@@ -63,7 +65,7 @@ public class timelineSubjectsAttention extends timeline{
 				subjectLines.add(line);
 		    }
 		    // add Rollover and Clickability
-			makeRollovers(subjectLines);
+			makeRollovers(subjectLines, hightlightColor);
 		    dataLayer.getChildren().addAll(subjectLines);				// add all line Nodes to parent Pane
 		    originX += 20;
 	   }

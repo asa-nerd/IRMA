@@ -48,8 +48,11 @@ public class VisualizerSpatial {
 	Label timerSecondsDisplay;
 	Duration timerDuration;
 	
+	MenuPullDown m, m2, m3;
+	
 	ArrayList<Circle> subjectCircles;
 	ArrayList<Line> subjectLines;
+	ArrayList<Boolean> filterListSubjectsVisualizer;
 	Circle circleAFA;
 	
 	VisualizerSpatial(Sample _s){
@@ -61,7 +64,7 @@ public class VisualizerSpatial {
 		triangleCanvas = new Pane();
 		dataCanvas = new Pane();
 
-		MenuPullDown m = new MenuPullDown("Config");
+		m = new MenuPullDown("Config");
 		MenuItem c1=new MenuItem("Color Overlay");
 		MenuItem c2=new MenuItem("Color Edges");
 		MenuItem c3=new MenuItem("Dimensions Labels");
@@ -71,23 +74,25 @@ public class VisualizerSpatial {
 		m.getItems().addAll(c1, c2, c3, c4, c5, c6);
 		VBox.setMargin(m,new Insets(6,6,6,6));
 		
-		MenuPullDown m2 = new MenuPullDown("Export");
+		m2 = new MenuPullDown("Export");
 		MenuItem e1=new MenuItem("Export PDF"); 
 		MenuItem e2=new MenuItem("Export PNG"); 
 		m2.getItems().addAll(e1, e2);
 		VBox.setMargin(m2,new Insets(6,6,6,6));
 		
+		m3 = new MenuPullDown("Filter");
+		VBox.setMargin(m3,new Insets(6,6,6,6));
+		
 		guiContainer.setPrefSize(114, 400);
         guiContainer.getStyleClass().add("spatialVisualizerGui");
-		guiContainer.getChildren().add(m);
-		guiContainer.getChildren().add(m2);
-		
-		
+		guiContainer.getChildren().addAll(m,m2,m3);
+
         triangleContainer.getChildren().addAll(triangleCanvas, dataCanvas);
         mainContainer.getChildren().addAll(guiContainer, triangleContainer);
 
         subjectCircles = new ArrayList<Circle>();
         subjectLines = new ArrayList<Line>();
+        filterListSubjectsVisualizer = new ArrayList<Boolean>();
         circleAFA = new Circle();
 
         HBox.setMargin(triangleContainer, new Insets(50, 0, 0, 0));
@@ -115,10 +120,41 @@ public class VisualizerSpatial {
  		makeBGTriangle();
 	}
 	
+	public void addMenu(String _name, int _timelineCounter) {
+		MenuItem f =new MenuItem(_name);
+		f.getProperties().put("timelineCounter", _timelineCounter);
+		f.setOnAction((e) -> { 
+			int tlNumber = (int) f.getProperties().get("timelineCounter"); 	
+			filterListSubjectsVisualizer = GUI.visTemp.timelines.get(tlNumber).getFilterListSubjects();
+			GUI.visTemp.timelines.forEach(tl ->{ tl.unHighlight(); 	});
+			GUI.visTemp.timelines.get(tlNumber).setHighlight();
+		});
+		m3.getItems().add(f);
+	}
+	
+	public void removeMenu(int _timelineNumber) {
+		for (int i = 0; i < m3.getItems().size(); i++) {
+			MenuItem mI = m3.getItems().get(i);
+			int itemNumber =  (int) mI.getProperties().get("timelineCounter");
+			if (_timelineNumber == itemNumber) {
+				m3.getItems().remove(i);
+			}
+		}
+	}
+	
 	public HBox getSpatialContainer() {
 		return mainContainer;
 	}
 	
+	public void makeFilterListSubjects() {
+		for(int i = 0; i < s.SubjectsList.size(); i++) {
+			filterListSubjectsVisualizer.add(Boolean.TRUE);
+		}
+	}
+		
+	public void updateFilterListSubjects(ArrayList<Boolean> _filterListSubjects) {
+		filterListSubjectsVisualizer = _filterListSubjects;
+	}
 	public void updateTimerDisplay(int _t) {
 		String txt = String.valueOf(_t);
 		timerDisplay.setText("TC: "+txt);
@@ -153,31 +189,35 @@ public class VisualizerSpatial {
         triangleCanvas.getChildren().addAll(triangle, greenCorner, redCorner, blueCorner);
 	}
 	
-	public void drawSection(int _begin, int _end) {
+	public void drawSection(int _begin, int _end, ArrayList<Boolean> filterList) {
 		clearSpatial();										// empty the data Pane 
 		
 		// 1. Make measuring points for all subjects in section
 		for (int i = _begin; i < _end; i++) {
-			for (Subject subject: s.SubjectsList) {	
-				Point2D p = subject.getPointByIndex(i);
-				double px = p.x()*scaleTriangle+scaleTriangle/2;
-				double py = p.y()*heightTriangle+heightTriangle*2/3;
-				double[] colorP = getColor(p);					// get color for current subject
-				
-				Circle c = new Circle(px,py,1);					// make and style circle
-				c.setStrokeType(StrokeType.OUTSIDE);
-				c.setStrokeWidth(2);
-				//c.setFill(Color.BLACK);
-				c.setFill(Color.rgb(0,0,0, 0.25));
-				c.setStroke(Color.rgb((int) colorP[0], (int) colorP[1], (int) colorP[2], 0.25));
-				subjectCircles.add(c);
+			//for (Subject subject: s.SubjectsList) {	
+			for (int k = 0; k < s.SubjectsList.size(); k++) {	
+				if (filterList.get(k) == Boolean.TRUE) {
+					Subject subject = s.SubjectsList.get(k);
+					Point2D p = subject.getPointByIndex(i);
+					double px = p.x()*scaleTriangle+scaleTriangle/2;
+					double py = p.y()*heightTriangle+heightTriangle*2/3;
+					double[] colorP = getColor(p);					// get color for current subject
+					
+					Circle c = new Circle(px,py,1);					// make and style circle
+					c.setStrokeType(StrokeType.OUTSIDE);
+					c.setStrokeWidth(2);
+					//c.setFill(Color.BLACK);
+					c.setFill(Color.rgb(0,0,0, 0.25));
+					c.setStroke(Color.rgb((int) colorP[0], (int) colorP[1], (int) colorP[2], 0.25));
+					subjectCircles.add(c);
+				}
 			}
 		}
 		
 		dataCanvas.getChildren().addAll(subjectCircles);
 		
 		// 2. Make AFA from all subjects over duration of section
-		Point2D cp = s.getSectionAFA(_begin, _end);
+		Point2D cp = s.getSectionAFA(_begin, _end, filterList);
 		double afaX = cp.x()*scaleTriangle+scaleTriangle/2;
 		double afaY = cp.y()*heightTriangle+heightTriangle*2/3;
 		double[] colorAFA = getColor(cp);
@@ -189,12 +229,18 @@ public class VisualizerSpatial {
 		
 	}
 	
-	public void drawSampleVector(int _t){
+	
+	
+	public void drawSampleVectorPlayback(int _t) {
+		drawSampleVector(_t, filterListSubjectsVisualizer);
+	}
+	
+	public void drawSampleVector(int _t, ArrayList<Boolean> filterList){
 		dataCanvas.getChildren().clear(); 					// empty the data Pane
 		subjectLines.clear();
 		subjectCircles.clear();
 		
-		Point2D pointAFA = s.getAFA(_t);				// get AFA
+		Point2D pointAFA = s.getAFA(_t, filterList);				// get AFA
 		double afaX = pointAFA.x()*scaleTriangle+scaleTriangle/2;
 		double afaY = pointAFA.y()*heightTriangle+heightTriangle*2/3;
 		double[] colorAFA = getColor(pointAFA);				// get color for current AFA
@@ -205,22 +251,26 @@ public class VisualizerSpatial {
 		circleAFA.setStroke(Color.WHITE);
 		
 		
-		for (Subject sub: s.SubjectsList) {			// loop all subjects
-			Point2D p = sub.getPointByIndex(_t);
-			double px = p.x()*scaleTriangle+scaleTriangle/2;
-			double py = p.y()*heightTriangle+heightTriangle*2/3;
-			double[] colorP = getColor(p);					// get color for current subject
-			
-			Circle c = new Circle(px,py,1);					// make and style circle
-			c.setStrokeType(StrokeType.OUTSIDE);
-			c.setStrokeWidth(2);
-			c.setFill(Color.BLACK);
-			c.setStroke(Color.rgb((int) colorP[0], (int) colorP[1], (int) colorP[2]));
-			subjectCircles.add(c);
-			Line l = new Line(px,py,afaX,afaY);				// make and style line
-			l.setStrokeWidth(1);
-			l.setStroke(Color.WHITE);
-			subjectLines.add(l);
+		//for (Subject sub: s.SubjectsList) {			
+		for (int k = 0; k < s.SubjectsList.size(); k++) {	// loop all subjects
+			if (filterList.get(k) == Boolean.TRUE) {
+				Subject subject = s.SubjectsList.get(k);
+				Point2D p = subject.getPointByIndex(_t);
+				double px = p.x()*scaleTriangle+scaleTriangle/2;
+				double py = p.y()*heightTriangle+heightTriangle*2/3;
+				double[] colorP = getColor(p);					// get color for current subject
+				
+				Circle c = new Circle(px,py,1);					// make and style circle
+				c.setStrokeType(StrokeType.OUTSIDE);
+				c.setStrokeWidth(2);
+				c.setFill(Color.BLACK);
+				c.setStroke(Color.rgb((int) colorP[0], (int) colorP[1], (int) colorP[2]));
+				subjectCircles.add(c);
+				Line l = new Line(px,py,afaX,afaY);				// make and style line
+				l.setStrokeWidth(1);
+				l.setStroke(Color.WHITE);
+				subjectLines.add(l);
+			}
 		}
 			
 		dataCanvas.getChildren().addAll(subjectLines);

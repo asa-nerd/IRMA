@@ -168,7 +168,7 @@
  }
 
 .menu-bar .menu-item > .label{
-  -fx-pref-width: 229px;
+  -fx-pref-width: 180px;
   -fx-font-size: 12px;
     -fx-font-family: 'Lato';
  }
@@ -232,7 +232,7 @@
  }
 
 .timeline .menu-item > .label{
-  -fx-pref-width: 229px;
+  -fx-pref-width: 180px;
  }
 
 

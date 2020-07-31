@@ -29,10 +29,10 @@ public class timelineSection {
 		endLabel = new Label(String.valueOf(endTimeCode));
 		endLabel.getStyleClass().add("label");
 		endLabel.relocate(sectionLength*stepSize-40, 180);
-		background = new Rectangle(0,0, sectionLength*stepSize-(stepSize/4), 190);
+		background = new Rectangle(0,0, sectionLength*stepSize, 190);
 		background.setFill(markerColor);
 		background.getStyleClass().add("background");
-		grip = new Rectangle(sectionLength*stepSize-5, 0, 5, 190);
+		grip = new Rectangle(sectionLength*stepSize-2.5, 0, 5, 190);
 		grip.getStyleClass().add("grip");
 		grip.setFill(gripColor);
 		g.getChildren().addAll(background, grip, endLabel);
@@ -50,10 +50,10 @@ public class timelineSection {
         	if (endTimeCode >= startTimeCode + 30) {
 	        	endLabel.setText(String.valueOf(endTimeCode));
 	        	sectionLength = endTimeCode - startTimeCode;
-	        	background.setWidth(sectionLength*stepSize-(stepSize/4));
+	        	background.setWidth(sectionLength*stepSize);
 	        	endLabel.relocate(sectionLength*stepSize-40, 0);
-	        	grip.relocate(sectionLength*stepSize-(stepSize/4), 0);
-	        	GUI.visSpat.drawSection((int) startTimeCode, (int) endTimeCode);
+	        	grip.relocate(sectionLength*stepSize, 0);
+	        	//GUI.visSpat.drawSection((int) startTimeCode, (int) endTimeCode); // TODO
         	}
         	
         });
@@ -64,8 +64,8 @@ public class timelineSection {
 	}
 	
 	public void updateSectionPos(double _stepSizeNew) {
-		g.relocate(startTimeCode*_stepSizeNew-(_stepSizeNew/4), 20);
-		grip.relocate(sectionLength*_stepSizeNew-10, 0);
+		g.relocate(startTimeCode*_stepSizeNew, 20);
+		grip.relocate(sectionLength*_stepSizeNew-2.5, 0);
 		endLabel.relocate(sectionLength*_stepSizeNew-40, 180);
 		background.setWidth(sectionLength*_stepSizeNew);
 	}

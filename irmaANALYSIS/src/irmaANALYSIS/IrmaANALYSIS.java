@@ -16,6 +16,7 @@ package irmaANALYSIS;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -38,15 +39,29 @@ public class IrmaANALYSIS extends Application{
 		//System.setProperty("apple.laf.useScreenMenuBar", "true");				// on OSX use Menu on top menu bar
 		
 		primaryStage.setTitle("irmaAnalysis");
-		//primaryStage.initStyle(StageStyle.TRANSPARENT);
+		primaryStage.initStyle(StageStyle.TRANSPARENT);
 		
 		Sample sample = new Sample();
 		GUI gui = new GUI(primaryStage, sample);
 		
-		VBox root = gui.getLayout();
-		Scene scene = new Scene(root, 1400, 900);
+		Button loadData = new Button("Load Data for new Project");
+		Button loadProject = new Button("Load Project");
+		VBox startScreen = new VBox();
+		loadData.setOnAction(e ->{
+			
+			});	
+		loadProject.setOnAction(e ->{
+			
+			
+		});	
+		startScreen.getChildren().addAll(loadData, loadProject);
 		
-		/*root.setOnMousePressed(new EventHandler<MouseEvent>() {
+		VBox root = gui.getLayout();
+		
+		Scene scene = new Scene(root, 1400, 900);
+		//Scene scene = new Scene(startScreen, 1400, 900);
+		
+		root.setOnMousePressed(new EventHandler<MouseEvent>() {
 	            @Override
 	            public void handle(MouseEvent event) {
 	                xOffset = event.getSceneX();
@@ -61,7 +76,7 @@ public class IrmaANALYSIS extends Application{
 	            	primaryStage.setX(event.getScreenX() - xOffset);
 	            	primaryStage.setY(event.getScreenY() - yOffset);
 	            }
-	        });*/
+	        });
 		
 		scene.getStylesheets().add("/Ressources/stylesheet.css");
 		primaryStage.setScene(scene);

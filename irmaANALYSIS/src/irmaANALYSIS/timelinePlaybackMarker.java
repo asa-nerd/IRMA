@@ -12,7 +12,6 @@ import javafx.scene.shape.Rectangle;
 public class timelinePlaybackMarker {
 		
 		double pixelPos;							// Variable to track the Position of the Playback Head
-		//double initialX;
 		int timeCodePos;							// stores the current position of playback in timecode position of data
 		double stepSize = 2;
 		
@@ -26,7 +25,6 @@ public class timelinePlaybackMarker {
 		Color markerColor = Color.rgb(180,75,75);
 		
 	timelinePlaybackMarker(){
-		//initialX = 0;
 		pixelPos = 0;
 		timeCodePos = 0;
 		
@@ -62,8 +60,11 @@ public class timelinePlaybackMarker {
         	if (timeCodePos < 0) {
         		timeCodePos = 0;
         	}
+        	if (timeCodePos > GUI.s.getShortestDataset()) {
+        		timeCodePos = GUI.s.getShortestDataset();
+        	}
         	GUI.setTimerCounter(timeCodePos);
-        	//GUI.visTemp.setMainTimer(timeCodePos);
+        	GUI.visTemp.setMainTimer(timeCodePos);
         	l.setText(String.valueOf(timeCodePos));
         	g.relocate(timeCodePos*stepSize-(stepSize/4), 20);
         });     

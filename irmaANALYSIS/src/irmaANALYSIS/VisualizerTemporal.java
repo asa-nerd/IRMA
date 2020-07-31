@@ -87,7 +87,7 @@ public class VisualizerTemporal {
 				timelines.add(newTL);
 				moduleContainer.getChildren().add(newTL.getTimeline());
 				break;
-			case "ATTENTION":
+			case "ACTIVITY":
 				timelineActivity newTLA = new timelineActivity(_s, timelineCounter, GUI.getTimerCounter());
 				timelines.add(newTLA);
 				moduleContainer.getChildren().add(newTLA.getTimeline());
@@ -101,9 +101,9 @@ public class VisualizerTemporal {
 				timelineSubjectsAttention newTSAT = new timelineSubjectsAttention(_s, timelineCounter, GUI.getTimerCounter());
 				timelines.add(newTSAT);
 				moduleContainer.getChildren().add(newTSAT.getTimeline());
-				break;
-				
+				break;	
 		}	
+		GUI.visSpat.addMenu(Integer.toString(timelineCounter)+" "+_type, timelineCounter);
 		timelineCounter ++;
 	}
 	

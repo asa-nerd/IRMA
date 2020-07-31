@@ -46,7 +46,7 @@ public class timelineMarker {
 		g.getChildren().addAll(MarkerTriangle,markerLine, r, l);
 		
 		g.getStyleClass().add("marker");
-        g.relocate(xPosTimeCode*_stepSize-(_stepSize/4), 15);
+        g.relocate(xPosTimeCode*_stepSize-5, 15);
         
         
         g.setOnMousePressed(evt ->{
@@ -57,13 +57,20 @@ public class timelineMarker {
         	double distance = evt.getScreenX() - startXScreen;
         	double newXPixelPos = startXScrollPane + distance;
         	xPosTimeCode = Math.round(newXPixelPos/stepSize);
+        	if (xPosTimeCode < 0) {
+        		xPosTimeCode = 0;
+        	}
+        	if (xPosTimeCode > GUI.s.getShortestDataset()) {
+        		xPosTimeCode = GUI.s.getShortestDataset();
+        	}
         	l.setText(String.valueOf(xPosTimeCode));
-        	g.relocate(xPosTimeCode*stepSize-(stepSize/4), 15);
+        	g.relocate(xPosTimeCode*stepSize-5, 15);
         	if (section != null) {
         		section.synchronizeStepSize(stepSize);
         		section.moveSection(xPosTimeCode);
+        		//GUI.visSpat.drawSection((int) xPosTimeCode, (int) (xPosTimeCode+section.getEndTimeCode())); //TODO
         	}
-        	GUI.visSpat.drawSection((int) xPosTimeCode, (int) (xPosTimeCode+section.getEndTimeCode()));
+        	
         });
 	}
 	
@@ -105,7 +112,7 @@ public class timelineMarker {
 	}
 	
 	public void updateMarkerPos(double _stepSizeNew) {
-		g.relocate(xPosTimeCode*_stepSizeNew-(_stepSizeNew/4), 20);
+		g.relocate(xPosTimeCode*_stepSizeNew-5, 20);
 		stepSize = _stepSizeNew;
 	}
 	

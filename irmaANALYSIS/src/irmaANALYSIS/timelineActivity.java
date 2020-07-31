@@ -13,6 +13,7 @@ public class timelineActivity extends timeline{
 	
 	timelineActivity(Sample _s, int _id, int _initialTimeCode){
 		super(_s, _id, _initialTimeCode);
+		timelineType = "ACTIVITY";
 		lines = new ArrayList<Line>();
 		linieLengths = new ArrayList<Double>();
 		drawScale(0, s.getShortestDataset());
@@ -40,16 +41,24 @@ public class timelineActivity extends timeline{
 	    int rangeLength = _end - _begin;
 	    stepSize = zoomFactor*2;
 	    layerContainer.setPrefWidth(rangeLength * stepSize);
+	    Color hightlightColor = Color.rgb(180,75,75);
 
 	    // Definitions specific for timeline "Activity"
 	    for (int i = _begin; i < _end; i = i + 1) {
-	    	double lHeight = s.getActivity(i)*200;					// get line height as current Deviation of Attention
+	    	double lHeight = s.getActivity(i, filterListSubjects)*200;					// get line height as current Deviation of Attention
 			linieLengths.add(lHeight);
+			double[] c = {200,200,200};
 	    	Line line = new Line(i*stepSize+0.5, originY, i*stepSize+0.5, originY-lHeight*yScale); // make lines
-			line.setStroke(Color.rgb(255,255,255));													// set color for line
+	    	line.getProperties().put("timeCode", i);
+			line.getProperties().put("color", c);
+			line.setStroke(Color.rgb((int) c[0], (int) c[1], (int) c[2]));	// set color for line
+	    	//line.setStroke(Color.rgb(255,255,255));													// set color for line
 			line.setStrokeWidth(1*zoomFactor);
 			lines.add(line);
 	    }
+	    
+	    // add Rollover and Clickability
+	 	makeRollovers(lines, hightlightColor);
 			    
 	    // Add objects to timeline
 		dataLayer.getChildren().addAll(lines);				// add all line Nodes to parent Pane
