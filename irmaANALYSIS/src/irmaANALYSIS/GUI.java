@@ -125,14 +125,14 @@ public class GUI {
 	    VisSubActivityButton.setPrefSize(26, 26);
 	    VisSubAttentionButton.setPrefSize(26, 26);
 	    
-	    playButton.setOnMousePressed(e ->{ startPlayback(); });	    
-	    pauseButton.setOnMousePressed(e ->{ pausePlayback();	});
-	    stopButton.setOnMousePressed(e ->{ 	stopPlayback();  });
+	    playButton.setOnMousePressed(e ->{ 		if (s.sampleSize>0) startPlayback(); 	});	    
+	    pauseButton.setOnMousePressed(e ->{ 	if (s.sampleSize>0) pausePlayback();	});
+	    stopButton.setOnMousePressed(e ->{ 		if (s.sampleSize>0) stopPlayback();  	});
 
-	    VisAFAButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "AFA"); });	   
-	    VisActivityButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "ACTIVITY"); });
-	    VisSubActivityButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "SUBJECTACTIVITY"); });
-	    VisSubAttentionButton.setOnMousePressed(e ->{ visTemp.makeTimelineElement(s, "SUBJECTATTENTION"); });
+	    VisAFAButton.setOnMousePressed(e ->{ 			if (s.sampleSize>0) visTemp.makeTimelineElement(s, "AFA"); 				});	   
+	    VisActivityButton.setOnMousePressed(e ->{ 		if (s.sampleSize>0) visTemp.makeTimelineElement(s, "ACTIVITY"); 		});
+	    VisSubActivityButton.setOnMousePressed(e ->{	if (s.sampleSize>0) visTemp.makeTimelineElement(s, "SUBJECTACTIVITY"); 	});
+	    VisSubAttentionButton.setOnMousePressed(e ->{ 	if (s.sampleSize>0) visTemp.makeTimelineElement(s, "SUBJECTATTENTION"); });
 	   
 	    
 	    topLeftContainer.setHgap(6);

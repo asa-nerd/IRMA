@@ -2,6 +2,7 @@ package irmaANALYSIS;
 
 import java.awt.Desktop;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -15,12 +16,15 @@ import org.json.simple.parser.ParseException;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.geometry.Insets;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.SeparatorMenuItem;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
@@ -91,7 +95,7 @@ public class MenuBarFX extends MenuBar{
 	     
 	     h0.setOnAction(e -> { 									// Help Menu
 	    	 WebView webView = new WebView();
-	         webView.getEngine().load("http://google.com");
+	         webView.getEngine().load("http://andreaspirchner.com/madoc/");
 	         webView.setMinSize(840, 720);
 	         webView.setPrefSize(840, 720);
 	         Group g = new Group(webView);
@@ -238,13 +242,17 @@ public class MenuBarFX extends MenuBar{
 	       });
 	     
 	     f6.setOnAction(e -> {
-	         Group g = new Group();
-	         Text a = new Text(20,20, "irmaAnalysis");
-	         Text t = new Text(10,60, "c Andreas Pirchner 2018-2020");
-	         VBox v = new VBox(g,a,t);
-	         v.setMinSize(640, 360);
-	         v.setPrefSize(640, 360);
-	    	 Scene aboutScene = new Scene(v, 640, 360);
+	    	Image image = new Image("file:about-img.png"); 
+	    	ImageView imageView = new ImageView(image); 
+	    	 
+	         Group g = new Group(imageView);
+	         Text t = new Text(10,60, "c Andreas Pirchner 2020");
+	         VBox v = new VBox(g,t);
+	         VBox.setMargin(g,new Insets(36,0,36,36));
+	         VBox.setMargin(t,new Insets(36,0,0,36));
+	         v.setMinSize(640, 640);
+	         v.setPrefSize(640, 640);
+	    	 Scene aboutScene = new Scene(v, 640, 640);
 	    	 Stage aboutStage = new Stage();
 	    	 aboutStage.initStyle(StageStyle.TRANSPARENT);
 	    	 aboutStage.setResizable(false);
