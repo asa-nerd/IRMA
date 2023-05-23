@@ -1,0 +1,9 @@
+build/
+bin/
+data/
+Videos/
+.metadata/
+.settings/
+.DS_Store
+.classpath
+.project
