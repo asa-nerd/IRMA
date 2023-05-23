@@ -8,6 +8,7 @@ https://bell-sw.com/libericajdk/
 
 
 Dependecies:
+
 JavaFX (which is part of the JDK if Liberica is used): https://openjfx.io
 
 json-simple: https://github.com/fangyidong/json-simple
