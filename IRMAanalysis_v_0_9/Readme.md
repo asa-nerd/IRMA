@@ -1,4 +1,4 @@
-## Module IRMAanalysis 
+## Module IRMAanalysis v0.9
 
 Data analysis application of the IRMA system. 
 
