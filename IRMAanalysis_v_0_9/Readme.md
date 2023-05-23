@@ -1,5 +1,7 @@
 ## Module IRMAanalysis 
 
+Data analysis application of the IRMA system. 
+
 Version 0.9
 
 Developed in Eclipse, compiles with Liberica JDK 17.0.4 V2 : https://bell-sw.com/libericajdk/
