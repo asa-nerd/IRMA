@@ -12,16 +12,6 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-     /*   super.onCreate(savedInstanceState);
-        // Einstellungsseite aus XML-Datei laden
-        addPreferencesFromResource(R.layout.preferences);
-
-        for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
-            initSummary(getPreferenceScreen().getPreference(i));
-        }
-    }*/
-
-
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.layout.preferences);
         for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {

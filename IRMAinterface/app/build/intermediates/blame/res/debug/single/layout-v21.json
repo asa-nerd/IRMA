@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/dismiss_overlay.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/dismiss_overlay.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9/app/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/accept_deny_dialog.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/overlay_confirmation.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/accept_deny_dialog.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/accept_deny_dialog.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/accept_deny_dialog.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9/app/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/overlay_confirmation.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/overlay_confirmation.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/overlay_confirmation.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9/app/build/intermediates/res/merged/debug/layout-v21/dismiss_overlay.xml",
+        "source": "/Users/andreas/.android/build-cache/8c9b338d2a973f172dddc8bbd94b5e7c324427b3/output/res/layout-v21/dismiss_overlay.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/IRMA/appp_3_9/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/andreas/.android/build-cache/3b1fc4b47be64f986f79f91ebf9912f26e707a0f/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

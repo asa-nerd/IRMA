@@ -3,30 +3,39 @@
 
     <item
         is-multidex="false"
-        jar="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/libs/controlP5.jar"
+        jar="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/libs/controlP5.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="55d985df5af3ade8da279543f61fa7c58a62a5ef">
-        <dex dex="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/build/intermediates/pre-dexed/debug/controlP5_12dab0c835c77f566e479ab1f50dfad9b2bf69fd.jar" />
+        <dex dex="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/pre-dexed/debug/controlP5_b84914c858fd0cf6168706c6a01fe487ebe6817e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/libs/oscP5.jar"
+        jar="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/libs/oscP5.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="8255a9c3efeb315c3aae20fe98783f0ddd30d81c">
-        <dex dex="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/build/intermediates/pre-dexed/debug/oscP5_ccb4b3ac323dc523f6a9d581d18625ce27724d7b.jar" />
+        <dex dex="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/pre-dexed/debug/oscP5_7b40586cc820c428c6fe3a13802ebe09d13d3d0e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/libs/processing-core.jar"
+        jar="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/libs/processing-core.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="c88da33bc2c08eb0a88c440187a764e25ef805ca">
-        <dex dex="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/build/intermediates/pre-dexed/debug/processing-core_0a4eeac86ea0da4a9e23eac34086651bbb231084.jar" />
+        <dex dex="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/pre-dexed/debug/processing-core_d5c42ed6930eed3712c71ef619de1810eb1ebce1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/libs/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_52ed641397102e0b9b027227e16bdc34a9fd0910.jar" />
     </item>
 
 </items>

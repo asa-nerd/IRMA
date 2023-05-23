@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/andreas/Desktop/IRMA/02 App/appp_3_9_1/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/andreas/Desktop/04 Coding/appp_3_9_1/app/src/debug/jniLibs"/></dataSet></merger>
