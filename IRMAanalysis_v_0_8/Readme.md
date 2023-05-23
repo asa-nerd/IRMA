@@ -8,7 +8,7 @@ Developed in Processing: https://processing.org
 Tested and working with Processing v4.0.1
 
 **Attention:** Not compatible with the raw data provided in the folder IRMA/IRMARawData due to a change in data format.
-Please use IRMAanalysis v0.9.
+Please use IRMAanalysis v0.9 instead.
 
 
 ### Dependecies:
