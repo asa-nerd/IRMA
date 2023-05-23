@@ -1,6 +1,6 @@
 ## Module IRMAanalysis v0.9
 
-Data analysis application of the IRMA system. 
+Advanced version of the IRMA system's data analysis application. 
 
 Version 0.9
 

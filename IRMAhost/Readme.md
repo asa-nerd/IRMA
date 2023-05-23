@@ -1,6 +1,6 @@
 ## Module IRMAhost 
 
-Host module of the IRMA system, realized in Processing: https://processing.org
+Host module of the IRMA system, developed in Processing 3: https://processing.org
 
 
 ### Dependecies:
