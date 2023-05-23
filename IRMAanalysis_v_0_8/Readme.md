@@ -4,11 +4,17 @@ First version of the IRMA system's data analysis application.
 
 Version 0.8
 
-Developed in Processing 3: https://processing.org
+Developed in Processing: https://processing.org
+Tested and working with Processing v4.0.1
 
 
 ### Dependecies:
 
+controlP5: https://github.com/sojamo/controlp5
+
+Processing video: https://processing.org/reference/libraries/video/index.html
+
+Processing PDF Export: https://github.com/processing/processing4/tree/main/java/libraries/pdf
 
 
 
