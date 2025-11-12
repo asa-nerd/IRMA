@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272.75 150.67">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: Alegreya-Regular, Alegreya;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 6px;
+      }
+
+      .cls-2 {
+        font-size: 8px;
+        letter-spacing: .2em;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 2.04 2.04;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3 {
+        letter-spacing: .01em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-5" x=".25" y="35.8" width="16.85" height="11.95"/>
+    <rect class="cls-5" x="98.04" y="84.85" width="74.96" height="18.04"/>
+    <text class="cls-2" transform="translate(114.63 96.84)"><tspan x="0" y="0">Host App</tspan></text>
+    <rect class="cls-5" x="98.04" y="132.38" width="74.96" height="18.04"/>
+    <text class="cls-2" transform="translate(105.87 144.36)"><tspan x="0" y="0">Analysis App</tspan></text>
+    <rect class="cls-5" x=".25" y=".25" width="272.25" height="18.04"/>
+    <text class="cls-2" transform="translate(86.91 12.24)"><tspan x="0" y="0">Concert Performance</tspan></text>
+    <text class="cls-3" transform="translate(140.69 74.2)"><tspan x="0" y="0">Continuous self-reports</tspan></text>
+    <text class="cls-3" transform="translate(140.69 120.01)"><tspan x="0" y="0">Data of all 10 participants</tspan></text>
+    <polygon class="cls-5" points="8.68 37.59 11.09 41.77 13.51 45.96 8.68 45.96 3.84 45.96 6.26 41.77 8.68 37.59"/>
+    <rect class="cls-5" x="28.63" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="37.05 37.59 39.47 41.77 41.89 45.96 37.05 45.96 32.22 45.96 34.64 41.77 37.05 37.59"/>
+    <rect class="cls-5" x="57.01" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="65.43 37.59 67.85 41.77 70.27 45.96 65.43 45.96 60.6 45.96 63.02 41.77 65.43 37.59"/>
+    <rect class="cls-5" x="85.38" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="93.81 37.59 96.23 41.77 98.64 45.96 93.81 45.96 88.98 45.96 91.39 41.77 93.81 37.59"/>
+    <rect class="cls-5" x="113.76" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="122.19 37.59 124.6 41.77 127.02 45.96 122.19 45.96 117.35 45.96 119.77 41.77 122.19 37.59"/>
+    <rect class="cls-5" x="142.14" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="150.57 37.59 152.98 41.77 155.4 45.96 150.57 45.96 145.73 45.96 148.15 41.77 150.57 37.59"/>
+    <rect class="cls-5" x="170.52" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="178.94 37.59 181.36 41.77 183.78 45.96 178.94 45.96 174.11 45.96 176.53 41.77 178.94 37.59"/>
+    <rect class="cls-5" x="198.9" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="207.32 37.59 209.74 41.77 212.16 45.96 207.32 45.96 202.49 45.96 204.91 41.77 207.32 37.59"/>
+    <rect class="cls-5" x="227.27" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="235.7 37.59 238.12 41.77 240.53 45.96 235.7 45.96 230.87 45.96 233.28 41.77 235.7 37.59"/>
+    <rect class="cls-5" x="255.65" y="35.8" width="16.85" height="11.95"/>
+    <polygon class="cls-5" points="264.08 37.59 266.5 41.77 268.91 45.96 264.08 45.96 259.24 45.96 261.66 41.77 264.08 37.59"/>
+    <g>
+      <line class="cls-6" x1="135.52" y1="109.27" x2="135.52" y2="128.17"/>
+      <polygon points="134.27 127.81 135.52 129.97 136.77 127.81 134.27 127.81"/>
+    </g>
+    <g>
+      <line class="cls-6" x1="135.52" y1="59.1" x2="135.52" y2="81.21"/>
+      <polygon points="134.27 80.84 135.52 83 136.77 80.84 134.27 80.84"/>
+    </g>
+    <line class="cls-6" x1="8.68" y1="59.1" x2="264.08" y2="59.1"/>
+    <g>
+      <line class="cls-6" x1="8.68" y1="51.67" x2="8.68" y2="59.1"/>
+      <line class="cls-6" x1="37.05" y1="51.67" x2="37.05" y2="59.1"/>
+      <line class="cls-6" x1="65.43" y1="51.67" x2="65.43" y2="59.1"/>
+      <line class="cls-6" x1="93.81" y1="51.67" x2="93.81" y2="59.1"/>
+      <line class="cls-6" x1="122.19" y1="51.67" x2="122.19" y2="59.1"/>
+      <line class="cls-6" x1="150.57" y1="51.67" x2="150.57" y2="59.1"/>
+      <line class="cls-6" x1="178.94" y1="51.67" x2="178.94" y2="59.1"/>
+      <line class="cls-6" x1="207.32" y1="51.67" x2="207.32" y2="59.1"/>
+      <line class="cls-6" x1="235.7" y1="51.67" x2="235.7" y2="59.1"/>
+      <line class="cls-6" x1="264.08" y1="51.67" x2="264.08" y2="59.1"/>
+    </g>
+    <g>
+      <g>
+        <line class="cls-6" x1="8.68" y1="22.56" x2="8.68" y2="23.56"/>
+        <line class="cls-4" x1="8.68" y1="25.59" x2="8.68" y2="28.65"/>
+        <line class="cls-6" x1="8.68" y1="29.67" x2="8.68" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="37.05" y1="22.56" x2="37.05" y2="23.56"/>
+        <line class="cls-4" x1="37.05" y1="25.59" x2="37.05" y2="28.65"/>
+        <line class="cls-6" x1="37.05" y1="29.67" x2="37.05" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="65.43" y1="22.56" x2="65.43" y2="23.56"/>
+        <line class="cls-4" x1="65.43" y1="25.59" x2="65.43" y2="28.65"/>
+        <line class="cls-6" x1="65.43" y1="29.67" x2="65.43" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="93.81" y1="22.56" x2="93.81" y2="23.56"/>
+        <line class="cls-4" x1="93.81" y1="25.59" x2="93.81" y2="28.65"/>
+        <line class="cls-6" x1="93.81" y1="29.67" x2="93.81" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="122.19" y1="22.56" x2="122.19" y2="23.56"/>
+        <line class="cls-4" x1="122.19" y1="25.59" x2="122.19" y2="28.65"/>
+        <line class="cls-6" x1="122.19" y1="29.67" x2="122.19" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="150.57" y1="22.56" x2="150.57" y2="23.56"/>
+        <line class="cls-4" x1="150.57" y1="25.59" x2="150.57" y2="28.65"/>
+        <line class="cls-6" x1="150.57" y1="29.67" x2="150.57" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="178.94" y1="22.56" x2="178.94" y2="23.56"/>
+        <line class="cls-4" x1="178.94" y1="25.59" x2="178.94" y2="28.65"/>
+        <line class="cls-6" x1="178.94" y1="29.67" x2="178.94" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="207.32" y1="22.56" x2="207.32" y2="23.56"/>
+        <line class="cls-4" x1="207.32" y1="25.59" x2="207.32" y2="28.65"/>
+        <line class="cls-6" x1="207.32" y1="29.67" x2="207.32" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="235.7" y1="22.56" x2="235.7" y2="23.56"/>
+        <line class="cls-4" x1="235.7" y1="25.59" x2="235.7" y2="28.65"/>
+        <line class="cls-6" x1="235.7" y1="29.67" x2="235.7" y2="30.67"/>
+      </g>
+      <g>
+        <line class="cls-6" x1="264.08" y1="22.56" x2="264.08" y2="23.56"/>
+        <line class="cls-4" x1="264.08" y1="25.59" x2="264.08" y2="28.65"/>
+        <line class="cls-6" x1="264.08" y1="29.67" x2="264.08" y2="30.67"/>
+      </g>
+    </g>
+    <g>
+      <text class="cls-3" transform="translate(7.61 44.84)"><tspan x="0" y="0">1</tspan></text>
+      <text class="cls-3" transform="translate(35.63 44.84)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-3" transform="translate(64.08 44.84)"><tspan x="0" y="0">3</tspan></text>
+      <text class="cls-3" transform="translate(92.46 44.84)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-3" transform="translate(120.93 44.84)"><tspan x="0" y="0">5</tspan></text>
+      <text class="cls-3" transform="translate(148.9 44.84)"><tspan x="0" y="0">6</tspan></text>
+      <text class="cls-3" transform="translate(177.68 44.84)"><tspan x="0" y="0">7</tspan></text>
+      <text class="cls-3" transform="translate(205.87 44.84)"><tspan x="0" y="0">8</tspan></text>
+      <text class="cls-3" transform="translate(234.34 44.84)"><tspan x="0" y="0">9</tspan></text>
+      <text class="cls-1" transform="translate(261.75 44.84)"><tspan x="0" y="0">10</tspan></text>
+    </g>
+  </g>
+</svg>
