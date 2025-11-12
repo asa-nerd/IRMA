@@ -8,22 +8,22 @@ This repository includes software, plans, documentation, and experimental data r
 
 The measuring apparatus IRMA is designed in modules. Each module has its repository.
 
-### IRMA Interface
+### 1 IRMA Interface
 
 Code and documentation of IRMA's interface devices.  
 
-### IRMA Host
+### 2 IRMA Host
 
 Contains documentation of the host app. 
 
-### IRMA Analysis
+### 3 IRMA Analysis
 
 Provides documentation of the analysis app.
 
-### IRMA Case and Plans
+### 4 IRMA Case and Plans
 
 Documentation and plans for the cases of the IRMA handheld devices. 
 
-### Raw Data
+### 5 Raw Data
 
 A repository providing the data collected with IRMA during the laboratory concerts of the GAPPP project. 
