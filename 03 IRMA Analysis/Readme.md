@@ -16,5 +16,12 @@ json-simple: https://github.com/fangyidong/json-simple
 javaGeom: https://sourceforge.net/projects/geom-java/files/
 
 
+### GUI
 
+![analysis-3.png](../Documentation/analysis-3.png)
 
+![analysis-5.png](../Documentation/analysis-5.png)
+
+![analysis-8.png](../Documentation/analysis-8.png)
+
+![TympanicTouch-3.png](../Documentation/TympanicTouch-3.png)

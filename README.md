@@ -1,6 +1,8 @@
 # IRMA repositories
 
-This repository includes software, plans, documentation, and experimental data related to the measuring apparatus IRMA (Interactive Real-time Measurement of Attention). The system was developed for being used in the laboratory concerts ob the GAPPP project. GAPPP was a research project (led by Marko Ciciliani) at the University of Music and Performing Arts Graz/Austria from 2017 to 2021. http://gappp.net
+![IRMA-host.jpg](Documentation/IRMA-host.jpg)
+
+This repository includes software, plans, documentation, and experimental data related to the measuring apparatus IRMA (Interactive Real-time Measurement of Attention). The system was developed for the laboratory concerts ob the GAPPP project and was used to record and analyze audience responses. GAPPP was a research project (led by Marko Ciciliani) at the University of Music and Performing Arts Graz/Austria from 2017 to 2021. http://gappp.net
 
 ## Modules
 
