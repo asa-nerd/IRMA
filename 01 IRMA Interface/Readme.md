@@ -6,6 +6,18 @@ IRMA app for for android tablets. Developed in AndroidStudio with Processing as 
 Build dependencies: controlP5.jar, oscP5.jar, processing-core.jar in folder app/libs, 
 
 
+### Software GUI
+
+
+<img src="../Documentation/Interface.png" width="500" />
+
+<img src="../Documentation/Interface-Record.png" width="500" />
+
+<img src="../Documentation/Settings.png" width="500" />
+
+
+
+### Interface hardware
 
 ![Interface-Software-Rollout.jpg](../Documentation/Interface-Software-Rollout.jpg)
 Rolling out the software to the tablet devices.
