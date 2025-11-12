@@ -22,15 +22,15 @@ Code and documentation of IRMA's interface devices.
 
 #### 2 IRMA Host
 
-Contains documentation of the host app. 
+Contains documentation of the host app that is executed on a computer acting as a server. IRMA Host allows the data received by the interfaces to be recorded and enables researchers to set up the experiment and to control and monitor its execution.
 
 #### 3 IRMA Analysis
 
-Provides documentation of the analysis app.
+Provides documentation of the analysis app which was designed to import the data sets collected in the lab concerts for analysis and to perform calculations as well as visualizations with them.
 
 #### 4 IRMA Enclosure and Plans
 
-Documentation and plans for the cases of the IRMA handheld devices. 
+Documentation and plans for the enclosures of the IRMA handheld devices. The enclosures standardized the size, feel, and appearance of the interfaces and ensured uniform use.
 
 #### 5 Raw Data
 
