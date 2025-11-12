@@ -5,3 +5,6 @@ from cardboard.
 
 
 ![IRMA-Interface-Cover.svg](../Documentation/IRMA-Interface-Cover.svg)
+
+
+![IRMA-Cases-Lasecut.gif](../Documentation/IRMA-Cases-Lasecut.gif)
