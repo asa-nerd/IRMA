@@ -1,4 +1,4 @@
-## Module IRMAanalysis v0.9
+## Module IRMA Analysis v0.9
 
 
 Advanced version (v0.9) of the IRMA system's data analysis application. 

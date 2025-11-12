@@ -1,4 +1,4 @@
-## Module IRMAinterface
+### Module IRMA Interface
 
 IRMA app for for android tablets. Developed in AndroidStudio with Processing as a library in Java.
 
