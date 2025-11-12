@@ -1,5 +1,5 @@
 
-## IRMA raw data 
+## IRMA  data 
 
 Data of audience responses recorded with the IRMA system during laboratory concerts of the GAPPP-Project.
 
